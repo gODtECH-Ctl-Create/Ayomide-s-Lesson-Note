@@ -1,45 +1,56 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Ayomide's Lesson Note</title>
-  <meta name="description" content="Basic 1 First Term lesson notes for 2026, loaded from a dedicated Google Doc.">
-  <meta name="theme-color" content="#0f172a">
-  <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ayomide's Lesson Note</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<main class="search-page" id="searchPage">
+  <div class="search-box">
+    <p class="eyebrow">BASIC 1 • FIRST TERM • 2026</p>
+    <h1>Ayomide's Lesson Note</h1>
+    <p class="search-intro">Search for a subject, week, topic, or lesson content.</p>
+    <div class="big-search">
+      <input id="searchInput" type="search" placeholder="What lesson are you looking for?" autocomplete="off">
+      <button id="searchBtn" class="primary-btn" type="button">Search Lesson</button>
+    </div>
+    <div class="quick-search">
+      <button type="button" data-week="1">Week 1</button>
+      <button type="button" data-week="2">Week 2</button>
+      <button type="button" data-week="3">Week 3</button>
+      <button type="button" data-week="4">Week 4</button>
+      <button type="button" data-week="5">Week 5</button>
+      <button type="button" data-week="6">Week 6</button>
+      <button type="button" data-week="7">Week 7</button>
+      <button type="button" data-week="8">Week 8</button>
+      <button type="button" data-week="9">Week 9</button>
+      <button type="button" data-week="10">Week 10</button>
+    </div>
+    <p id="searchStatus" class="status-pill">200 lesson entries • 20 subjects • 10 weeks</p>
+  </div>
+</main>
+
+<main class="results-page" id="resultsPage" hidden>
   <header class="app-header">
     <div class="shell header-inner">
       <div>
         <p class="eyebrow">BASIC 1 • FIRST TERM • 2026</p>
-        <h1>Ayomide's Lesson Note</h1>
-        <p class="subtitle">Week-by-week lesson notes for the complete first term.</p>
+        <h1>Lesson Notes</h1>
+        <p id="resultsSummary" class="subtitle"></p>
       </div>
-      <button id="printBtn" class="ghost-btn" type="button" title="Print the current lesson note">Print</button>
+      <button id="homeBtn" class="ghost-btn" type="button">← New Search</button>
     </div>
   </header>
 
-  <main class="shell">
-    <section class="control-panel" aria-label="Lesson note filters">
+  <div class="shell">
+    <section class="control-panel">
       <div class="control-row">
-        <label>
-          <span>Week</span>
-          <select id="weekSelect"></select>
-        </label>
-        <label>
-          <span>Subject</span>
-          <select id="subjectSelect"></select>
-        </label>
-        <label class="search-field">
-          <span>Search</span>
-          <input id="searchInput" type="search" placeholder="Search topic or content">
-        </label>
-        <button id="syncBtn" class="primary-btn" type="button">Reload</button>
-      </div>
-      <div class="status-row">
-        <span id="syncStatus" class="status-pill">Loading built-in lesson notes…</span>
-        <a id="sourceLink" class="source-link" href="https://docs.google.com/document/d/1tGks5xH6VpQvfbQG9CSYayHXY_vWygj1YyjMIXVIswI/edit" target="_blank" rel="noopener">Open Google Doc</a>
+        <label><span>Week</span><select id="weekSelect"></select></label>
+        <label><span>Subject</span><select id="subjectSelect"></select></label>
+        <label class="search-field"><span>Search</span><input id="resultSearch" type="search" placeholder="Search within lessons"></label>
+        <button id="printBtn" class="primary-btn" type="button">Print</button>
       </div>
     </section>
 
@@ -49,28 +60,25 @@
       <button id="prevBtn" class="ghost-btn" type="button">← Previous week</button>
       <button id="nextBtn" class="ghost-btn" type="button">Next week →</button>
     </div>
-  </main>
+  </div>
+</main>
 
-  <template id="lessonTemplate">
-    <article class="lesson-card">
-      <div class="lesson-head">
-        <div>
-          <p class="lesson-subject"></p>
-          <h2 class="lesson-topic"></h2>
-        </div>
-        <span class="date-badge"></span>
-      </div>
-      <div class="lesson-grid">
-        <section class="note-section"><h3>Behavioral Objectives</h3><div data-field="objectives"></div></section>
-        <section class="note-section"><h3>Instructional Materials</h3><div data-field="materials"></div></section>
-        <section class="note-section"><h3>Lesson Content</h3><div data-field="content"></div></section>
-        <section class="note-section"><h3>Teacher &amp; Learner Activities</h3><div data-field="activities"></div></section>
-        <section class="note-section"><h3>Evaluation</h3><div data-field="evaluation"></div></section>
-        <section class="note-section"><h3>Assignment</h3><div data-field="assignment"></div></section>
-      </div>
-    </article>
-  </template>
-
-  <script src="app.js"></script>
+<template id="lessonTemplate">
+<article class="lesson-card">
+  <div class="lesson-head">
+    <div><p class="lesson-subject"></p><h2 class="lesson-topic"></h2></div>
+    <span class="date-badge"></span>
+  </div>
+  <div class="lesson-grid">
+    <section class="note-section"><h3>Behavioral Objectives</h3><div data-field="objectives"></div></section>
+    <section class="note-section"><h3>Instructional Materials</h3><div data-field="materials"></div></section>
+    <section class="note-section"><h3>Lesson Content</h3><div data-field="content"></div></section>
+    <section class="note-section"><h3>Teacher &amp; Learner Activities</h3><div data-field="activities"></div></section>
+    <section class="note-section"><h3>Evaluation</h3><div data-field="evaluation"></div></section>
+    <section class="note-section"><h3>Assignment</h3><div data-field="assignment"></div></section>
+  </div>
+</article>
+</template>
+<script src="app.js"></script>
 </body>
 </html>
