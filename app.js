@@ -134,8 +134,12 @@ async function sync(){
     const payload=await jsonp(CONFIG.appsScriptUrl);
     if(payload && payload.ok===false) throw new Error(payload.error||"The source returned an error.");
     state.data=normalizeData(payload && payload.data || payload);
+    const totalEntries=state.data.weeks.reduce(function(sum,w){return sum+(w.subjects||[]).length;},0);
+    if(totalEntries===0){
+      throw new Error("Google Apps Script returned 0 lesson entries. Redeploy the updated gas/Code.gs parser, then tap Sync again.");
+    }
     populateSubjects();saveCache();render();
-    setStatus("Synced just now • "+state.data.weeks.length+" weeks",false);
+    setStatus("Synced just now • "+totalEntries+" lesson entries",false);
   }catch(error){
     const cached=loadCache();
     if(cached){
