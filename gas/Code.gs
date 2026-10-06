@@ -1,4 +1,4 @@
-const DOCUMENT_ID = '1_bdAnUSTu2ZtbWAygpDhcqYF8_UxA1OC';
+const DOCUMENT_ID = '1tGks5xH6VpQvfbQG9CSYayHXY_vWygj1YyjMIXVIswI';
 const TOTAL_WEEKS = 10;
 const WEEK_START = new Date('2026-09-14T00:00:00');
 
