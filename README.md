@@ -1,48 +1,31 @@
 # Ayomide's Lesson Note
 
-A small, single-purpose lesson-note app for **Basic 1 • First Term • 2026 • Weeks 1–10**.
+A single-purpose **Basic 1 • First Term • 2026 • Weeks 1–10** lesson-note app for GitHub Pages.
 
-The site is designed for GitHub Pages and reads the source lesson notes from one Google Doc through a Google Apps Script web app.
+## Important
 
-## Deploy the Google Apps Script
+The lesson notes are now **built directly into the app** as `lesson-data.json`.
 
-1. Open Google Apps Script: https://script.google.com/
-2. Create a new project.
-3. Add **gas/Code.gs**.
-4. Set the project timezone to **Africa/Lagos** (or use the included manifest).
-5. Deploy → **New deployment** → **Web app**.
-6. Set **Execute as:** Me.
-7. Set **Who has access:** Anyone.
-8. Authorize the script when Google asks.
-9. Copy the deployed URL ending in **/exec**.
+The app does **not** depend on Google Apps Script or a live Google Doc to display lessons. This avoids the loading and cross-origin problems we were seeing.
 
-The script is hard-wired to this single Google Doc ID:
+The source used to build the bundled lesson data is the supplied lesson-note document:
 
 `1tGks5xH6VpQvfbQG9CSYayHXY_vWygj1YyjMIXVIswI`
 
-## Connect the app
-
-Open **app.js** and set:
-
-```
-appsScriptUrl: "PASTE-YOUR-DEPLOYED-APPS-SCRIPT-URL-HERE"
-```
-
-Commit the change to `main`.
-
-## GitHub Pages
-
-The repository already contains **.github/workflows/pages.yml**.
-
-In repository **Settings → Pages**, choose **GitHub Actions** as the deployment source. The workflow will then publish the site after pushes to `main`.
-
-## App features
+## Features
 
 - Week 1–10 navigation
 - Subject filter
-- Search across lesson-note content
-- Print-friendly current view
-- Live Sync from the Google Doc
-- Local browser cache when the live source is temporarily unavailable
+- Search through the lesson note
+- Full lesson-note sections
+- Print-friendly view
 - Mobile-friendly layout
-- One dedicated source document, with no database or content management system
+- Built-in lesson data, so the app works without an external content service
+
+## GitHub Pages
+
+The repository contains `.github/workflows/pages.yml`.
+
+In **Settings → Pages**, select **GitHub Actions** as the deployment source. Once enabled, pushes to `main` deploy the site.
+
+Google Apps Script files may remain in the repository for reference, but the live app no longer uses them.
