@@ -1,5 +1,5 @@
 const CONFIG = {
-  appsScriptUrl: "",
+  appsScriptUrl: "https://script.google.com/macros/s/AKfycbyZFr8lZHap08ViwRJ2fUUj46svNHv4b_Py3lqX51ObJJ0NF1SxD0uH2k79M0n-1a016w/exec",
   docId: "1tGks5xH6VpQvfbQG9CSYayHXY_vWygj1YyjMIXVIswI",
   weekStart: "2026-09-14",
   totalWeeks: 10
