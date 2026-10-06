@@ -1,164 +1,240 @@
 const CONFIG = {
-  appsScriptUrl: "https://script.google.com/macros/s/AKfycbyZFr8lZHap08ViwRJ2fUUj46svNHv4b_Py3lqX51ObJJ0NF1SxD0uH2k79M0n-1a016w/exec",
-  docId: "1tGks5xH6VpQvfbQG9CSYayHXY_vWygj1YyjMIXVIswI",
-  weekStart: "2026-09-14",
+  dataUrl: "lesson-data.json",
   totalWeeks: 10
 };
 
 const state = { data: null, week: 1, subject: "all", search: "" };
+
 const weekSelect = document.getElementById("weekSelect");
 const subjectSelect = document.getElementById("subjectSelect");
 const searchInput = document.getElementById("searchInput");
-const syncBtn = document.getElementById("syncBtn");
-const syncStatus = document.getElementById("syncStatus");
+const reloadBtn = document.getElementById("syncBtn");
+const statusEl = document.getElementById("syncStatus");
 const lessonArea = document.getElementById("lessonArea");
 const prevBtn = document.getElementById("prevBtn");
 const nextBtn = document.getElementById("nextBtn");
 const printBtn = document.getElementById("printBtn");
 const template = document.getElementById("lessonTemplate");
 
-for (let i=1;i<=CONFIG.totalWeeks;i++){
-  const option=document.createElement("option");
-  option.value=i;
-  option.textContent="Week "+i;
+for (let i = 1; i <= CONFIG.totalWeeks; i++) {
+  const option = document.createElement("option");
+  option.value = i;
+  option.textContent = "Week " + i;
   weekSelect.appendChild(option);
 }
-weekSelect.value=state.week;
 
-function setStatus(message,isError){
-  syncStatus.textContent=message;
-  syncStatus.classList.toggle("error",!!isError);
+function setStatus(message, isError) {
+  statusEl.textContent = message;
+  statusEl.classList.toggle("error", Boolean(isError));
 }
-function escapeHtml(value){
-  return String(value==null?"":value).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;");
+
+function escapeHtml(value) {
+  return String(value == null ? "" : value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
 }
-function richText(value){
-  if(Array.isArray(value)) return "<ul>"+value.map(function(x){return "<li>"+escapeHtml(x)+"</li>";}).join("")+"</ul>";
-  const text=String(value==null?"":value).trim();
-  if(!text) return "<p>Not provided.</p>";
-  return text.split(/\n\s*\n/).map(function(block){
-    const lines=block.split(/\n/).map(function(x){return x.trim();}).filter(Boolean);
-    if(lines.length>1 && lines.every(function(x){return /^[-•*]\s+/.test(x);})){
-      return "<ul>"+lines.map(function(x){return "<li>"+escapeHtml(x.replace(/^[-•*]\s+/,""))+"</li>";}).join("")+"</ul>";
-    }
-    return "<p>"+lines.map(escapeHtml).join("<br>")+"</p>";
-  }).join("");
+
+function richText(value) {
+  if (Array.isArray(value)) {
+    return "<ul>" + value.map(function (item) {
+      return "<li>" + escapeHtml(item) + "</li>";
+    }).join("") + "</ul>";
+  }
+
+  const text = String(value == null ? "" : value).trim();
+  if (!text) return "<p>Not provided.</p>";
+
+  const lines = text.split(/\n/).map(function (line) {
+    return line.trim();
+  }).filter(Boolean);
+
+  if (lines.length > 1 && lines.every(function (line) {
+    return /^[-•*]\s+/.test(line);
+  })) {
+    return "<ul>" + lines.map(function (line) {
+      return "<li>" + escapeHtml(line.replace(/^[-•*]\s+/, "")) + "</li>";
+    }).join("") + "</ul>";
+  }
+
+  return "<p>" + lines.map(escapeHtml).join("<br>") + "</p>";
 }
-function normalizeData(data){
-  if(!data) throw new Error("No lesson data returned.");
-  if(Array.isArray(data)) return {title:"Ayomide's Lesson Note",weeks:data};
-  if(Array.isArray(data.weeks)) return data;
-  throw new Error("Unexpected lesson data format.");
+
+function normalizeData(data) {
+  if (!data || !Array.isArray(data.weeks)) {
+    throw new Error("The built-in lesson data is not in the expected format.");
+  }
+  return data;
 }
-function populateSubjects(){
-  const all=new Set();
-  state.data.weeks.forEach(function(w){(w.subjects||[]).forEach(function(s){all.add(s.subject||s.name);});});
-  subjectSelect.innerHTML="";
-  const allOpt=document.createElement("option"); allOpt.value="all"; allOpt.textContent="All subjects"; subjectSelect.appendChild(allOpt);
-  Array.from(all).sort().forEach(function(subject){
-    const o=document.createElement("option"); o.value=subject; o.textContent=subject; subjectSelect.appendChild(o);
+
+function populateSubjects() {
+  const subjects = new Set();
+
+  state.data.weeks.forEach(function (week) {
+    (week.subjects || []).forEach(function (item) {
+      subjects.add(item.subject || "");
+    });
   });
-  subjectSelect.value=state.subject;
-}
-function getWeek(){
-  return state.data.weeks.find(function(w){return Number(w.week)===Number(state.week);}) || state.data.weeks[0];
-}
-function render(){
-  if(!state.data) return;
-  const week=getWeek();
-  const query=state.search.trim().toLowerCase();
-  const subjects=(week && week.subjects || []).filter(function(item){
-    const subject=item.subject||item.name||"";
-    const okSubject=state.subject==="all" || subject===state.subject;
-    const values=[subject,item.topic,item.objectives,item.behavioralObjectives,item.materials,item.instructionalMaterials,item.content,item.lessonContent,item.activities,item.teacherLearnerActivities,item.evaluation,item.assignment];
-    const hay=values.map(function(v){return Array.isArray(v)?v.join(" "):String(v==null?"":v);}).join(" ").toLowerCase();
-    return okSubject && (!query || hay.indexOf(query)!==-1);
+
+  subjectSelect.innerHTML = "";
+
+  const all = document.createElement("option");
+  all.value = "all";
+  all.textContent = "All subjects";
+  subjectSelect.appendChild(all);
+
+  Array.from(subjects).sort().forEach(function (subject) {
+    const option = document.createElement("option");
+    option.value = subject;
+    option.textContent = subject;
+    subjectSelect.appendChild(option);
   });
-  lessonArea.innerHTML="";
-  if(!subjects.length){
-    lessonArea.innerHTML="<div class="empty"><strong>No lesson note matched your filters.</strong><br>Try another subject, week, or search term.</div>";
+
+  subjectSelect.value = state.subject;
+}
+
+function getWeek() {
+  return state.data.weeks.find(function (week) {
+    return Number(week.week) === Number(state.week);
+  }) || state.data.weeks[0];
+}
+
+function render() {
+  if (!state.data) return;
+
+  const week = getWeek();
+  const query = state.search.trim().toLowerCase();
+
+  const lessons = (week.subjects || []).filter(function (item) {
+    const subject = item.subject || "";
+    const subjectMatches = state.subject === "all" || subject === state.subject;
+
+    const searchable = [
+      item.subject,
+      item.topic,
+      item.behavioralObjectives,
+      item.instructionalMaterials,
+      item.lessonContent,
+      item.teacherLearnerActivities,
+      item.evaluation,
+      item.assignment
+    ].map(function (value) {
+      return Array.isArray(value) ? value.join(" ") : String(value == null ? "" : value);
+    }).join(" ").toLowerCase();
+
+    return subjectMatches && (!query || searchable.indexOf(query) !== -1);
+  });
+
+  lessonArea.innerHTML = "";
+
+  if (!lessons.length) {
+    lessonArea.innerHTML =
+      '<div class="empty"><strong>No lesson note matched your filters.</strong><br>Try another subject, week, or search term.</div>';
     return;
   }
-  subjects.forEach(function(item){
-    const node=template.content.cloneNode(true);
-    node.querySelector(".lesson-subject").textContent=item.subject||item.name||"Subject";
-    node.querySelector(".lesson-topic").textContent=item.topic||"Lesson Topic";
-    node.querySelector(".date-badge").textContent=week.dateRange || item.dateRange || "";
-    const values={
-      objectives:item.objectives!=null?item.objectives:item.behavioralObjectives,
-      materials:item.materials!=null?item.materials:item.instructionalMaterials,
-      content:item.content!=null?item.content:item.lessonContent,
-      activities:item.activities!=null?item.activities:item.teacherLearnerActivities,
-      evaluation:item.evaluation,
-      assignment:item.assignment
+
+  lessons.forEach(function (item) {
+    const node = template.content.cloneNode(true);
+
+    node.querySelector(".lesson-subject").textContent = item.subject || "Subject";
+    node.querySelector(".lesson-topic").textContent = item.topic || "Lesson Topic";
+    node.querySelector(".date-badge").textContent = week.dateRange || item.dateRange || "";
+
+    const fields = {
+      objectives: item.behavioralObjectives,
+      materials: item.instructionalMaterials,
+      content: item.lessonContent,
+      activities: item.teacherLearnerActivities,
+      evaluation: item.evaluation,
+      assignment: item.assignment
     };
-    Object.keys(values).forEach(function(field){
-      node.querySelector('[data-field="'+field+'"]').innerHTML=richText(values[field]);
+
+    Object.keys(fields).forEach(function (field) {
+      node.querySelector('[data-field="' + field + '"]').innerHTML = richText(fields[field]);
     });
+
     lessonArea.appendChild(node);
   });
-  prevBtn.disabled=Number(state.week)<=1;
-  nextBtn.disabled=Number(state.week)>=CONFIG.totalWeeks;
+
+  prevBtn.disabled = Number(state.week) <= 1;
+  nextBtn.disabled = Number(state.week) >= CONFIG.totalWeeks;
+  weekSelect.value = state.week;
+  subjectSelect.value = state.subject;
 }
-function saveCache(){
-  try{localStorage.setItem("ayomide-lesson-note",JSON.stringify({savedAt:Date.now(),data:state.data}));}catch(_){}
-}
-function loadCache(){
-  try{const raw=localStorage.getItem("ayomide-lesson-note");if(!raw)return null;const cached=JSON.parse(raw);return cached&&cached.data||null;}catch(_){return null;}
-}
-function jsonp(url){
-  return new Promise(function(resolve,reject){
-    const callback="__lessonNotes_"+Date.now()+"_"+Math.random().toString(36).slice(2);
-    const script=document.createElement("script");
-    function cleanup(){delete window[callback];script.remove();}
-    window[callback]=function(payload){cleanup();resolve(payload);};
-    script.onerror=function(){cleanup();reject(new Error("Could not reach the Google Apps Script endpoint."));};
-    script.src=url+(url.indexOf("?")>=0?"&":"?")+"callback="+encodeURIComponent(callback)+"&docId="+encodeURIComponent(CONFIG.docId);
-    document.body.appendChild(script);
-  });
-}
-async function sync(){
-  setStatus("Syncing…",false);
-  if(!CONFIG.appsScriptUrl){
-    const cached=loadCache();
-    if(cached){
-      state.data=normalizeData(cached);populateSubjects();render();
-      setStatus("Showing cached lesson notes. Add the Apps Script URL in app.js to enable live sync.",false);
-    }else{
-      setStatus("Google Apps Script URL is not configured yet. See README for setup.",true);
-      lessonArea.innerHTML="<div class="empty"><strong>Connect the Google Doc.</strong><br>Deploy the included Google Apps Script and paste its web-app URL into <code>app.js</code>.</div>";
+
+async function loadLessonNotes() {
+  setStatus("Loading built-in lesson notes…", false);
+
+  try {
+    const response = await fetch(CONFIG.dataUrl + "?v=" + Date.now(), {
+      cache: "no-store"
+    });
+
+    if (!response.ok) {
+      throw new Error("Lesson data could not be loaded (" + response.status + ").");
     }
-    return;
-  }
-  try{
-    const payload=await jsonp(CONFIG.appsScriptUrl);
-    if(payload && payload.ok===false) throw new Error(payload.error||"The source returned an error.");
-    state.data=normalizeData(payload && payload.data || payload);
-    const totalEntries=state.data.weeks.reduce(function(sum,w){return sum+(w.subjects||[]).length;},0);
-    if(totalEntries===0){
-      throw new Error("Google Apps Script returned 0 lesson entries. Redeploy the updated gas/Code.gs parser, then tap Sync again.");
-    }
-    populateSubjects();saveCache();render();
-    setStatus("Synced just now • "+totalEntries+" lesson entries",false);
-  }catch(error){
-    const cached=loadCache();
-    if(cached){
-      state.data=normalizeData(cached);populateSubjects();render();
-      setStatus("Live sync failed. Showing the last saved copy.",true);
-    }else{
-      setStatus(error.message||"Sync failed.",true);
-      lessonArea.innerHTML="<div class="empty"><strong>Could not load the lesson notes.</strong><br>"+escapeHtml(error.message||"Unknown error.")+"</div>";
-    }
+
+    state.data = normalizeData(await response.json());
+    populateSubjects();
+    render();
+
+    const totalEntries = state.data.weeks.reduce(function (sum, week) {
+      return sum + (week.subjects || []).length;
+    }, 0);
+
+    setStatus("Built into the app • " + totalEntries + " lesson entries", false);
+  } catch (error) {
+    setStatus(error.message || "Lesson notes could not be loaded.", true);
+    lessonArea.innerHTML =
+      '<div class="empty"><strong>Lesson notes could not be loaded.</strong><br>' +
+      escapeHtml(error.message || "Unknown error.") + "</div>";
   }
 }
-weekSelect.addEventListener("change",function(e){state.week=Number(e.target.value);render();window.scrollTo({top:0,behavior:"smooth"});});
-subjectSelect.addEventListener("change",function(e){state.subject=e.target.value;render();});
-searchInput.addEventListener("input",function(e){state.search=e.target.value;render();});
-syncBtn.addEventListener("click",sync);
-prevBtn.addEventListener("click",function(){if(state.week>1){state.week--;weekSelect.value=state.week;render();}});
-nextBtn.addEventListener("click",function(){if(state.week<CONFIG.totalWeeks){state.week++;weekSelect.value=state.week;render();}});
-printBtn.addEventListener("click",function(){window.print();});
-const params=new URLSearchParams(location.search);
-if(params.get("week")) state.week=Math.min(CONFIG.totalWeeks,Math.max(1,Number(params.get("week"))||1));
-weekSelect.value=state.week;
-sync();
+
+weekSelect.addEventListener("change", function (event) {
+  state.week = Number(event.target.value);
+  render();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+subjectSelect.addEventListener("change", function (event) {
+  state.subject = event.target.value;
+  render();
+});
+
+searchInput.addEventListener("input", function (event) {
+  state.search = event.target.value;
+  render();
+});
+
+reloadBtn.addEventListener("click", loadLessonNotes);
+
+prevBtn.addEventListener("click", function () {
+  if (state.week > 1) {
+    state.week -= 1;
+    render();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+});
+
+nextBtn.addEventListener("click", function () {
+  if (state.week < CONFIG.totalWeeks) {
+    state.week += 1;
+    render();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+});
+
+printBtn.addEventListener("click", function () {
+  window.print();
+});
+
+const params = new URLSearchParams(location.search);
+if (params.get("week")) {
+  state.week = Math.min(CONFIG.totalWeeks, Math.max(1, Number(params.get("week")) || 1));
+}
+
+weekSelect.value = state.week;
+loadLessonNotes();
