@@ -1,240 +1,76 @@
-const CONFIG = {
-  dataUrl: "lesson-data.json",
-  totalWeeks: 10
-};
+const CONFIG={dataUrl:"lesson-data.json",totalWeeks:10};
+const state={data:null,week:1,subject:"all",search:""};
 
-const state = { data: null, week: 1, subject: "all", search: "" };
+const searchPage=document.getElementById("searchPage"),resultsPage=document.getElementById("resultsPage");
+const searchInput=document.getElementById("searchInput"),searchBtn=document.getElementById("searchBtn");
+const searchStatus=document.getElementById("searchStatus"),homeBtn=document.getElementById("homeBtn");
+const weekSelect=document.getElementById("weekSelect"),subjectSelect=document.getElementById("subjectSelect");
+const resultSearch=document.getElementById("resultSearch"),lessonArea=document.getElementById("lessonArea");
+const prevBtn=document.getElementById("prevBtn"),nextBtn=document.getElementById("nextBtn"),printBtn=document.getElementById("printBtn");
+const resultsSummary=document.getElementById("resultsSummary"),template=document.getElementById("lessonTemplate");
 
-const weekSelect = document.getElementById("weekSelect");
-const subjectSelect = document.getElementById("subjectSelect");
-const searchInput = document.getElementById("searchInput");
-const reloadBtn = document.getElementById("syncBtn");
-const statusEl = document.getElementById("syncStatus");
-const lessonArea = document.getElementById("lessonArea");
-const prevBtn = document.getElementById("prevBtn");
-const nextBtn = document.getElementById("nextBtn");
-const printBtn = document.getElementById("printBtn");
-const template = document.getElementById("lessonTemplate");
+for(let i=1;i<=10;i++){const o=document.createElement("option");o.value=i;o.textContent="Week "+i;weekSelect.appendChild(o)}
 
-for (let i = 1; i <= CONFIG.totalWeeks; i++) {
-  const option = document.createElement("option");
-  option.value = i;
-  option.textContent = "Week " + i;
-  weekSelect.appendChild(option);
+function escapeHtml(v){return String(v==null?"":v).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;")}
+function richText(v){
+ if(Array.isArray(v))return "<ul>"+v.map(x=>"<li>"+escapeHtml(x)+"</li>").join("")+"</ul>";
+ const t=String(v||"").trim();if(!t)return "<p>Not provided.</p>";
+ const lines=t.split(/
+/).map(x=>x.trim()).filter(Boolean);
+ return "<p>"+lines.map(escapeHtml).join("<br>")+"</p>";
 }
-
-function setStatus(message, isError) {
-  statusEl.textContent = message;
-  statusEl.classList.toggle("error", Boolean(isError));
+async function loadData(){
+ const r=await fetch(CONFIG.dataUrl+"?v="+Date.now(),{cache:"no-store"});
+ if(!r.ok)throw new Error("Lesson data could not be loaded.");
+ state.data=await r.json();
+ populateSubjects();
 }
-
-function escapeHtml(value) {
-  return String(value == null ? "" : value)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#039;");
+function populateSubjects(){
+ const set=new Set();
+ state.data.weeks.forEach(w=>(w.subjects||[]).forEach(x=>set.add(x.subject)));
+ subjectSelect.innerHTML='<option value="all">All subjects</option>';
+ Array.from(set).sort().forEach(s=>{const o=document.createElement("option");o.value=s;o.textContent=s;subjectSelect.appendChild(o)});
+ subjectSelect.value=state.subject;
 }
-
-function richText(value) {
-  if (Array.isArray(value)) {
-    return "<ul>" + value.map(function (item) {
-      return "<li>" + escapeHtml(item) + "</li>";
-    }).join("") + "</ul>";
-  }
-
-  const text = String(value == null ? "" : value).trim();
-  if (!text) return "<p>Not provided.</p>";
-
-  const lines = text.split(/\n/).map(function (line) {
-    return line.trim();
-  }).filter(Boolean);
-
-  if (lines.length > 1 && lines.every(function (line) {
-    return /^[-•*]\s+/.test(line);
-  })) {
-    return "<ul>" + lines.map(function (line) {
-      return "<li>" + escapeHtml(line.replace(/^[-•*]\s+/, "")) + "</li>";
-    }).join("") + "</ul>";
-  }
-
-  return "<p>" + lines.map(escapeHtml).join("<br>") + "</p>";
+function getWeek(){return state.data.weeks.find(w=>Number(w.week)===state.week)||state.data.weeks[0]}
+function searchable(x){return [x.subject,x.topic,x.behavioralObjectives,x.instructionalMaterials,x.lessonContent,x.teacherLearnerActivities,x.evaluation,x.assignment].map(v=>Array.isArray(v)?v.join(" "):String(v||"")).join(" ").toLowerCase()}
+function render(){
+ const week=getWeek(),q=state.search.trim().toLowerCase();
+ const lessons=(week.subjects||[]).filter(x=>(state.subject==="all"||x.subject===state.subject)&&(!q||searchable(x).includes(q)));
+ lessonArea.innerHTML="";
+ if(!lessons.length){lessonArea.innerHTML='<div class="empty"><strong>No lesson note found.</strong><br>Try another search or select a different week.</div>';resultsSummary.textContent="No matching lesson notes.";return}
+ resultsSummary.textContent=lessons.length+" lesson note"+(lessons.length===1?"":"s")+" found • "+week.dateRange;
+ lessons.forEach(item=>{
+  const node=template.content.cloneNode(true);
+  node.querySelector(".lesson-subject").textContent=item.subject;
+  node.querySelector(".lesson-topic").textContent=item.topic||"Lesson Topic";
+  node.querySelector(".date-badge").textContent=week.dateRange;
+  const f={objectives:item.behavioralObjectives,materials:item.instructionalMaterials,content:item.lessonContent,activities:item.teacherLearnerActivities,evaluation:item.evaluation,assignment:item.assignment};
+  Object.keys(f).forEach(k=>node.querySelector('[data-field="'+k+'"]').innerHTML=richText(f[k]));
+  lessonArea.appendChild(node);
+ });
+ weekSelect.value=state.week;subjectSelect.value=state.subject;
+ prevBtn.disabled=state.week<=1;nextBtn.disabled=state.week>=10;
 }
-
-function normalizeData(data) {
-  if (!data || !Array.isArray(data.weeks)) {
-    throw new Error("The built-in lesson data is not in the expected format.");
-  }
-  return data;
+function openResults(query,week){
+ state.search=query||"";state.week=week||1;state.subject="all";
+ searchPage.hidden=true;resultsPage.hidden=false;resultSearch.value=state.search;render();
+ history.pushState({results:true},"","#results");
+ window.scrollTo(0,0);
 }
-
-function populateSubjects() {
-  const subjects = new Set();
-
-  state.data.weeks.forEach(function (week) {
-    (week.subjects || []).forEach(function (item) {
-      subjects.add(item.subject || "");
-    });
-  });
-
-  subjectSelect.innerHTML = "";
-
-  const all = document.createElement("option");
-  all.value = "all";
-  all.textContent = "All subjects";
-  subjectSelect.appendChild(all);
-
-  Array.from(subjects).sort().forEach(function (subject) {
-    const option = document.createElement("option");
-    option.value = subject;
-    option.textContent = subject;
-    subjectSelect.appendChild(option);
-  });
-
-  subjectSelect.value = state.subject;
+function goHome(){
+ searchPage.hidden=false;resultsPage.hidden=true;searchInput.value="";history.pushState({},"","#");
+ window.scrollTo(0,0);searchInput.focus();
 }
-
-function getWeek() {
-  return state.data.weeks.find(function (week) {
-    return Number(week.week) === Number(state.week);
-  }) || state.data.weeks[0];
-}
-
-function render() {
-  if (!state.data) return;
-
-  const week = getWeek();
-  const query = state.search.trim().toLowerCase();
-
-  const lessons = (week.subjects || []).filter(function (item) {
-    const subject = item.subject || "";
-    const subjectMatches = state.subject === "all" || subject === state.subject;
-
-    const searchable = [
-      item.subject,
-      item.topic,
-      item.behavioralObjectives,
-      item.instructionalMaterials,
-      item.lessonContent,
-      item.teacherLearnerActivities,
-      item.evaluation,
-      item.assignment
-    ].map(function (value) {
-      return Array.isArray(value) ? value.join(" ") : String(value == null ? "" : value);
-    }).join(" ").toLowerCase();
-
-    return subjectMatches && (!query || searchable.indexOf(query) !== -1);
-  });
-
-  lessonArea.innerHTML = "";
-
-  if (!lessons.length) {
-    lessonArea.innerHTML =
-      '<div class="empty"><strong>No lesson note matched your filters.</strong><br>Try another subject, week, or search term.</div>';
-    return;
-  }
-
-  lessons.forEach(function (item) {
-    const node = template.content.cloneNode(true);
-
-    node.querySelector(".lesson-subject").textContent = item.subject || "Subject";
-    node.querySelector(".lesson-topic").textContent = item.topic || "Lesson Topic";
-    node.querySelector(".date-badge").textContent = week.dateRange || item.dateRange || "";
-
-    const fields = {
-      objectives: item.behavioralObjectives,
-      materials: item.instructionalMaterials,
-      content: item.lessonContent,
-      activities: item.teacherLearnerActivities,
-      evaluation: item.evaluation,
-      assignment: item.assignment
-    };
-
-    Object.keys(fields).forEach(function (field) {
-      node.querySelector('[data-field="' + field + '"]').innerHTML = richText(fields[field]);
-    });
-
-    lessonArea.appendChild(node);
-  });
-
-  prevBtn.disabled = Number(state.week) <= 1;
-  nextBtn.disabled = Number(state.week) >= CONFIG.totalWeeks;
-  weekSelect.value = state.week;
-  subjectSelect.value = state.subject;
-}
-
-async function loadLessonNotes() {
-  setStatus("Loading built-in lesson notes…", false);
-
-  try {
-    const response = await fetch(CONFIG.dataUrl + "?v=" + Date.now(), {
-      cache: "no-store"
-    });
-
-    if (!response.ok) {
-      throw new Error("Lesson data could not be loaded (" + response.status + ").");
-    }
-
-    state.data = normalizeData(await response.json());
-    populateSubjects();
-    render();
-
-    const totalEntries = state.data.weeks.reduce(function (sum, week) {
-      return sum + (week.subjects || []).length;
-    }, 0);
-
-    setStatus("Built into the app • " + totalEntries + " lesson entries", false);
-  } catch (error) {
-    setStatus(error.message || "Lesson notes could not be loaded.", true);
-    lessonArea.innerHTML =
-      '<div class="empty"><strong>Lesson notes could not be loaded.</strong><br>' +
-      escapeHtml(error.message || "Unknown error.") + "</div>";
-  }
-}
-
-weekSelect.addEventListener("change", function (event) {
-  state.week = Number(event.target.value);
-  render();
-  window.scrollTo({ top: 0, behavior: "smooth" });
-});
-
-subjectSelect.addEventListener("change", function (event) {
-  state.subject = event.target.value;
-  render();
-});
-
-searchInput.addEventListener("input", function (event) {
-  state.search = event.target.value;
-  render();
-});
-
-reloadBtn.addEventListener("click", loadLessonNotes);
-
-prevBtn.addEventListener("click", function () {
-  if (state.week > 1) {
-    state.week -= 1;
-    render();
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }
-});
-
-nextBtn.addEventListener("click", function () {
-  if (state.week < CONFIG.totalWeeks) {
-    state.week += 1;
-    render();
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }
-});
-
-printBtn.addEventListener("click", function () {
-  window.print();
-});
-
-const params = new URLSearchParams(location.search);
-if (params.get("week")) {
-  state.week = Math.min(CONFIG.totalWeeks, Math.max(1, Number(params.get("week")) || 1));
-}
-
-weekSelect.value = state.week;
-loadLessonNotes();
+searchBtn.addEventListener("click",()=>openResults(searchInput.value.trim(),1));
+searchInput.addEventListener("keydown",e=>{if(e.key==="Enter")openResults(searchInput.value.trim(),1)});
+document.querySelectorAll("[data-week]").forEach(b=>b.addEventListener("click",()=>openResults("",Number(b.dataset.week))));
+homeBtn.addEventListener("click",goHome);
+weekSelect.addEventListener("change",e=>{state.week=Number(e.target.value);render();window.scrollTo(0,0)});
+subjectSelect.addEventListener("change",e=>{state.subject=e.target.value;render()});
+resultSearch.addEventListener("input",e=>{state.search=e.target.value;render()});
+prevBtn.addEventListener("click",()=>{if(state.week>1){state.week--;render();window.scrollTo(0,0)}});
+nextBtn.addEventListener("click",()=>{if(state.week<10){state.week++;render();window.scrollTo(0,0)}});
+printBtn.addEventListener("click",()=>window.print());
+window.addEventListener("popstate",()=>{if(location.hash==="#results"){searchPage.hidden=true;resultsPage.hidden=false;render()}else goHome()});
+loadData().catch(e=>{searchStatus.textContent=e.message;searchStatus.classList.add("error")});
