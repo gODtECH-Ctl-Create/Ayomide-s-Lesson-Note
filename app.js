@@ -1,6 +1,6 @@
 const CONFIG = {
   appsScriptUrl: "",
-  docId: "1_bdAnUSTu2ZtbWAygpDhcqYF8_UxA1OC",
+  docId: "1tGks5xH6VpQvfbQG9CSYayHXY_vWygj1YyjMIXVIswI",
   weekStart: "2026-09-14",
   totalWeeks: 10
 };
