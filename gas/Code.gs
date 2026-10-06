@@ -219,7 +219,7 @@ function parseLessonNotes(lines) {
     if (topicLine) {
       flushField();
       if (currentSubject) currentSubject.topic = topicLine[1].trim();
-      continue;
+      return;
     }
 
     const fieldMatch = line.match(/^(Behavioral Objectives|Behavioural Objectives|Instructional Materials|Lesson Content|Teacher\s*&\s*Learner Activities|Teacher\s+and\s+Learner Activities|Teacher\/Learner Activities|Evaluation|Assignment)\s*:\s*(.*)$/i);
