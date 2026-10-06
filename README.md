@@ -18,7 +18,7 @@ The site is designed for GitHub Pages and reads the source lesson notes from one
 
 The script is hard-wired to this single Google Doc ID:
 
-`1_bdAnUSTu2ZtbWAygpDhcqYF8_UxA1OC`
+`1tGks5xH6VpQvfbQG9CSYayHXY_vWygj1YyjMIXVIswI`
 
 ## Connect the app
 
