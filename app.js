@@ -3,7 +3,7 @@ const CONFIG = {
   totalWeeks: 10
 };
 
-const state = { data: null, week: 1, subject: "all", search: "" };
+const state = { data: window.LESSON_DATA || null, week: 1, subject: "all", search: "" };
 
 const weekSelect = document.getElementById("weekSelect");
 const subjectSelect = document.getElementById("subjectSelect");
@@ -164,19 +164,11 @@ function render() {
   subjectSelect.value = state.subject;
 }
 
-async function loadLessonNotes() {
+function loadLessonNotes() {
   setStatus("Loading built-in lesson notes…", false);
 
   try {
-    const response = await fetch(CONFIG.dataUrl + "?v=" + Date.now(), {
-      cache: "no-store"
-    });
-
-    if (!response.ok) {
-      throw new Error("Lesson data could not be loaded (" + response.status + ").");
-    }
-
-    state.data = normalizeData(await response.json());
+    state.data = normalizeData(window.LESSON_DATA || state.data);
     populateSubjects();
     render();
 
