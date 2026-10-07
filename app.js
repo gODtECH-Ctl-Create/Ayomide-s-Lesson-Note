@@ -196,6 +196,14 @@ subjectSelect.addEventListener("change", function (event) {
   render();
 });
 
+lessonArea.addEventListener("toggle", function (event) {
+  const opened = event.target;
+  if (!(opened instanceof HTMLDetailsElement) || !opened.open) return;
+  lessonArea.querySelectorAll("details.lesson-card[open]").forEach(function (card) {
+    if (card !== opened) card.open = false;
+  });
+}, true);
+
 searchInput.addEventListener("input", function (event) {
   state.search = event.target.value;
   render();
