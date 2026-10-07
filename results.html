@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lesson Notes • Ayomide's Lesson Note</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="results-page" id="resultsPage">
+  <header class="app-header">
+    <div class="shell header-inner">
+      <div>
+        <p class="eyebrow">BASIC 1 • FIRST TERM • 2026</p>
+        <h1>Lesson Notes</h1>
+        <p id="resultsSummary" class="subtitle"></p>
+      </div>
+      <a class="ghost-btn button-link" href="index.html">← New Search</a>
+    </div>
+  </header>
+
+  <div class="shell">
+    <section class="control-panel">
+      <div class="control-row">
+        <label><span>Week</span><select id="weekSelect"></select></label>
+        <label><span>Subject</span><select id="subjectSelect"></select></label>
+        <label class="search-field"><span>Search</span><input id="resultSearch" type="search" placeholder="Search within lessons"></label>
+        <button id="printBtn" class="primary-btn" type="button">Print</button>
+      </div>
+    </section>
+
+    <section id="lessonArea" aria-live="polite"></section>
+
+    <div class="week-nav">
+      <button id="prevBtn" class="ghost-btn" type="button">← Previous week</button>
+      <button id="nextBtn" class="ghost-btn" type="button">Next week →</button>
+    </div>
+  </div>
+</main>
+
+<template id="lessonTemplate">
+<article class="lesson-card">
+  <div class="lesson-head">
+    <div><p class="lesson-subject"></p><h2 class="lesson-topic"></h2></div>
+    <span class="date-badge"></span>
+  </div>
+  <div class="lesson-grid">
+    <section class="note-section"><h3>Behavioral Objectives</h3><div data-field="objectives"></div></section>
+    <section class="note-section"><h3>Instructional Materials</h3><div data-field="materials"></div></section>
+    <section class="note-section"><h3>Lesson Content</h3><div data-field="content"></div></section>
+    <section class="note-section"><h3>Teacher &amp; Learner Activities</h3><div data-field="activities"></div></section>
+    <section class="note-section"><h3>Evaluation</h3><div data-field="evaluation"></div></section>
+    <section class="note-section"><h3>Assignment</h3><div data-field="assignment"></div></section>
+  </div>
+</article>
+</template>
+<script src="app.js"></script>
+</body>
+</html>
