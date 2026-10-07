@@ -1,5 +1,5 @@
 const CONFIG={dataUrl:"lesson-data.json",totalWeeks:10};
-const state={data:null,week:1,subject:"all",search:""};
+const state={data:null,week:1,subject:"all",search:"",error:""};
 
 const searchPage=document.getElementById("searchPage"),resultsPage=document.getElementById("resultsPage");
 const searchInput=document.getElementById("searchInput"),searchBtn=document.getElementById("searchBtn");
@@ -20,10 +20,21 @@ function richText(v){
  return "<p>"+lines.map(escapeHtml).join("<br>")+"</p>";
 }
 async function loadData(){
- const r=await fetch(CONFIG.dataUrl+"?v="+Date.now(),{cache:"no-store"});
- if(!r.ok)throw new Error("Lesson data could not be loaded.");
- state.data=await r.json();
- populateSubjects();
+ try{
+  const r=await fetch("./"+CONFIG.dataUrl+"?v="+Date.now(),{cache:"no-store"});
+  if(!r.ok)throw new Error("Lesson data could not be loaded.");
+  state.data=await r.json();
+  state.error="";
+  populateSubjects();
+  searchStatus.textContent="200 lesson entries • 20 subjects • 10 weeks";
+  searchStatus.classList.remove("error");
+  if(!resultsPage.hidden)render();
+ }catch(e){
+  state.error=e.message||"Lesson data could not be loaded.";
+  searchStatus.textContent=state.error;
+  searchStatus.classList.add("error");
+  if(!resultsPage.hidden)render();
+ }
 }
 function populateSubjects(){
  const set=new Set();
@@ -32,12 +43,24 @@ function populateSubjects(){
  Array.from(set).sort().forEach(s=>{const o=document.createElement("option");o.value=s;o.textContent=s;subjectSelect.appendChild(o)});
  subjectSelect.value=state.subject;
 }
-function getWeek(){return state.data.weeks.find(w=>Number(w.week)===state.week)||state.data.weeks[0]}
+function getWeek(){
+ if(!state.data||!Array.isArray(state.data.weeks))return null;
+ return state.data.weeks.find(w=>Number(w.week)===state.week)||state.data.weeks[0];
+}
 function searchable(x){return [x.subject,x.topic,x.behavioralObjectives,x.instructionalMaterials,x.lessonContent,x.teacherLearnerActivities,x.evaluation,x.assignment].map(v=>Array.isArray(v)?v.join(" "):String(v||"")).join(" ").toLowerCase()}
 function render(){
+ lessonArea.innerHTML="";
+ if(!state.data){
+  resultsSummary.textContent=state.error?"Unable to load the lesson notes.":"Loading lesson notes…";
+  lessonArea.innerHTML=state.error
+   ? '<div class="empty"><strong>Lesson notes could not be loaded.</strong><br>Refresh the page and try again.</div>'
+   : '<div class="empty"><strong>Loading lesson notes…</strong><br>Please wait a moment.</div>';
+  prevBtn.disabled=true;
+  nextBtn.disabled=true;
+  return;
+ }
  const week=getWeek(),q=state.search.trim().toLowerCase();
  const lessons=(week.subjects||[]).filter(x=>(state.subject==="all"||x.subject===state.subject)&&(!q||searchable(x).includes(q)));
- lessonArea.innerHTML="";
  if(!lessons.length){lessonArea.innerHTML='<div class="empty"><strong>No lesson note found.</strong><br>Try another search or select a different week.</div>';resultsSummary.textContent="No matching lesson notes.";return}
  resultsSummary.textContent=lessons.length+" lesson note"+(lessons.length===1?"":"s")+" found • "+week.dateRange;
  lessons.forEach(item=>{
@@ -53,14 +76,23 @@ function render(){
  prevBtn.disabled=state.week<=1;nextBtn.disabled=state.week>=10;
 }
 function openResults(query,week){
- state.search=query||"";state.week=week||1;state.subject="all";
- searchPage.hidden=true;resultsPage.hidden=false;resultSearch.value=state.search;render();
+ state.search=query||"";
+ state.week=week||1;
+ state.subject="all";
+ searchPage.hidden=true;
+ resultsPage.hidden=false;
+ resultSearch.value=state.search;
+ render();
  history.pushState({results:true},"","#results");
  window.scrollTo(0,0);
 }
 function goHome(){
- searchPage.hidden=false;resultsPage.hidden=true;searchInput.value="";history.pushState({},"","#");
- window.scrollTo(0,0);searchInput.focus();
+ searchPage.hidden=false;
+ resultsPage.hidden=true;
+ searchInput.value="";
+ history.pushState({},"","#");
+ window.scrollTo(0,0);
+ setTimeout(()=>searchInput.focus(),0);
 }
 searchBtn.addEventListener("click",()=>openResults(searchInput.value.trim(),1));
 searchInput.addEventListener("keydown",e=>{if(e.key==="Enter")openResults(searchInput.value.trim(),1)});
@@ -72,5 +104,18 @@ resultSearch.addEventListener("input",e=>{state.search=e.target.value;render()})
 prevBtn.addEventListener("click",()=>{if(state.week>1){state.week--;render();window.scrollTo(0,0)}});
 nextBtn.addEventListener("click",()=>{if(state.week<10){state.week++;render();window.scrollTo(0,0)}});
 printBtn.addEventListener("click",()=>window.print());
-window.addEventListener("popstate",()=>{if(location.hash==="#results"){searchPage.hidden=true;resultsPage.hidden=false;render()}else goHome()});
-loadData().catch(e=>{searchStatus.textContent=e.message;searchStatus.classList.add("error")});
+window.addEventListener("popstate",()=>{
+ if(location.hash==="#results"){
+  searchPage.hidden=true;
+  resultsPage.hidden=false;
+  render();
+ }else{
+  searchPage.hidden=false;
+  resultsPage.hidden=true;
+ }
+});
+if(location.hash==="#results"){
+ searchPage.hidden=true;
+ resultsPage.hidden=false;
+}
+loadData();
