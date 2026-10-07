@@ -1,0 +1,3245 @@
+window.LESSON_DATA={
+  "title": "Ayomide's Lesson Note",
+  "grade": "Basic 1",
+  "term": "First Term",
+  "year": 2026,
+  "sourceDocument": "1tGks5xH6VpQvfbQG9CSYayHXY_vWygj1YyjMIXVIswI",
+  "weeks": [
+    {
+      "week": 1,
+      "dateRange": "September 14–18, 2026",
+      "subjects": [
+        {
+          "subject": "English Language",
+          "week": 1,
+          "dateRange": "September 14–18, 2026",
+          "topic": "Simple Greetings and Commands",
+          "behavioralObjectives": [
+            "identify and explain the key idea in the lesson",
+            "use the new language skill in simple examples",
+            "respond correctly to simple oral and written questions."
+          ],
+          "instructionalMaterials": "flashcards, picture cards, word cards, board and marker, textbook.",
+          "lessonContent": "Greetings are polite words we use when meeting or leaving people. Common greetings include good morning, good afternoon, good evening, hello, good-bye and see you later. A command is an instruction that tells someone what to do, for example sit down, stand up, come here, open your book and close the door.",
+          "teacherLearnerActivities": "Teacher models each greeting and command with gestures. Learners practise greeting one another at different times of day and follow simple classroom commands.",
+          "evaluation": "1. Mention two greetings.\n2. Give two simple commands.\n3. When do we say “good evening”?",
+          "assignment": "Practise three greetings and three simple commands with a family member."
+        },
+        {
+          "subject": "Mathematics",
+          "week": 1,
+          "dateRange": "September 14–18, 2026",
+          "topic": "Whole Numbers",
+          "behavioralObjectives": [
+            "identify and explain the number concept",
+            "solve simple examples using concrete materials and numerals",
+            "write or state answers correctly."
+          ],
+          "instructionalMaterials": "number cards, counters or bottle tops, number chart, board and marker, exercise book.",
+          "lessonContent": "Whole numbers are the counting numbers used to describe how many objects there are. Learners recognise numerals, count concrete objects, and practise simple number sequences. Concrete materials are used before moving to written work.",
+          "teacherLearnerActivities": "Teacher introduces numerals with counters and number cards. Learners count, match quantities to numerals, and complete simple number sequences.",
+          "evaluation": "Name five whole numbers, count a group of objects, and identify a missing number in a sequence.",
+          "assignment": "Write ten whole numbers and draw matching quantities for three of them."
+        },
+        {
+          "subject": "Basic Science",
+          "week": 1,
+          "dateRange": "September 14–18, 2026",
+          "topic": "Living Things (I)",
+          "behavioralObjectives": [
+            "explain the key science idea in simple language",
+            "identify familiar examples",
+            "relate the lesson to everyday life and safety."
+          ],
+          "instructionalMaterials": "real objects, picture charts, flashcards, simple demonstration items, board and marker.",
+          "lessonContent": "Living things are things that have life. They can grow, breathe, feed, move in some way and reproduce. Examples include people, animals and plants. Learners observe living things in their environment and identify features that show that they are alive.",
+          "teacherLearnerActivities": "Teacher shows pictures or real examples of plants, animals and people. Learners identify living things and discuss what they do that shows life.",
+          "evaluation": "1. What is a living thing? 2. Mention three living things. 3. Name two signs of life.",
+          "assignment": "Draw two living things and write one thing each can do."
+        },
+        {
+          "subject": "Information Technology",
+          "week": 1,
+          "dateRange": "September 14–18, 2026",
+          "topic": "Basic Computer Operations",
+          "behavioralObjectives": [
+            "identify the computer concept or part",
+            "state its simple use or purpose",
+            "demonstrate safe handling or basic use where appropriate."
+          ],
+          "instructionalMaterials": "computer set, keyboard and mouse, computer charts, flashcards, board and marker.",
+          "lessonContent": "Basic computer operations are the simple actions used to begin and use a computer. These include switching on the computer correctly, waiting for the system to start, using the mouse and keyboard, opening a program, and shutting down safely. Learners should handle equipment gently and keep liquids away from the computer.",
+          "teacherLearnerActivities": "Teacher demonstrates start-up, simple mouse movement, clicking, typing and safe shutdown. Learners observe, practise with guidance, and name each operation.",
+          "evaluation": "1. Mention two basic computer operations. 2. What should you do before touching a computer? 3. Why should a computer be handled gently?",
+          "assignment": "List five safe rules for using a computer."
+        },
+        {
+          "subject": "Physical and Health Education (P.H.E.)",
+          "week": 1,
+          "dateRange": "September 14–18, 2026",
+          "topic": "Movement (Throwing)",
+          "behavioralObjectives": [
+            "describe the movement or physical-skill concept",
+            "perform the skill with simple control",
+            "observe basic safety and fair-play rules."
+          ],
+          "instructionalMaterials": "soft balls or bean bags, cones or markers, open play area, whistle if available, water for hydration.",
+          "lessonContent": "Throwing is a basic movement skill in which an object is released from the hand towards a direction or target. Learners practise holding a soft ball correctly, looking towards the target, stepping forward and releasing the ball safely. Accuracy and control are more important than distance.",
+          "teacherLearnerActivities": "Teacher demonstrates a simple underarm and gentle forward throw. Learners practise in small groups with safe spacing and take turns throwing at a marked target.",
+          "evaluation": "1. What is throwing? 2. Demonstrate a safe throw. 3. Why should learners keep space between one another?",
+          "assignment": "Practise ten gentle throws of a soft ball with an adult."
+        },
+        {
+          "subject": "Christian Religious Studies (C.R.S.)",
+          "week": 1,
+          "dateRange": "September 14–18, 2026",
+          "topic": "God, the Creator (I)",
+          "behavioralObjectives": [
+            "state the main Bible teaching in simple words",
+            "identify a key example or story",
+            "show one good behaviour linked to the lesson."
+          ],
+          "instructionalMaterials": "Bible, Bible story pictures, flashcards, board and marker, children’s song if available.",
+          "lessonContent": "God is the Creator. The Bible teaches that God made the world and all that is in it, including the sky, land, sea, plants, animals and people. Creation shows God’s power, wisdom and care. People should appreciate God’s creation and care for it responsibly.",
+          "teacherLearnerActivities": "Teacher tells the creation story using pictures. Learners identify things God created, arrange simple creation pictures, and say a short thank-you prayer.",
+          "evaluation": "1. Who is the Creator? 2. Mention four things God created. 3. How should we treat God’s creation?",
+          "assignment": "Draw three things God created."
+        },
+        {
+          "subject": "Islamic Studies",
+          "week": 1,
+          "dateRange": "September 14–18, 2026",
+          "topic": "Arabic Alphabet",
+          "behavioralObjectives": [
+            "state the main Islamic teaching in simple words",
+            "identify important terms or examples",
+            "show respectful conduct connected with the lesson."
+          ],
+          "instructionalMaterials": "Qur’an, Arabic letter or topic cards, pictures, audio recitation where suitable, board and marker.",
+          "lessonContent": "The Arabic alphabet is used to read and write Arabic, including the Qur’an. Learners practise recognising letters by their shapes and sounds. Correct direction of reading and careful pronunciation are introduced gradually.",
+          "teacherLearnerActivities": "Teacher displays Arabic letter cards and pronounces each sound clearly. Learners repeat in groups and individually, trace letter shapes in the air or on paper, and identify letters shown by the teacher.",
+          "evaluation": "Identify and pronounce five Arabic letters studied in the lesson.",
+          "assignment": "Practise writing and saying the letters taught."
+        },
+        {
+          "subject": "Civic Education",
+          "week": 1,
+          "dateRange": "September 14–18, 2026",
+          "topic": "Meaning and Reasons",
+          "behavioralObjectives": [
+            "explain the civic idea in simple words",
+            "identify responsible behaviour connected with the topic",
+            "demonstrate respect, cooperation or responsibility."
+          ],
+          "instructionalMaterials": "picture cards, posters, flashcards, board and marker, simple role-play materials.",
+          "lessonContent": "Civic Education teaches people how to live responsibly in their community and country. It develops knowledge of rights, duties, good behaviour, respect, cooperation and national values. At Basic 1 level, learners begin by understanding why good citizens matter at home, school and in the community.",
+          "teacherLearnerActivities": "Teacher asks learners what it means to be a good member of a class or family. Learners give examples of helpful and respectful behaviour.",
+          "evaluation": "1. What is Civic Education? 2. Give two reasons it is important.",
+          "assignment": "Write three good behaviours of a responsible child."
+        },
+        {
+          "subject": "Social Studies",
+          "week": 1,
+          "dateRange": "September 14–18, 2026",
+          "topic": "Meaning of Social Studies",
+          "behavioralObjectives": [
+            "explain the social concept simply",
+            "identify examples from family or community life",
+            "demonstrate a positive social value or behaviour."
+          ],
+          "instructionalMaterials": "family/community pictures, charts, flashcards, board and marker, role-play cards.",
+          "lessonContent": "Social Studies is the study of people, their relationships, their environment and the way they live together. It helps learners understand family life, community life, culture, values and responsible behaviour.",
+          "teacherLearnerActivities": "Teacher discusses the classroom, family and community as social settings. Learners identify people they interact with and explain one way they live together peacefully.",
+          "evaluation": "What is Social Studies? Mention two things it helps us understand.",
+          "assignment": "Write three reasons why we study people and their environment."
+        },
+        {
+          "subject": "Security Education",
+          "week": 1,
+          "dateRange": "September 14–18, 2026",
+          "topic": "Concept of Security",
+          "behavioralObjectives": [
+            "explain the security concept simply",
+            "identify a possible risk or protective measure",
+            "choose a safe response and know when to tell a trusted adult."
+          ],
+          "instructionalMaterials": "safety posters, warning-sign cards, pictures, flashcards, board and marker.",
+          "lessonContent": "Security means keeping people, property and information safe from harm, theft or danger. Children can support security by following safety rules, staying with trusted adults, protecting personal information and reporting suspicious or dangerous situations.",
+          "teacherLearnerActivities": "Teacher presents safe and unsafe situations. Learners identify the risk and say what a child should do.",
+          "evaluation": "What is security? Mention three things that can be protected.",
+          "assignment": "Write three ways you can stay safe at home or school."
+        },
+        {
+          "subject": "Vocational Education",
+          "week": 1,
+          "dateRange": "September 14–18, 2026",
+          "topic": "Vocational Education (I)",
+          "behavioralObjectives": [
+            "identify the vocational concept or item",
+            "state its use or importance",
+            "demonstrate safe and responsible work habits."
+          ],
+          "instructionalMaterials": "real tools or pictures, occupation cards, household objects, charts, board and marker.",
+          "lessonContent": "Vocational education introduces children to useful skills, work and careers. It helps learners understand that people do different kinds of work to meet needs, provide services and earn a living. Simple examples include farming, teaching, tailoring, building, cooking, repairing and trading.",
+          "teacherLearnerActivities": "Teacher shows pictures of workers and their tools. Learners name the occupation, identify the service or product provided, and discuss why work is important.",
+          "evaluation": "What is vocational education? Mention five occupations.",
+          "assignment": "Ask an adult about their occupation and write what work they do."
+        },
+        {
+          "subject": "Home Economics",
+          "week": 1,
+          "dateRange": "September 14–18, 2026",
+          "topic": "The Human Body",
+          "behavioralObjectives": [
+            "identify the body part or hygiene practice",
+            "explain why care is important",
+            "demonstrate or describe safe personal-care habits."
+          ],
+          "instructionalMaterials": "body charts, hygiene items, pictures, flashcards, board and marker.",
+          "lessonContent": "The human body is made up of many parts that work together. External parts learners know include the head, eyes, ears, nose, mouth, hands, legs and feet. Each body part has a function and needs proper care.",
+          "teacherLearnerActivities": "Teacher uses a body chart and asks learners to point to named parts. Learners identify parts and state simple functions.",
+          "evaluation": "Name eight external body parts and state the use of three.",
+          "assignment": "Draw the human body and label five parts."
+        },
+        {
+          "subject": "Agricultural Science",
+          "week": 1,
+          "dateRange": "September 14–18, 2026",
+          "topic": "Common Crop Plants Around Us",
+          "behavioralObjectives": [
+            "identify the agricultural concept or examples",
+            "state one or more uses or characteristics",
+            "show safe and responsible attitudes toward plants or animals."
+          ],
+          "instructionalMaterials": "plant or animal pictures, real samples where safe, charts, flashcards, board and marker.",
+          "lessonContent": "Crop plants are plants grown by people for food, animal feed, medicine or other uses. Common crops in Nigeria include maize, cassava, yam, rice, beans, tomatoes, pepper and plantain. Learners identify familiar crops by name and appearance.",
+          "teacherLearnerActivities": "Teacher brings crop samples or pictures. Learners name them and group them as crops they know from home, school or community.",
+          "evaluation": "Name six common crop plants.",
+          "assignment": "Draw three crop plants found in your community."
+        },
+        {
+          "subject": "Cultural and Creative Arts",
+          "week": 1,
+          "dateRange": "September 14–18, 2026",
+          "topic": "Meaning of Arts",
+          "behavioralObjectives": [
+            "explain the artistic idea in simple language",
+            "identify examples",
+            "participate in a creative activity using simple materials."
+          ],
+          "instructionalMaterials": "drawing paper, pencils or crayons, picture cards, simple art/craft materials, board and marker.",
+          "lessonContent": "Art is a creative way of expressing ideas, feelings and experiences. It may be seen in drawing, painting, modelling, music, dance, drama and craft. Art can be created for communication, beauty, enjoyment, storytelling or practical use.",
+          "teacherLearnerActivities": "Teacher shows examples of different artworks. Learners identify what they see, name the art form, and create a very simple drawing.",
+          "evaluation": "What is art? Mention four examples of art activities.",
+          "assignment": "Draw one thing you consider a work of art."
+        },
+        {
+          "subject": "Yoruba Language",
+          "week": 1,
+          "dateRange": "September 14–18, 2026",
+          "topic": "Dida Oruko Nkàn Inu Yara Ikawe (I)",
+          "behavioralObjectives": [
+            "recognise and pronounce the target Yoruba words or expressions",
+            "connect words with familiar objects, numbers or pictures",
+            "use the language in simple oral practice."
+          ],
+          "instructionalMaterials": "Yoruba alphabet/vocabulary cards, pictures, real objects, number cards, board and marker.",
+          "lessonContent": "This lesson introduces familiar names of objects found in the classroom or reading area. Learners listen to each Yoruba name, repeat it, and match the spoken word with the correct object or picture. The teacher should use objects learners see every day.",
+          "teacherLearnerActivities": "Teacher points to classroom objects and says their Yoruba names. Learners repeat, identify the correct object, and practise saying each word in short oral phrases.",
+          "evaluation": "Identify and say five classroom-object names in Yoruba.",
+          "assignment": "Ask at home for five Yoruba names of common household objects and practise saying them."
+        },
+        {
+          "subject": "Igbo Language",
+          "week": 1,
+          "dateRange": "September 14–18, 2026",
+          "topic": "Deputata Mkpuru Abịịchi Site Na A Rue Na G",
+          "behavioralObjectives": [
+            "recognise the target Igbo letters, words or expressions",
+            "pronounce them with guidance",
+            "use the new language in a simple oral activity."
+          ],
+          "instructionalMaterials": "Igbo alphabet/word cards, pictures, real objects, board and marker, textbook.",
+          "lessonContent": "The Igbo alphabet contains letters used to write Igbo words and represent Igbo sounds. Learners practise recognising selected letters and saying their sounds. The teacher uses clear repetition and familiar examples so that learners connect letters with spoken language.",
+          "teacherLearnerActivities": "Teacher writes or displays the target letters and models their sounds. Learners repeat, identify letters on cards and practise forming them correctly.",
+          "evaluation": "Identify and pronounce the letters studied in the lesson.",
+          "assignment": "Write the target Igbo letters twice and practise saying them."
+        },
+        {
+          "subject": "French Language",
+          "week": 1,
+          "dateRange": "September 14–18, 2026",
+          "topic": "Les Nombres (I)",
+          "behavioralObjectives": [
+            "recognise the target French vocabulary",
+            "pronounce the words with guidance",
+            "use the vocabulary in a simple oral response."
+          ],
+          "instructionalMaterials": "French word cards, number or colour cards, pictures, audio recording if available, board and marker.",
+          "lessonContent": "Les nombres are numbers in French. Learners practise listening to, saying, recognising and using the numbers within the range taught. Early number names include un, deux, trois, quatre, cinq, six, sept, huit, neuf and dix.",
+          "teacherLearnerActivities": "Teacher displays number cards and pronounces each number. Learners repeat, count objects, identify the written number and play simple number-recognition games.",
+          "evaluation": "Count from 1 to 10 in French and match five French number words to figures.",
+          "assignment": "Write and practise the French numbers taught in class."
+        },
+        {
+          "subject": "History",
+          "week": 1,
+          "dateRange": "September 14–18, 2026",
+          "topic": "Introduction to History (I)",
+          "behavioralObjectives": [
+            "explain the historical idea simply",
+            "identify people, places or sources connected to the topic",
+            "state why the lesson is important for understanding the past."
+          ],
+          "instructionalMaterials": "old photographs or pictures, family tree/chart, map or place pictures, story cards, board and marker.",
+          "lessonContent": "History is the study of past events, people and places. We learn history from family stories, photographs, objects, documents, monuments and other evidence. Learning about the past helps us understand where we came from and how life has changed.",
+          "teacherLearnerActivities": "Teacher shows an old photograph or object and asks what information it can give. Learners discuss past and present and identify sources of historical information.",
+          "evaluation": "What is history? Mention four sources of history.",
+          "assignment": "Ask a parent or grandparent about one event from the past and write two sentences about it."
+        },
+        {
+          "subject": "Verbal Reasoning",
+          "week": 1,
+          "dateRange": "September 14–18, 2026",
+          "topic": "Letters to the English Alphabet",
+          "behavioralObjectives": [
+            "identify the verbal reasoning pattern",
+            "apply the pattern to simple examples",
+            "give accurate answers and explain the rule in simple words."
+          ],
+          "instructionalMaterials": "letter cards, word cards, picture cards, worksheet, board and marker.",
+          "lessonContent": "The English alphabet has 26 letters. Learners identify letters in order, recognise upper- and lower-case forms, and use letters to begin familiar words. Letter recognition supports later reading and spelling.",
+          "teacherLearnerActivities": "Teacher displays alphabet cards and asks learners to identify letters. Learners recite the alphabet, match upper case with lower case, and say one simple word for selected letters.",
+          "evaluation": "Recite A–Z, identify five random letters, and give a word beginning with three of them.",
+          "assignment": "Write A–Z in upper case and lower case."
+        },
+        {
+          "subject": "Quantitative Reasoning",
+          "week": 1,
+          "dateRange": "September 14–18, 2026",
+          "topic": "Quantitative Reasoning",
+          "behavioralObjectives": [
+            "understand the quantitative relationship",
+            "solve simple examples using objects or numbers",
+            "show the steps or reasoning clearly."
+          ],
+          "instructionalMaterials": "counters or bottle tops, number cards, number line, worksheet, board and marker.",
+          "lessonContent": "Quantitative reasoning uses numbers, quantities, shapes and relationships to solve simple problems. Learners count objects, compare amounts, recognise patterns and explain how they reached an answer.",
+          "teacherLearnerActivities": "Teacher uses counters and picture problems. Learners count, compare and solve simple number tasks orally and in writing.",
+          "evaluation": "Complete five simple quantitative reasoning questions using numbers or objects.",
+          "assignment": "Practise five counting and comparison questions."
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "dateRange": "September 21–25, 2026",
+      "subjects": [
+        {
+          "subject": "English Language",
+          "week": 2,
+          "dateRange": "September 21–25, 2026",
+          "topic": "Consonant/Vowel Sounds",
+          "behavioralObjectives": [
+            "identify and explain the key idea in the lesson",
+            "use the new language skill in simple examples",
+            "respond correctly to simple oral and written questions."
+          ],
+          "instructionalMaterials": "flashcards, picture cards, word cards, board and marker, textbook.",
+          "lessonContent": "Vowels are a, e, i, o and u. Consonants are the other letters of the English alphabet, such as b, c, d, f, g and h. Learners listen for the beginning sound of familiar words and sort words according to whether they begin with a vowel or consonant sound.",
+          "teacherLearnerActivities": "Teacher presents letter cards and pictures. Learners say the beginning sounds, identify vowels, and sort familiar words under vowel or consonant headings.",
+          "evaluation": "1. Name the five vowels.\n2. Is b a vowel or a consonant?\n3. Give one word beginning with a vowel sound.",
+          "assignment": "Write the five vowels and three words beginning with consonant sounds."
+        },
+        {
+          "subject": "Mathematics",
+          "week": 2,
+          "dateRange": "September 21–25, 2026",
+          "topic": "Whole Numbers (Sorting and Classifying Objects)",
+          "behavioralObjectives": [
+            "identify and explain the number concept",
+            "solve simple examples using concrete materials and numerals",
+            "write or state answers correctly."
+          ],
+          "instructionalMaterials": "number cards, counters or bottle tops, number chart, board and marker, exercise book.",
+          "lessonContent": "Sorting means putting objects into groups according to a common feature. Learners can sort by colour, size, shape, type or use. Classifying helps learners notice similarities and differences and organise objects logically.",
+          "teacherLearnerActivities": "Teacher provides mixed counters, shapes or classroom objects. Learners sort them by one feature, explain the rule used, and regroup them using another feature.",
+          "evaluation": "Sort a mixed set of objects by colour and then by size. Tell why each object belongs in its group.",
+          "assignment": "Find ten household objects and make two groups using one clear rule."
+        },
+        {
+          "subject": "Basic Science",
+          "week": 2,
+          "dateRange": "September 21–25, 2026",
+          "topic": "Living Things (II)",
+          "behavioralObjectives": [
+            "explain the key science idea in simple language",
+            "identify familiar examples",
+            "relate the lesson to everyday life and safety."
+          ],
+          "instructionalMaterials": "real objects, picture charts, flashcards, simple demonstration items, board and marker.",
+          "lessonContent": "Living things are things that have life. They can grow, breathe, feed, move in some way and reproduce. Examples include people, animals and plants. Learners observe living things in their environment and identify features that show that they are alive.",
+          "teacherLearnerActivities": "Teacher shows pictures or real examples of plants, animals and people. Learners identify living things and discuss what they do that shows life.",
+          "evaluation": "1. What is a living thing? 2. Mention three living things. 3. Name two signs of life.",
+          "assignment": "Draw two living things and write one thing each can do."
+        },
+        {
+          "subject": "Information Technology",
+          "week": 2,
+          "dateRange": "September 21–25, 2026",
+          "topic": "Basic Computer Operations (Contd.)",
+          "behavioralObjectives": [
+            "identify the computer concept or part",
+            "state its simple use or purpose",
+            "demonstrate safe handling or basic use where appropriate."
+          ],
+          "instructionalMaterials": "computer set, keyboard and mouse, computer charts, flashcards, board and marker.",
+          "lessonContent": "Basic computer operations are the simple actions used to begin and use a computer. These include switching on the computer correctly, waiting for the system to start, using the mouse and keyboard, opening a program, and shutting down safely. Learners should handle equipment gently and keep liquids away from the computer.",
+          "teacherLearnerActivities": "Teacher demonstrates start-up, simple mouse movement, clicking, typing and safe shutdown. Learners observe, practise with guidance, and name each operation.",
+          "evaluation": "1. Mention two basic computer operations. 2. What should you do before touching a computer? 3. Why should a computer be handled gently?",
+          "assignment": "List five safe rules for using a computer."
+        },
+        {
+          "subject": "Physical and Health Education (P.H.E.)",
+          "week": 2,
+          "dateRange": "September 21–25, 2026",
+          "topic": "Moving Our Body Parts",
+          "behavioralObjectives": [
+            "describe the movement or physical-skill concept",
+            "perform the skill with simple control",
+            "observe basic safety and fair-play rules."
+          ],
+          "instructionalMaterials": "soft balls or bean bags, cones or markers, open play area, whistle if available, water for hydration.",
+          "lessonContent": "The body has many parts that can move in different ways. Learners practise moving the head, arms, hands, legs, feet and waist through simple bends, stretches, swings and turns. Warm-up movements should be gentle and controlled.",
+          "teacherLearnerActivities": "Teacher leads a simple warm-up sequence. Learners copy movements, identify body parts being used, and practise controlled movement without pushing others.",
+          "evaluation": "Name five body parts that can move and demonstrate two movements.",
+          "assignment": "Practise five simple stretching movements safely."
+        },
+        {
+          "subject": "Christian Religious Studies (C.R.S.)",
+          "week": 2,
+          "dateRange": "September 21–25, 2026",
+          "topic": "God, the Creator (II)",
+          "behavioralObjectives": [
+            "state the main Bible teaching in simple words",
+            "identify a key example or story",
+            "show one good behaviour linked to the lesson."
+          ],
+          "instructionalMaterials": "Bible, Bible story pictures, flashcards, board and marker, children’s song if available.",
+          "lessonContent": "God is the Creator. The Bible teaches that God made the world and all that is in it, including the sky, land, sea, plants, animals and people. Creation shows God’s power, wisdom and care. People should appreciate God’s creation and care for it responsibly.",
+          "teacherLearnerActivities": "Teacher tells the creation story using pictures. Learners identify things God created, arrange simple creation pictures, and say a short thank-you prayer.",
+          "evaluation": "1. Who is the Creator? 2. Mention four things God created. 3. How should we treat God’s creation?",
+          "assignment": "Draw three things God created."
+        },
+        {
+          "subject": "Islamic Studies",
+          "week": 2,
+          "dateRange": "September 21–25, 2026",
+          "topic": "Arabic Alphabet: Alif to Sad",
+          "behavioralObjectives": [
+            "state the main Islamic teaching in simple words",
+            "identify important terms or examples",
+            "show respectful conduct connected with the lesson."
+          ],
+          "instructionalMaterials": "Qur’an, Arabic letter or topic cards, pictures, audio recitation where suitable, board and marker.",
+          "lessonContent": "The Arabic alphabet is used to read and write Arabic, including the Qur’an. Learners practise recognising letters by their shapes and sounds. Correct direction of reading and careful pronunciation are introduced gradually.\nLearners in this lesson focus on the early letters from Alif to Sad and practise identifying them in isolation.",
+          "teacherLearnerActivities": "Teacher displays Arabic letter cards and pronounces each sound clearly. Learners repeat in groups and individually, trace letter shapes in the air or on paper, and identify letters shown by the teacher.",
+          "evaluation": "Identify and pronounce five Arabic letters studied in the lesson.",
+          "assignment": "Practise writing and saying the letters taught."
+        },
+        {
+          "subject": "Civic Education",
+          "week": 2,
+          "dateRange": "September 21–25, 2026",
+          "topic": "Ways Through Which Civic Education Can Be Important at School",
+          "behavioralObjectives": [
+            "explain the civic idea in simple words",
+            "identify responsible behaviour connected with the topic",
+            "demonstrate respect, cooperation or responsibility."
+          ],
+          "instructionalMaterials": "picture cards, posters, flashcards, board and marker, simple role-play materials.",
+          "lessonContent": "Civic Education is important at school because it teaches learners to respect teachers and classmates, obey school rules, care for school property, work peacefully with others, and take responsibility for their actions. These habits prepare learners to become responsible citizens.",
+          "teacherLearnerActivities": "Teacher presents simple school situations. Learners decide which actions are respectful, safe and responsible and explain why.",
+          "evaluation": "Mention four ways Civic Education is useful at school.",
+          "assignment": "Write five school rules you follow and explain one reason for each."
+        },
+        {
+          "subject": "Social Studies",
+          "week": 2,
+          "dateRange": "September 21–25, 2026",
+          "topic": "Family",
+          "behavioralObjectives": [
+            "explain the social concept simply",
+            "identify examples from family or community life",
+            "demonstrate a positive social value or behaviour."
+          ],
+          "instructionalMaterials": "family/community pictures, charts, flashcards, board and marker, role-play cards.",
+          "lessonContent": "This lesson explores Family using familiar family and community examples.",
+          "teacherLearnerActivities": "Teacher uses pictures and everyday situations. Learners identify examples and discuss good social behaviour.",
+          "evaluation": "Answer three questions on the topic.",
+          "assignment": "Write three examples connected with the lesson."
+        },
+        {
+          "subject": "Security Education",
+          "week": 2,
+          "dateRange": "September 21–25, 2026",
+          "topic": "Concept of Security (Continued)",
+          "behavioralObjectives": [
+            "explain the security concept simply",
+            "identify a possible risk or protective measure",
+            "choose a safe response and know when to tell a trusted adult."
+          ],
+          "instructionalMaterials": "safety posters, warning-sign cards, pictures, flashcards, board and marker.",
+          "lessonContent": "Security means keeping people, property and information safe from harm, theft or danger. Children can support security by following safety rules, staying with trusted adults, protecting personal information and reporting suspicious or dangerous situations.",
+          "teacherLearnerActivities": "Teacher presents safe and unsafe situations. Learners identify the risk and say what a child should do.",
+          "evaluation": "What is security? Mention three things that can be protected.",
+          "assignment": "Write three ways you can stay safe at home or school."
+        },
+        {
+          "subject": "Vocational Education",
+          "week": 2,
+          "dateRange": "September 21–25, 2026",
+          "topic": "Vocational Education (II)",
+          "behavioralObjectives": [
+            "identify the vocational concept or item",
+            "state its use or importance",
+            "demonstrate safe and responsible work habits."
+          ],
+          "instructionalMaterials": "real tools or pictures, occupation cards, household objects, charts, board and marker.",
+          "lessonContent": "Vocational education introduces children to useful skills, work and careers. It helps learners understand that people do different kinds of work to meet needs, provide services and earn a living. Simple examples include farming, teaching, tailoring, building, cooking, repairing and trading.",
+          "teacherLearnerActivities": "Teacher shows pictures of workers and their tools. Learners name the occupation, identify the service or product provided, and discuss why work is important.",
+          "evaluation": "What is vocational education? Mention five occupations.",
+          "assignment": "Ask an adult about their occupation and write what work they do."
+        },
+        {
+          "subject": "Home Economics",
+          "week": 2,
+          "dateRange": "September 21–25, 2026",
+          "topic": "Care of the Body (Bathing)",
+          "behavioralObjectives": [
+            "identify the body part or hygiene practice",
+            "explain why care is important",
+            "demonstrate or describe safe personal-care habits."
+          ],
+          "instructionalMaterials": "body charts, hygiene items, pictures, flashcards, board and marker.",
+          "lessonContent": "Bathing removes sweat, dirt and germs from the body and helps keep the skin healthy. Children should bathe regularly, use clean water and appropriate soap, wash all parts of the body, rinse well and dry with a clean towel.",
+          "teacherLearnerActivities": "Teacher demonstrates the steps of bathing using pictures. Learners arrange the steps in order and identify items used for bathing.",
+          "evaluation": "Mention five steps or materials involved in proper bathing.",
+          "assignment": "Practise good bathing habits and list four items used for bathing."
+        },
+        {
+          "subject": "Agricultural Science",
+          "week": 2,
+          "dateRange": "September 21–25, 2026",
+          "topic": "Drawing a Typical Plant",
+          "behavioralObjectives": [
+            "identify the agricultural concept or examples",
+            "state one or more uses or characteristics",
+            "show safe and responsible attitudes toward plants or animals."
+          ],
+          "instructionalMaterials": "plant or animal pictures, real samples where safe, charts, flashcards, board and marker.",
+          "lessonContent": "A simple plant drawing can show the main parts: roots, stem, leaves, flowers, fruits and seeds. Learners observe a real plant and use simple lines and shapes to represent the parts.",
+          "teacherLearnerActivities": "Teacher draws a simple plant step by step. Learners copy the drawing and label the visible parts.",
+          "evaluation": "Draw a simple plant and label at least four parts.",
+          "assignment": "Draw and colour a typical plant."
+        },
+        {
+          "subject": "Cultural and Creative Arts",
+          "week": 2,
+          "dateRange": "September 21–25, 2026",
+          "topic": "Meaning of Sounds and Music",
+          "behavioralObjectives": [
+            "explain the artistic idea in simple language",
+            "identify examples",
+            "participate in a creative activity using simple materials."
+          ],
+          "instructionalMaterials": "drawing paper, pencils or crayons, picture cards, simple art/craft materials, board and marker.",
+          "lessonContent": "Sound is something we hear, while music is the organised use of sound, rhythm, melody and silence. Music can be made with the voice or instruments. Learners identify loud/soft and fast/slow differences and practise simple rhythms.",
+          "teacherLearnerActivities": "Teacher claps or plays simple sounds and asks learners to copy. Learners distinguish loud and soft sounds and keep a simple beat.",
+          "evaluation": "What is sound? What is music? Give two examples of musical sounds.",
+          "assignment": "Create and clap a simple four-beat rhythm at home."
+        },
+        {
+          "subject": "Yoruba Language",
+          "week": 2,
+          "dateRange": "September 21–25, 2026",
+          "topic": "Onka Ede Yoruba Lati Okan De Eewaa",
+          "behavioralObjectives": [
+            "recognise and pronounce the target Yoruba words or expressions",
+            "connect words with familiar objects, numbers or pictures",
+            "use the language in simple oral practice."
+          ],
+          "instructionalMaterials": "Yoruba alphabet/vocabulary cards, pictures, real objects, number cards, board and marker.",
+          "lessonContent": "This lesson develops counting in Yoruba using the numbers from one upward within the range taught in the scheme. Learners hear, repeat, recognise and use the numbers in simple counting activities.",
+          "teacherLearnerActivities": "Teacher counts slowly in Yoruba and uses objects for one-to-one counting. Learners repeat, point to the counted objects and practise the sequence in pairs.",
+          "evaluation": "Count orally in Yoruba through the numbers taught in the lesson.",
+          "assignment": "Practise the Yoruba counting sequence at home."
+        },
+        {
+          "subject": "Igbo Language",
+          "week": 2,
+          "dateRange": "September 21–25, 2026",
+          "topic": "Nime Abịịchi Igbo Deputa Udaume Igbo",
+          "behavioralObjectives": [
+            "recognise the target Igbo letters, words or expressions",
+            "pronounce them with guidance",
+            "use the new language in a simple oral activity."
+          ],
+          "instructionalMaterials": "Igbo alphabet/word cards, pictures, real objects, board and marker, textbook.",
+          "lessonContent": "The Igbo alphabet contains letters used to write Igbo words and represent Igbo sounds. Learners practise recognising selected letters and saying their sounds. The teacher uses clear repetition and familiar examples so that learners connect letters with spoken language.",
+          "teacherLearnerActivities": "Teacher writes or displays the target letters and models their sounds. Learners repeat, identify letters on cards and practise forming them correctly.",
+          "evaluation": "Identify and pronounce the letters studied in the lesson.",
+          "assignment": "Write the target Igbo letters twice and practise saying them."
+        },
+        {
+          "subject": "French Language",
+          "week": 2,
+          "dateRange": "September 21–25, 2026",
+          "topic": "Les Nombres (II)",
+          "behavioralObjectives": [
+            "recognise the target French vocabulary",
+            "pronounce the words with guidance",
+            "use the vocabulary in a simple oral response."
+          ],
+          "instructionalMaterials": "French word cards, number or colour cards, pictures, audio recording if available, board and marker.",
+          "lessonContent": "Les nombres are numbers in French. Learners practise listening to, saying, recognising and using the numbers within the range taught. Early number names include un, deux, trois, quatre, cinq, six, sept, huit, neuf and dix.",
+          "teacherLearnerActivities": "Teacher displays number cards and pronounces each number. Learners repeat, count objects, identify the written number and play simple number-recognition games.",
+          "evaluation": "Count from 1 to 10 in French and match five French number words to figures.",
+          "assignment": "Write and practise the French numbers taught in class."
+        },
+        {
+          "subject": "History",
+          "week": 2,
+          "dateRange": "September 21–25, 2026",
+          "topic": "Introduction to History (II)",
+          "behavioralObjectives": [
+            "explain the historical idea simply",
+            "identify people, places or sources connected to the topic",
+            "state why the lesson is important for understanding the past."
+          ],
+          "instructionalMaterials": "old photographs or pictures, family tree/chart, map or place pictures, story cards, board and marker.",
+          "lessonContent": "History is the study of past events, people and places. We learn history from family stories, photographs, objects, documents, monuments and other evidence. Learning about the past helps us understand where we came from and how life has changed.",
+          "teacherLearnerActivities": "Teacher shows an old photograph or object and asks what information it can give. Learners discuss past and present and identify sources of historical information.",
+          "evaluation": "What is history? Mention four sources of history.",
+          "assignment": "Ask a parent or grandparent about one event from the past and write two sentences about it."
+        },
+        {
+          "subject": "Verbal Reasoning",
+          "week": 2,
+          "dateRange": "September 21–25, 2026",
+          "topic": "Anagram",
+          "behavioralObjectives": [
+            "identify the verbal reasoning pattern",
+            "apply the pattern to simple examples",
+            "give accurate answers and explain the rule in simple words."
+          ],
+          "instructionalMaterials": "letter cards, word cards, picture cards, worksheet, board and marker.",
+          "lessonContent": "An anagram is a word or arrangement made by changing the order of letters. At Basic 1 level, learners work with very short familiar words. For example, the letters of “cat” can be rearranged to form “act.” The focus is on noticing letter order and spelling.",
+          "teacherLearnerActivities": "Teacher writes short letter groups and models rearranging them. Learners rearrange simple letters to form familiar words.",
+          "evaluation": "Rearrange simple letter groups to make words, for example t-a-c → cat/act.",
+          "assignment": "Make five simple words from mixed letter cards provided by the teacher."
+        },
+        {
+          "subject": "Quantitative Reasoning",
+          "week": 2,
+          "dateRange": "September 21–25, 2026",
+          "topic": "Multiplication (I)",
+          "behavioralObjectives": [
+            "understand the quantitative relationship",
+            "solve simple examples using objects or numbers",
+            "show the steps or reasoning clearly."
+          ],
+          "instructionalMaterials": "counters or bottle tops, number cards, number line, worksheet, board and marker.",
+          "lessonContent": "Multiplication means finding the total in equal groups. It can be understood as repeated addition. For example, 2 × 3 means two groups of three, giving 6. Learners use counters and simple number facts before moving to written multiplication.",
+          "teacherLearnerActivities": "Teacher makes equal groups with counters and models repeated addition. Learners build groups and solve simple multiplication examples.",
+          "evaluation": "Solve: 2×3, 3×2, 2×4 and 4×2. Explain one answer using equal groups.",
+          "assignment": "Practise ten simple multiplication questions using 2s and 3s."
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "dateRange": "September 28–October 2, 2026",
+      "subjects": [
+        {
+          "subject": "English Language",
+          "week": 3,
+          "dateRange": "September 28–October 2, 2026",
+          "topic": "The Article “A” and “AN”",
+          "behavioralObjectives": [
+            "identify and explain the key idea in the lesson",
+            "use the new language skill in simple examples",
+            "respond correctly to simple oral and written questions."
+          ],
+          "instructionalMaterials": "flashcards, picture cards, word cards, board and marker, textbook.",
+          "lessonContent": "The words “a” and “an” are articles used before singular naming words. Use “a” before a consonant sound, as in a boy, a cat and a book. Use “an” before a vowel sound, as in an apple, an egg and an orange. Learners practise choosing the correct article.",
+          "teacherLearnerActivities": "Teacher shows pictures and says the names with a or an. Learners repeat, choose the correct article on word cards and build simple phrases.",
+          "evaluation": "Fill in: ___ apple, ___ boy, ___ egg, ___ book, ___ orange.",
+          "assignment": "Write five examples with “a” and five with “an.”"
+        },
+        {
+          "subject": "Mathematics",
+          "week": 3,
+          "dateRange": "September 28–October 2, 2026",
+          "topic": "Whole Numbers (Counting 1–20)",
+          "behavioralObjectives": [
+            "identify and explain the number concept",
+            "solve simple examples using concrete materials and numerals",
+            "write or state answers correctly."
+          ],
+          "instructionalMaterials": "number cards, counters or bottle tops, number chart, board and marker, exercise book.",
+          "lessonContent": "Whole numbers are used for counting. Learners count forward from 1 to 20, recognise each numeral, and connect the numeral with the correct number of objects. They also practise finding the number that comes before or after a given number.\nNumber sequence: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20.",
+          "teacherLearnerActivities": "Teacher counts real objects with learners, displays number cards, and asks learners to arrange mixed numerals in order. Learners count aloud, point to each numeral, and use counters to show quantities.",
+          "evaluation": "1. Count 1–20.\n2. What comes after 14?\n3. What comes before 9?\n4. Which is greater: 7 or 12?",
+          "assignment": "Write 1–20 and draw groups of objects for 1, 5, 10 and 20."
+        },
+        {
+          "subject": "Basic Science",
+          "week": 3,
+          "dateRange": "September 28–October 2, 2026",
+          "topic": "Non-Living Things",
+          "behavioralObjectives": [
+            "explain the key science idea in simple language",
+            "identify familiar examples",
+            "relate the lesson to everyday life and safety."
+          ],
+          "instructionalMaterials": "real objects, picture charts, flashcards, simple demonstration items, board and marker.",
+          "lessonContent": "Living things are things that have life. They can grow, breathe, feed, move in some way and reproduce. Examples include people, animals and plants. Learners observe living things in their environment and identify features that show that they are alive.",
+          "teacherLearnerActivities": "Teacher shows pictures or real examples of plants, animals and people. Learners identify living things and discuss what they do that shows life.",
+          "evaluation": "1. What is a living thing? 2. Mention three living things. 3. Name two signs of life.",
+          "assignment": "Draw two living things and write one thing each can do."
+        },
+        {
+          "subject": "Information Technology",
+          "week": 3,
+          "dateRange": "September 28–October 2, 2026",
+          "topic": "Parts of a Computer (I)",
+          "behavioralObjectives": [
+            "identify the computer concept or part",
+            "state its simple use or purpose",
+            "demonstrate safe handling or basic use where appropriate."
+          ],
+          "instructionalMaterials": "computer set, keyboard and mouse, computer charts, flashcards, board and marker.",
+          "lessonContent": "A computer has several parts that work together. The monitor displays information, the keyboard is used for typing, the mouse helps point and select, and the system unit contains important internal components. Learners identify each part by sight and state a simple function.",
+          "teacherLearnerActivities": "Teacher points to a computer set and names each part. Learners repeat the names, point to the parts, and match each part to its use.",
+          "evaluation": "Name four computer parts and give one use of each.",
+          "assignment": "Draw and label four parts of a computer."
+        },
+        {
+          "subject": "Physical and Health Education (P.H.E.)",
+          "week": 3,
+          "dateRange": "September 28–October 2, 2026",
+          "topic": "Movement (Throwing)",
+          "behavioralObjectives": [
+            "describe the movement or physical-skill concept",
+            "perform the skill with simple control",
+            "observe basic safety and fair-play rules."
+          ],
+          "instructionalMaterials": "soft balls or bean bags, cones or markers, open play area, whistle if available, water for hydration.",
+          "lessonContent": "Throwing is a basic movement skill in which an object is released from the hand towards a direction or target. Learners practise holding a soft ball correctly, looking towards the target, stepping forward and releasing the ball safely. Accuracy and control are more important than distance.",
+          "teacherLearnerActivities": "Teacher demonstrates a simple underarm and gentle forward throw. Learners practise in small groups with safe spacing and take turns throwing at a marked target.",
+          "evaluation": "1. What is throwing? 2. Demonstrate a safe throw. 3. Why should learners keep space between one another?",
+          "assignment": "Practise ten gentle throws of a soft ball with an adult."
+        },
+        {
+          "subject": "Christian Religious Studies (C.R.S.)",
+          "week": 3,
+          "dateRange": "September 28–October 2, 2026",
+          "topic": "God’s Goodness",
+          "behavioralObjectives": [
+            "state the main Bible teaching in simple words",
+            "identify a key example or story",
+            "show one good behaviour linked to the lesson."
+          ],
+          "instructionalMaterials": "Bible, Bible story pictures, flashcards, board and marker, children’s song if available.",
+          "lessonContent": "God’s goodness means God is kind, loving and caring. He provides what people need and gives many blessings such as life, food, family and protection. Learners respond to God’s goodness with gratitude, obedience and kindness to others.",
+          "teacherLearnerActivities": "Teacher discusses everyday examples of blessings. Learners name things they are thankful for and role-play ways of showing kindness.",
+          "evaluation": "Mention three ways God shows His goodness. How should we respond?",
+          "assignment": "Write three things you are thankful to God for."
+        },
+        {
+          "subject": "Islamic Studies",
+          "week": 3,
+          "dateRange": "September 28–October 2, 2026",
+          "topic": "Suratul Fatihah (I)",
+          "behavioralObjectives": [
+            "state the main Islamic teaching in simple words",
+            "identify important terms or examples",
+            "show respectful conduct connected with the lesson."
+          ],
+          "instructionalMaterials": "Qur’an, Arabic letter or topic cards, pictures, audio recitation where suitable, board and marker.",
+          "lessonContent": "Suratul Fatihah is the first Surah (chapter) of the Qur’an and has seven verses. It praises Allah, asks for His guidance and teaches believers to turn to Him in worship. Learners listen to the recitation and repeat short portions accurately and respectfully.",
+          "teacherLearnerActivities": "Teacher recites slowly and explains selected simple meanings. Learners listen, repeat verse by verse, and practise correct pronunciation.",
+          "evaluation": "1. What is the first Surah in the Qur’an? 2. How many verses does it contain? 3. Recite the portion studied.",
+          "assignment": "Practise the portion of Suratul Fatihah taught in class."
+        },
+        {
+          "subject": "Civic Education",
+          "week": 3,
+          "dateRange": "September 28–October 2, 2026",
+          "topic": "Ways Through Which Civic Education Can Be Important at Home",
+          "behavioralObjectives": [
+            "explain the civic idea in simple words",
+            "identify responsible behaviour connected with the topic",
+            "demonstrate respect, cooperation or responsibility."
+          ],
+          "instructionalMaterials": "picture cards, posters, flashcards, board and marker, simple role-play materials.",
+          "lessonContent": "At home, civic learning helps children respect parents and elders, share responsibilities, care for family property, speak politely, settle disagreements peacefully and be honest. Good family habits become the foundation for responsible citizenship.",
+          "teacherLearnerActivities": "Teacher gives examples of family responsibilities. Learners mention duties they do at home and role-play respectful ways of handling simple disagreements.",
+          "evaluation": "Mention three good civic behaviours at home.",
+          "assignment": "Perform one helpful household duty and report what you did."
+        },
+        {
+          "subject": "Social Studies",
+          "week": 3,
+          "dateRange": "September 28–October 2, 2026",
+          "topic": "Types of Family",
+          "behavioralObjectives": [
+            "explain the social concept simply",
+            "identify examples from family or community life",
+            "demonstrate a positive social value or behaviour."
+          ],
+          "instructionalMaterials": "family/community pictures, charts, flashcards, board and marker, role-play cards.",
+          "lessonContent": "Two common family types introduced at this level are the nuclear family and the extended family. A nuclear family consists of parents and their children. An extended family includes parents and children together with other relatives such as grandparents, uncles, aunties and cousins.",
+          "teacherLearnerActivities": "Teacher compares two family pictures. Learners sort pictures or names into nuclear and extended family groups.",
+          "evaluation": "Name and explain two types of family.",
+          "assignment": "Write two examples of people who may belong to an extended family."
+        },
+        {
+          "subject": "Security Education",
+          "week": 3,
+          "dateRange": "September 28–October 2, 2026",
+          "topic": "Sources of Insecurity",
+          "behavioralObjectives": [
+            "explain the security concept simply",
+            "identify a possible risk or protective measure",
+            "choose a safe response and know when to tell a trusted adult."
+          ],
+          "instructionalMaterials": "safety posters, warning-sign cards, pictures, flashcards, board and marker.",
+          "lessonContent": "Sources of insecurity are situations, people or conditions that can make people or property unsafe. Examples can include fire, unsafe roads, dangerous objects, violence, strangers in restricted places and careless behaviour. Learners should not investigate danger themselves; they should move to safety and tell a trusted adult.",
+          "teacherLearnerActivities": "Teacher shows simple safety pictures. Learners identify possible dangers and practise saying who they should report to.",
+          "evaluation": "Mention four sources of insecurity and one safe response.",
+          "assignment": "Draw one danger sign and write what action a child should take."
+        },
+        {
+          "subject": "Vocational Education",
+          "week": 3,
+          "dateRange": "September 28–October 2, 2026",
+          "topic": "Tools (I)",
+          "behavioralObjectives": [
+            "identify the vocational concept or item",
+            "state its use or importance",
+            "demonstrate safe and responsible work habits."
+          ],
+          "instructionalMaterials": "real tools or pictures, occupation cards, household objects, charts, board and marker.",
+          "lessonContent": "Tools are objects used to make work easier, faster or more accurate. Examples include a hammer, screwdriver, scissors, broom, hoe and measuring tools. Tools should be used for their correct purpose and kept safely after use.",
+          "teacherLearnerActivities": "Teacher displays tools or pictures, names each one and demonstrates safe handling where appropriate. Learners match each tool with its use.",
+          "evaluation": "Name five tools and state one use of each.",
+          "assignment": "Draw three tools and write their uses."
+        },
+        {
+          "subject": "Home Economics",
+          "week": 3,
+          "dateRange": "September 28–October 2, 2026",
+          "topic": "Care of the Ears",
+          "behavioralObjectives": [
+            "identify the body part or hygiene practice",
+            "explain why care is important",
+            "demonstrate or describe safe personal-care habits."
+          ],
+          "instructionalMaterials": "body charts, hygiene items, pictures, flashcards, board and marker.",
+          "lessonContent": "The ears help us hear sounds and maintain balance. To care for them, keep the outer ear clean, avoid putting sharp objects inside, avoid very loud sounds and tell a trusted adult about pain or discharge.",
+          "teacherLearnerActivities": "Teacher points to the ears on a body chart and discusses safe care. Learners identify safe and unsafe practices.",
+          "evaluation": "What are the ears used for? Mention three ways to care for them.",
+          "assignment": "Write two things you should never put inside your ears."
+        },
+        {
+          "subject": "Agricultural Science",
+          "week": 3,
+          "dateRange": "September 28–October 2, 2026",
+          "topic": "Part of a Plant",
+          "behavioralObjectives": [
+            "identify the agricultural concept or examples",
+            "state one or more uses or characteristics",
+            "show safe and responsible attitudes toward plants or animals."
+          ],
+          "instructionalMaterials": "plant or animal pictures, real samples where safe, charts, flashcards, board and marker.",
+          "lessonContent": "Main plant parts include roots, stem, leaves, flowers, fruits and seeds. Roots anchor the plant and absorb water, the stem supports the plant, leaves help make food, flowers are involved in reproduction, fruits protect seeds, and seeds can grow into new plants.",
+          "teacherLearnerActivities": "Teacher uses a real plant or chart and points to each part. Learners identify, touch where appropriate and repeat the names and functions.",
+          "evaluation": "Name six parts of a plant and state two functions.",
+          "assignment": "Draw and label six plant parts."
+        },
+        {
+          "subject": "Cultural and Creative Arts",
+          "week": 3,
+          "dateRange": "September 28–October 2, 2026",
+          "topic": "Meaning of Branches of Art",
+          "behavioralObjectives": [
+            "explain the artistic idea in simple language",
+            "identify examples",
+            "participate in a creative activity using simple materials."
+          ],
+          "instructionalMaterials": "drawing paper, pencils or crayons, picture cards, simple art/craft materials, board and marker.",
+          "lessonContent": "Major branches of art introduced at Basic 1 level include visual art, music, drama and dance. Visual art may include drawing and painting; music involves singing or instruments; drama involves acting; dance uses body movement and rhythm.",
+          "teacherLearnerActivities": "Teacher displays examples or demonstrates each branch. Learners identify the branch and take part in a short activity such as drawing, singing, acting or dancing.",
+          "evaluation": "Mention four branches of art and give one example of each.",
+          "assignment": "Choose one branch of art and make a simple example at home."
+        },
+        {
+          "subject": "Yoruba Language",
+          "week": 3,
+          "dateRange": "September 28–October 2, 2026",
+          "topic": "Kika Alifabeeti Ede Yoruba",
+          "behavioralObjectives": [
+            "recognise and pronounce the target Yoruba words or expressions",
+            "connect words with familiar objects, numbers or pictures",
+            "use the language in simple oral practice."
+          ],
+          "instructionalMaterials": "Yoruba alphabet/vocabulary cards, pictures, real objects, number cards, board and marker.",
+          "lessonContent": "The Yoruba alphabet contains letters and special characters used to represent Yoruba sounds. Learners practise recognising and pronouncing the letters correctly, paying attention to letters such as Ẹ, Ọ and Ṣ.",
+          "teacherLearnerActivities": "Teacher displays the Yoruba alphabet and models pronunciation. Learners repeat, identify letters on cards and trace selected letters.",
+          "evaluation": "Recite the Yoruba alphabet and identify Ẹ, Ọ and Ṣ.",
+          "assignment": "Write the Yoruba alphabet twice."
+        },
+        {
+          "subject": "Igbo Language",
+          "week": 3,
+          "dateRange": "September 28–October 2, 2026",
+          "topic": "Mejiokwu Ndia",
+          "behavioralObjectives": [
+            "recognise the target Igbo letters, words or expressions",
+            "pronounce them with guidance",
+            "use the new language in a simple oral activity."
+          ],
+          "instructionalMaterials": "Igbo alphabet/word cards, pictures, real objects, board and marker, textbook.",
+          "lessonContent": "Learners are introduced to simple Igbo words and their meanings through familiar objects, pictures and oral practice. The emphasis is on correct pronunciation, recognition and use in short expressions.",
+          "teacherLearnerActivities": "Teacher presents word cards and pictures. Learners match words with pictures, repeat the words and use selected words in simple oral responses.",
+          "evaluation": "Read or pronounce five target Igbo words and explain their meanings.",
+          "assignment": "Write five Igbo words learned in class."
+        },
+        {
+          "subject": "French Language",
+          "week": 3,
+          "dateRange": "September 28–October 2, 2026",
+          "topic": "Les Nombres (III)",
+          "behavioralObjectives": [
+            "recognise the target French vocabulary",
+            "pronounce the words with guidance",
+            "use the vocabulary in a simple oral response."
+          ],
+          "instructionalMaterials": "French word cards, number or colour cards, pictures, audio recording if available, board and marker.",
+          "lessonContent": "Les nombres are numbers in French. Learners practise listening to, saying, recognising and using the numbers within the range taught. Early number names include un, deux, trois, quatre, cinq, six, sept, huit, neuf and dix.",
+          "teacherLearnerActivities": "Teacher displays number cards and pronounces each number. Learners repeat, count objects, identify the written number and play simple number-recognition games.",
+          "evaluation": "Count from 1 to 10 in French and match five French number words to figures.",
+          "assignment": "Write and practise the French numbers taught in class."
+        },
+        {
+          "subject": "History",
+          "week": 3,
+          "dateRange": "September 28–October 2, 2026",
+          "topic": "Family History (III)",
+          "behavioralObjectives": [
+            "explain the historical idea simply",
+            "identify people, places or sources connected to the topic",
+            "state why the lesson is important for understanding the past."
+          ],
+          "instructionalMaterials": "old photographs or pictures, family tree/chart, map or place pictures, story cards, board and marker.",
+          "lessonContent": "Family history is the story of a family across time. It can include the names of relatives, places they lived, occupations, traditions and important events. A simple family tree can help organise this information.",
+          "teacherLearnerActivities": "Teacher draws a simple family tree and discusses grandparents, parents and children. Learners create a basic family tree from information they know.",
+          "evaluation": "What is family history? Mention three things it can tell us.",
+          "assignment": "Ask an elder for one story about your family’s past."
+        },
+        {
+          "subject": "Verbal Reasoning",
+          "week": 3,
+          "dateRange": "September 28–October 2, 2026",
+          "topic": "Rhyming Words",
+          "behavioralObjectives": [
+            "identify the verbal reasoning pattern",
+            "apply the pattern to simple examples",
+            "give accurate answers and explain the rule in simple words."
+          ],
+          "instructionalMaterials": "letter cards, word cards, picture cards, worksheet, board and marker.",
+          "lessonContent": "Rhyming words have the same or similar ending sounds, such as cat–hat, sun–fun and bed–red. Recognising rhyme helps children listen carefully to sounds and supports early reading.",
+          "teacherLearnerActivities": "Teacher says word pairs aloud. Learners clap when the words rhyme and provide another rhyming word from a picture set.",
+          "evaluation": "Give a rhyming word for cat, sun and ball.",
+          "assignment": "Write five pairs of rhyming words."
+        },
+        {
+          "subject": "Quantitative Reasoning",
+          "week": 3,
+          "dateRange": "September 28–October 2, 2026",
+          "topic": "Multiplication (II)",
+          "behavioralObjectives": [
+            "understand the quantitative relationship",
+            "solve simple examples using objects or numbers",
+            "show the steps or reasoning clearly."
+          ],
+          "instructionalMaterials": "counters or bottle tops, number cards, number line, worksheet, board and marker.",
+          "lessonContent": "Multiplication means finding the total in equal groups. It can be understood as repeated addition. For example, 2 × 3 means two groups of three, giving 6. Learners use counters and simple number facts before moving to written multiplication.",
+          "teacherLearnerActivities": "Teacher makes equal groups with counters and models repeated addition. Learners build groups and solve simple multiplication examples.",
+          "evaluation": "Solve: 2×3, 3×2, 2×4 and 4×2. Explain one answer using equal groups.",
+          "assignment": "Practise ten simple multiplication questions using 2s and 3s."
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "dateRange": "October 5–9, 2026",
+      "subjects": [
+        {
+          "subject": "English Language",
+          "week": 4,
+          "dateRange": "October 5–9, 2026",
+          "topic": "Action Verbs – The Uses of Objects in the Kitchen",
+          "behavioralObjectives": [
+            "identify and explain the key idea in the lesson",
+            "use the new language skill in simple examples",
+            "respond correctly to simple oral and written questions."
+          ],
+          "instructionalMaterials": "flashcards, picture cards, word cards, board and marker, textbook.",
+          "lessonContent": "Action verbs are words that show what someone or something does. In the kitchen we can see actions such as wash, cut, stir, cook, pour, open, close and eat. Learners listen to short sentences and identify the action word.",
+          "teacherLearnerActivities": "Teacher demonstrates safe kitchen actions with pictures or role-play. Learners name the action in each picture and act out simple verbs using classroom objects.",
+          "evaluation": "Underline the action word: “Mum cuts the bread.” “Tunde opens the cupboard.” Name three kitchen action verbs.",
+          "assignment": "Write five simple sentences containing action verbs."
+        },
+        {
+          "subject": "Mathematics",
+          "week": 4,
+          "dateRange": "October 5–9, 2026",
+          "topic": "Whole Numbers (Contd.)",
+          "behavioralObjectives": [
+            "identify and explain the number concept",
+            "solve simple examples using concrete materials and numerals",
+            "write or state answers correctly."
+          ],
+          "instructionalMaterials": "number cards, counters or bottle tops, number chart, board and marker, exercise book.",
+          "lessonContent": "Learners strengthen whole-number skills by counting sets, recognising numerals, matching quantities to figures, and using number sequences. Activities move from concrete objects to pictures and then to written numbers.",
+          "teacherLearnerActivities": "Teacher uses counters and number cards for counting and matching. Learners build quantities, identify the matching numeral, and complete missing-number sequences.",
+          "evaluation": "Complete: 5, 6, __, 8, __; match a group of seven objects with 7; identify the smaller number in two pairs.",
+          "assignment": "Practise counting objects in groups of 1–10 and write the matching numerals."
+        },
+        {
+          "subject": "Basic Science",
+          "week": 4,
+          "dateRange": "October 5–9, 2026",
+          "topic": "Energy (I)",
+          "behavioralObjectives": [
+            "explain the key science idea in simple language",
+            "identify familiar examples",
+            "relate the lesson to everyday life and safety."
+          ],
+          "instructionalMaterials": "real objects, picture charts, flashcards, simple demonstration items, board and marker.",
+          "lessonContent": "Energy is the ability to make things happen or do work. Children experience energy when they move, play, hear sounds, see with light, feel heat and use electrical appliances. Common forms and sources discussed at this level include heat, light, sound and movement. Safety is important when using sources of energy.",
+          "teacherLearnerActivities": "Teacher demonstrates simple examples such as light from a torch, sound from clapping, heat from the sun and movement during play. Learners identify the type or source of energy in each example.",
+          "evaluation": "Give three examples of energy in everyday life and identify the source or form in each case.",
+          "assignment": "Find three examples of energy use at home and write what the energy helps you do."
+        },
+        {
+          "subject": "Information Technology",
+          "week": 4,
+          "dateRange": "October 5–9, 2026",
+          "topic": "Parts of a Computer (Contd.)",
+          "behavioralObjectives": [
+            "identify the computer concept or part",
+            "state its simple use or purpose",
+            "demonstrate safe handling or basic use where appropriate."
+          ],
+          "instructionalMaterials": "computer set, keyboard and mouse, computer charts, flashcards, board and marker.",
+          "lessonContent": "A computer has several parts that work together. The monitor displays information, the keyboard is used for typing, the mouse helps point and select, and the system unit contains important internal components. Learners identify each part by sight and state a simple function.",
+          "teacherLearnerActivities": "Teacher points to a computer set and names each part. Learners repeat the names, point to the parts, and match each part to its use.",
+          "evaluation": "Name four computer parts and give one use of each.",
+          "assignment": "Draw and label four parts of a computer."
+        },
+        {
+          "subject": "Physical and Health Education (P.H.E.)",
+          "week": 4,
+          "dateRange": "October 5–9, 2026",
+          "topic": "Movement (Catching)",
+          "behavioralObjectives": [
+            "describe the movement or physical-skill concept",
+            "perform the skill with simple control",
+            "observe basic safety and fair-play rules."
+          ],
+          "instructionalMaterials": "soft balls or bean bags, cones or markers, open play area, whistle if available, water for hydration.",
+          "lessonContent": "Catching is the skill of receiving an object with the hands. Beginners learn to watch the object, keep the hands ready, cushion the object gently and hold it securely. Soft balls are safest for practice.",
+          "teacherLearnerActivities": "Teacher demonstrates a gentle two-hand catch using a soft ball. Learners practise with a partner, starting from a short distance and increasing it only when ready.",
+          "evaluation": "Demonstrate a two-hand catch and state one safety rule.",
+          "assignment": "Practise ten gentle catches with a partner or adult."
+        },
+        {
+          "subject": "Christian Religious Studies (C.R.S.)",
+          "week": 4,
+          "dateRange": "October 5–9, 2026",
+          "topic": "God, the Giver of Good Things",
+          "behavioralObjectives": [
+            "state the main Bible teaching in simple words",
+            "identify a key example or story",
+            "show one good behaviour linked to the lesson."
+          ],
+          "instructionalMaterials": "Bible, Bible story pictures, flashcards, board and marker, children’s song if available.",
+          "lessonContent": "God is the giver of good things. Food, water, health, family, talents and the beauty of creation are examples of blessings people receive. Learners learn to be thankful rather than take good things for granted.",
+          "teacherLearnerActivities": "Teacher displays pictures of blessings and asks learners to identify them. Learners share examples from their lives and say a simple prayer of thanks.",
+          "evaluation": "Mention four good things God gives us.",
+          "assignment": "Tell a family member three blessings you are grateful for."
+        },
+        {
+          "subject": "Islamic Studies",
+          "week": 4,
+          "dateRange": "October 5–9, 2026",
+          "topic": "Suratul Fatihah (II)",
+          "behavioralObjectives": [
+            "state the main Islamic teaching in simple words",
+            "identify important terms or examples",
+            "show respectful conduct connected with the lesson."
+          ],
+          "instructionalMaterials": "Qur’an, Arabic letter or topic cards, pictures, audio recitation where suitable, board and marker.",
+          "lessonContent": "Suratul Fatihah is the first Surah (chapter) of the Qur’an and has seven verses. It praises Allah, asks for His guidance and teaches believers to turn to Him in worship. Learners listen to the recitation and repeat short portions accurately and respectfully.",
+          "teacherLearnerActivities": "Teacher recites slowly and explains selected simple meanings. Learners listen, repeat verse by verse, and practise correct pronunciation.",
+          "evaluation": "1. What is the first Surah in the Qur’an? 2. How many verses does it contain? 3. Recite the portion studied.",
+          "assignment": "Practise the portion of Suratul Fatihah taught in class."
+        },
+        {
+          "subject": "Civic Education",
+          "week": 4,
+          "dateRange": "October 5–9, 2026",
+          "topic": "Ways Through Which Civic Education Can Be Important: The Media",
+          "behavioralObjectives": [
+            "explain the civic idea in simple words",
+            "identify responsible behaviour connected with the topic",
+            "demonstrate respect, cooperation or responsibility."
+          ],
+          "instructionalMaterials": "picture cards, posters, flashcards, board and marker, simple role-play materials.",
+          "lessonContent": "The media includes television, radio, newspapers, websites and other channels that share information. Civic Education can be supported through the media when learners receive useful messages about safety, health, good citizenship and national values. Children should listen to trusted adults when using media and avoid copying harmful behaviour.",
+          "teacherLearnerActivities": "Teacher shows pictures of common media platforms and explains how they can teach positive values. Learners identify helpful messages they have seen or heard.",
+          "evaluation": "Mention three media channels and one civic message they can carry.",
+          "assignment": "Ask an adult to identify one useful civic message heard or seen in the media."
+        },
+        {
+          "subject": "Social Studies",
+          "week": 4,
+          "dateRange": "October 5–9, 2026",
+          "topic": "Extended Family",
+          "behavioralObjectives": [
+            "explain the social concept simply",
+            "identify examples from family or community life",
+            "demonstrate a positive social value or behaviour."
+          ],
+          "instructionalMaterials": "family/community pictures, charts, flashcards, board and marker, role-play cards.",
+          "lessonContent": "An extended family includes relatives beyond the parents and children, such as grandparents, uncles, aunties and cousins. Extended families may provide support, guidance and companionship and may preserve family traditions.",
+          "teacherLearnerActivities": "Teacher draws a simple family tree. Learners identify different relatives and practise using the relationship names.",
+          "evaluation": "Who is a grandparent? Mention three relatives in an extended family.",
+          "assignment": "Draw a simple extended-family tree with at least six members."
+        },
+        {
+          "subject": "Security Education",
+          "week": 4,
+          "dateRange": "October 5–9, 2026",
+          "topic": "Security Alert Signs",
+          "behavioralObjectives": [
+            "explain the security concept simply",
+            "identify a possible risk or protective measure",
+            "choose a safe response and know when to tell a trusted adult."
+          ],
+          "instructionalMaterials": "safety posters, warning-sign cards, pictures, flashcards, board and marker.",
+          "lessonContent": "Security alert signs are warning signs that tell us to pay attention to possible danger. Examples include unusual activity, an unfamiliar person trying to enter a restricted area, smoke or fire, damaged locks, or a crowd behaving dangerously. Children should stay calm, avoid the danger and alert a trusted adult.",
+          "teacherLearnerActivities": "Teacher shows pictures or symbols and discusses what each warning may mean. Learners identify the safest response to each situation.",
+          "evaluation": "Mention three signs that may require you to alert a trusted adult.",
+          "assignment": "Learn and explain three warning signs you may see at school or on the road."
+        },
+        {
+          "subject": "Vocational Education",
+          "week": 4,
+          "dateRange": "October 5–9, 2026",
+          "topic": "Tools (II)",
+          "behavioralObjectives": [
+            "identify the vocational concept or item",
+            "state its use or importance",
+            "demonstrate safe and responsible work habits."
+          ],
+          "instructionalMaterials": "real tools or pictures, occupation cards, household objects, charts, board and marker.",
+          "lessonContent": "Tools are objects used to make work easier, faster or more accurate. Examples include a hammer, screwdriver, scissors, broom, hoe and measuring tools. Tools should be used for their correct purpose and kept safely after use.",
+          "teacherLearnerActivities": "Teacher displays tools or pictures, names each one and demonstrates safe handling where appropriate. Learners match each tool with its use.",
+          "evaluation": "Name five tools and state one use of each.",
+          "assignment": "Draw three tools and write their uses."
+        },
+        {
+          "subject": "Home Economics",
+          "week": 4,
+          "dateRange": "October 5–9, 2026",
+          "topic": "Care of the Hands",
+          "behavioralObjectives": [
+            "identify the body part or hygiene practice",
+            "explain why care is important",
+            "demonstrate or describe safe personal-care habits."
+          ],
+          "instructionalMaterials": "body charts, hygiene items, pictures, flashcards, board and marker.",
+          "lessonContent": "Hands help us hold, write, eat and perform many daily tasks. Keeping hands clean reduces the spread of germs. Hands should be washed with clean water and soap before eating, after using the toilet, after playing and whenever they are dirty.",
+          "teacherLearnerActivities": "Teacher demonstrates handwashing step by step. Learners practise the sequence using a bowl, water and soap or role-play.",
+          "evaluation": "Mention four times when hands should be washed.",
+          "assignment": "Teach a younger child or family member the steps of handwashing."
+        },
+        {
+          "subject": "Agricultural Science",
+          "week": 4,
+          "dateRange": "October 5–9, 2026",
+          "topic": "Domestic Uses of Plants",
+          "behavioralObjectives": [
+            "identify the agricultural concept or examples",
+            "state one or more uses or characteristics",
+            "show safe and responsible attitudes toward plants or animals."
+          ],
+          "instructionalMaterials": "plant or animal pictures, real samples where safe, charts, flashcards, board and marker.",
+          "lessonContent": "Plants have many domestic uses. People eat roots, stems, leaves, fruits and seeds; use some plants for spices, medicine, shade, fuel and decoration. Examples include cassava, maize, plantain, vegetables, pepper and fruit trees.",
+          "teacherLearnerActivities": "Teacher shows pictures of plants and asks learners how each is used at home. Learners group examples by food, medicine, decoration or other household use.",
+          "evaluation": "Mention five domestic uses of plants and give an example for two of them.",
+          "assignment": "List five plants used in your home and state one use for each."
+        },
+        {
+          "subject": "Cultural and Creative Arts",
+          "week": 4,
+          "dateRange": "October 5–9, 2026",
+          "topic": "Rhymes",
+          "behavioralObjectives": [
+            "explain the artistic idea in simple language",
+            "identify examples",
+            "participate in a creative activity using simple materials."
+          ],
+          "instructionalMaterials": "drawing paper, pencils or crayons, picture cards, simple art/craft materials, board and marker.",
+          "lessonContent": "A rhyme is a verse or short poem with a repeated sound or rhythm. Rhymes help children develop listening, memory, pronunciation and enjoyment of language. Simple nursery rhymes can be spoken, sung and acted.",
+          "teacherLearnerActivities": "Teacher recites a familiar child-safe rhyme with actions. Learners repeat line by line and perform the actions together.",
+          "evaluation": "Recite a short rhyme and identify two words that sound alike at the end.",
+          "assignment": "Learn and recite one short nursery rhyme."
+        },
+        {
+          "subject": "Yoruba Language",
+          "week": 4,
+          "dateRange": "October 5–9, 2026",
+          "topic": "Isoro-n-gbesi laarin Akekoo (I)",
+          "behavioralObjectives": [
+            "recognise and pronounce the target Yoruba words or expressions",
+            "connect words with familiar objects, numbers or pictures",
+            "use the language in simple oral practice."
+          ],
+          "instructionalMaterials": "Yoruba alphabet/vocabulary cards, pictures, real objects, number cards, board and marker.",
+          "lessonContent": "Isorongbesi activities develop learners’ ability to hear, repeat and use simple Yoruba expressions appropriately. The teacher introduces short, familiar expressions and guides learners to repeat them with correct pronunciation and meaning.",
+          "teacherLearnerActivities": "Teacher models short expressions and explains when they are used. Learners repeat chorally and individually, then use them in simple classroom exchanges.",
+          "evaluation": "Repeat three expressions correctly and explain or demonstrate their use.",
+          "assignment": "Practise three expressions with a family member."
+        },
+        {
+          "subject": "Igbo Language",
+          "week": 4,
+          "dateRange": "October 5–9, 2026",
+          "topic": "Dejuo Omugugu Igbo Ndia",
+          "behavioralObjectives": [
+            "recognise the target Igbo letters, words or expressions",
+            "pronounce them with guidance",
+            "use the new language in a simple oral activity."
+          ],
+          "instructionalMaterials": "Igbo alphabet/word cards, pictures, real objects, board and marker, textbook.",
+          "lessonContent": "This lesson develops reading and pronunciation practice in Igbo using the target words or expressions from the scheme. Learners listen carefully, repeat after the teacher and practise recognising written forms.",
+          "teacherLearnerActivities": "Teacher models reading, then learners read together and individually. Learners match spoken forms to written words and correct pronunciation errors with guidance.",
+          "evaluation": "Read the target words aloud and identify three correctly.",
+          "assignment": "Practise reading the target Igbo words at home."
+        },
+        {
+          "subject": "French Language",
+          "week": 4,
+          "dateRange": "October 5–9, 2026",
+          "topic": "Les Nombres (IV)",
+          "behavioralObjectives": [
+            "recognise the target French vocabulary",
+            "pronounce the words with guidance",
+            "use the vocabulary in a simple oral response."
+          ],
+          "instructionalMaterials": "French word cards, number or colour cards, pictures, audio recording if available, board and marker.",
+          "lessonContent": "Les nombres are numbers in French. Learners practise listening to, saying, recognising and using the numbers within the range taught. Early number names include un, deux, trois, quatre, cinq, six, sept, huit, neuf and dix.",
+          "teacherLearnerActivities": "Teacher displays number cards and pronounces each number. Learners repeat, count objects, identify the written number and play simple number-recognition games.",
+          "evaluation": "Count from 1 to 10 in French and match five French number words to figures.",
+          "assignment": "Write and practise the French numbers taught in class."
+        },
+        {
+          "subject": "History",
+          "week": 4,
+          "dateRange": "October 5–9, 2026",
+          "topic": "Family History (IV)",
+          "behavioralObjectives": [
+            "explain the historical idea simply",
+            "identify people, places or sources connected to the topic",
+            "state why the lesson is important for understanding the past."
+          ],
+          "instructionalMaterials": "old photographs or pictures, family tree/chart, map or place pictures, story cards, board and marker.",
+          "lessonContent": "Family history is the story of a family across time. It can include the names of relatives, places they lived, occupations, traditions and important events. A simple family tree can help organise this information.",
+          "teacherLearnerActivities": "Teacher draws a simple family tree and discusses grandparents, parents and children. Learners create a basic family tree from information they know.",
+          "evaluation": "What is family history? Mention three things it can tell us.",
+          "assignment": "Ask an elder for one story about your family’s past."
+        },
+        {
+          "subject": "Verbal Reasoning",
+          "week": 4,
+          "dateRange": "October 5–9, 2026",
+          "topic": "Coding",
+          "behavioralObjectives": [
+            "identify the verbal reasoning pattern",
+            "apply the pattern to simple examples",
+            "give accurate answers and explain the rule in simple words."
+          ],
+          "instructionalMaterials": "letter cards, word cards, picture cards, worksheet, board and marker.",
+          "lessonContent": "Coding in verbal reasoning means using a simple rule to replace one letter or word with another symbol or letter. For example, if a rule changes A to B, the learner applies the same rule consistently. Basic 1 activities should use very simple one-step codes.",
+          "teacherLearnerActivities": "Teacher demonstrates a simple letter-shift or symbol code with two or three examples. Learners apply the same rule to new examples.",
+          "evaluation": "Use the given code rule to answer three short questions.",
+          "assignment": "Create a simple three-letter code and write three coded examples."
+        },
+        {
+          "subject": "Quantitative Reasoning",
+          "week": 4,
+          "dateRange": "October 5–9, 2026",
+          "topic": "Division",
+          "behavioralObjectives": [
+            "understand the quantitative relationship",
+            "solve simple examples using objects or numbers",
+            "show the steps or reasoning clearly."
+          ],
+          "instructionalMaterials": "counters or bottle tops, number cards, number line, worksheet, board and marker.",
+          "lessonContent": "Division means sharing or grouping equally. For example, 6 objects shared equally between 2 children gives 3 objects each. Learners work with small numbers and concrete objects to understand fair sharing.",
+          "teacherLearnerActivities": "Teacher shares counters into equal groups. Learners practise sharing objects and state how many are in each group.",
+          "evaluation": "Share 8 counters equally between 2 groups. How many are in each group? Solve two more simple sharing problems.",
+          "assignment": "Practise five simple equal-sharing questions using small numbers."
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "dateRange": "October 12–16, 2026",
+      "subjects": [
+        {
+          "subject": "English Language",
+          "week": 5,
+          "dateRange": "October 12–16, 2026",
+          "topic": "Matching of Words and Figures: 1 for One, 3 for Three",
+          "behavioralObjectives": [
+            "identify and explain the key idea in the lesson",
+            "use the new language skill in simple examples",
+            "respond correctly to simple oral and written questions."
+          ],
+          "instructionalMaterials": "flashcards, picture cards, word cards, board and marker, textbook.",
+          "lessonContent": "A word names an object, while a figure is a written symbol used to show a number. Learners match number words and figures, for example one with 1, two with 2 and three with 3. Matching activities help learners connect spoken number names with written numerals.",
+          "teacherLearnerActivities": "Teacher displays number-word cards and numeral cards. Learners match pairs and read them aloud together.",
+          "evaluation": "Match: one–1, two–2, three–3, four–4, five–5. Read the pairs aloud.",
+          "assignment": "Write the number words one to five and their figures."
+        },
+        {
+          "subject": "Mathematics",
+          "week": 5,
+          "dateRange": "October 12–16, 2026",
+          "topic": "Whole Numbers (Contd.)",
+          "behavioralObjectives": [
+            "identify and explain the number concept",
+            "solve simple examples using concrete materials and numerals",
+            "write or state answers correctly."
+          ],
+          "instructionalMaterials": "number cards, counters or bottle tops, number chart, board and marker, exercise book.",
+          "lessonContent": "Learners strengthen whole-number skills by counting sets, recognising numerals, matching quantities to figures, and using number sequences. Activities move from concrete objects to pictures and then to written numbers.",
+          "teacherLearnerActivities": "Teacher uses counters and number cards for counting and matching. Learners build quantities, identify the matching numeral, and complete missing-number sequences.",
+          "evaluation": "Complete: 5, 6, __, 8, __; match a group of seven objects with 7; identify the smaller number in two pairs.",
+          "assignment": "Practise counting objects in groups of 1–10 and write the matching numerals."
+        },
+        {
+          "subject": "Basic Science",
+          "week": 5,
+          "dateRange": "October 12–16, 2026",
+          "topic": "Energy (II)",
+          "behavioralObjectives": [
+            "explain the key science idea in simple language",
+            "identify familiar examples",
+            "relate the lesson to everyday life and safety."
+          ],
+          "instructionalMaterials": "real objects, picture charts, flashcards, simple demonstration items, board and marker.",
+          "lessonContent": "Energy is the ability to make things happen or do work. Children experience energy when they move, play, hear sounds, see with light, feel heat and use electrical appliances. Common forms and sources discussed at this level include heat, light, sound and movement. Safety is important when using sources of energy.",
+          "teacherLearnerActivities": "Teacher demonstrates simple examples such as light from a torch, sound from clapping, heat from the sun and movement during play. Learners identify the type or source of energy in each example.",
+          "evaluation": "Give three examples of energy in everyday life and identify the source or form in each case.",
+          "assignment": "Find three examples of energy use at home and write what the energy helps you do."
+        },
+        {
+          "subject": "Information Technology",
+          "week": 5,
+          "dateRange": "October 12–16, 2026",
+          "topic": "Parts of a Computer (II)",
+          "behavioralObjectives": [
+            "identify the computer concept or part",
+            "state its simple use or purpose",
+            "demonstrate safe handling or basic use where appropriate."
+          ],
+          "instructionalMaterials": "computer set, keyboard and mouse, computer charts, flashcards, board and marker.",
+          "lessonContent": "A computer has several parts that work together. The monitor displays information, the keyboard is used for typing, the mouse helps point and select, and the system unit contains important internal components. Learners identify each part by sight and state a simple function.",
+          "teacherLearnerActivities": "Teacher points to a computer set and names each part. Learners repeat the names, point to the parts, and match each part to its use.",
+          "evaluation": "Name four computer parts and give one use of each.",
+          "assignment": "Draw and label four parts of a computer."
+        },
+        {
+          "subject": "Physical and Health Education (P.H.E.)",
+          "week": 5,
+          "dateRange": "October 12–16, 2026",
+          "topic": "Safety",
+          "behavioralObjectives": [
+            "describe the movement or physical-skill concept",
+            "perform the skill with simple control",
+            "observe basic safety and fair-play rules."
+          ],
+          "instructionalMaterials": "soft balls or bean bags, cones or markers, open play area, whistle if available, water for hydration.",
+          "lessonContent": "Safety in physical activity means taking steps to prevent injury. Learners should warm up, wear suitable clothing, use equipment correctly, obey instructions, keep enough space and stop when they feel pain or danger. They should also report injuries to the teacher.",
+          "teacherLearnerActivities": "Teacher shows safe and unsafe examples. Learners identify the safer choice and practise warm-up, spacing and correct use of equipment.",
+          "evaluation": "Mention four safety rules for physical activities.",
+          "assignment": "Write five safety rules for playing at school."
+        },
+        {
+          "subject": "Christian Religious Studies (C.R.S.)",
+          "week": 5,
+          "dateRange": "October 12–16, 2026",
+          "topic": "God’s Gift of His Son",
+          "behavioralObjectives": [
+            "state the main Bible teaching in simple words",
+            "identify a key example or story",
+            "show one good behaviour linked to the lesson."
+          ],
+          "instructionalMaterials": "Bible, Bible story pictures, flashcards, board and marker, children’s song if available.",
+          "lessonContent": "Christians believe that God gave His Son, Jesus Christ, as a special gift to humanity. Jesus shows God’s love and teaches people to love, forgive and do good. Learners are introduced to the Christmas story and the idea of God’s love in a child-friendly way.",
+          "teacherLearnerActivities": "Teacher tells a simple story about Jesus’ birth and explains the idea of God’s gift. Learners listen, answer questions and act out a short scene or arrange story pictures.",
+          "evaluation": "1. Who is God’s Son? 2. What does Jesus teach about love? 3. Why do Christians thank God for Jesus?",
+          "assignment": "Draw a picture representing the birth or ministry of Jesus and tell its story at home."
+        },
+        {
+          "subject": "Islamic Studies",
+          "week": 5,
+          "dateRange": "October 12–16, 2026",
+          "topic": "Suratul Fatihah (Contd.)",
+          "behavioralObjectives": [
+            "state the main Islamic teaching in simple words",
+            "identify important terms or examples",
+            "show respectful conduct connected with the lesson."
+          ],
+          "instructionalMaterials": "Qur’an, Arabic letter or topic cards, pictures, audio recitation where suitable, board and marker.",
+          "lessonContent": "Suratul Fatihah is the first Surah (chapter) of the Qur’an and has seven verses. It praises Allah, asks for His guidance and teaches believers to turn to Him in worship. Learners listen to the recitation and repeat short portions accurately and respectfully.",
+          "teacherLearnerActivities": "Teacher recites slowly and explains selected simple meanings. Learners listen, repeat verse by verse, and practise correct pronunciation.",
+          "evaluation": "1. What is the first Surah in the Qur’an? 2. How many verses does it contain? 3. Recite the portion studied.",
+          "assignment": "Practise the portion of Suratul Fatihah taught in class."
+        },
+        {
+          "subject": "Civic Education",
+          "week": 5,
+          "dateRange": "October 12–16, 2026",
+          "topic": "Ways Through Which Civic Education Can Be Important to the Society",
+          "behavioralObjectives": [
+            "explain the civic idea in simple words",
+            "identify responsible behaviour connected with the topic",
+            "demonstrate respect, cooperation or responsibility."
+          ],
+          "instructionalMaterials": "picture cards, posters, flashcards, board and marker, simple role-play materials.",
+          "lessonContent": "Civic Education helps society by teaching people to respect laws, protect public property, cooperate, settle disputes peacefully, participate in community activities and care for others. Good civic behaviour supports peace and development.",
+          "teacherLearnerActivities": "Teacher presents simple community situations such as keeping a public place clean or helping a neighbour. Learners discuss responsible responses.",
+          "evaluation": "Mention four ways civic learning can help society.",
+          "assignment": "Name two ways you can help your community this week."
+        },
+        {
+          "subject": "Social Studies",
+          "week": 5,
+          "dateRange": "October 12–16, 2026",
+          "topic": "Qualities of a Good Family",
+          "behavioralObjectives": [
+            "explain the social concept simply",
+            "identify examples from family or community life",
+            "demonstrate a positive social value or behaviour."
+          ],
+          "instructionalMaterials": "family/community pictures, charts, flashcards, board and marker, role-play cards.",
+          "lessonContent": "A good family is characterised by love, respect, honesty, cooperation, care, discipline and peaceful communication. Family members help one another, solve problems calmly and protect one another.",
+          "teacherLearnerActivities": "Teacher gives good and poor family scenarios. Learners identify positive qualities and role-play cooperation and respect.",
+          "evaluation": "Mention five qualities of a good family.",
+          "assignment": "Write three ways you can help your family live peacefully."
+        },
+        {
+          "subject": "Security Education",
+          "week": 5,
+          "dateRange": "October 12–16, 2026",
+          "topic": "Security Colours",
+          "behavioralObjectives": [
+            "explain the security concept simply",
+            "identify a possible risk or protective measure",
+            "choose a safe response and know when to tell a trusted adult."
+          ],
+          "instructionalMaterials": "safety posters, warning-sign cards, pictures, flashcards, board and marker.",
+          "lessonContent": "Security colours are colours used on signs and safety messages to communicate quickly. At a basic level, learners may be taught that red often signals danger or prohibition, yellow or amber signals caution, and green is commonly used for safe conditions or directions. Exact meanings can vary by sign system, so learners should follow the sign displayed by the responsible authority.",
+          "teacherLearnerActivities": "Teacher displays common safety signs in different colours. Learners identify the colour and discuss the message associated with it.",
+          "evaluation": "What does a red warning sign often communicate? What does a yellow or amber sign often communicate?",
+          "assignment": "Draw three safety signs using red, yellow/amber and green and explain the message of each."
+        },
+        {
+          "subject": "Vocational Education",
+          "week": 5,
+          "dateRange": "October 12–16, 2026",
+          "topic": "Career Opportunities",
+          "behavioralObjectives": [
+            "identify the vocational concept or item",
+            "state its use or importance",
+            "demonstrate safe and responsible work habits."
+          ],
+          "instructionalMaterials": "real tools or pictures, occupation cards, household objects, charts, board and marker.",
+          "lessonContent": "A career is a type of work a person may choose to do as a long-term occupation. Children are introduced to careers such as teacher, doctor, nurse, farmer, engineer, artist, driver, tailor, chef and electrician. Different careers require different skills and training.",
+          "teacherLearnerActivities": "Teacher displays occupation cards. Learners match jobs with places of work, tools or services and discuss careers they may like.",
+          "evaluation": "What is a career? Mention six careers.",
+          "assignment": "Draw a person doing a job you would like to learn about and name the job."
+        },
+        {
+          "subject": "Home Economics",
+          "week": 5,
+          "dateRange": "October 12–16, 2026",
+          "topic": "Care of the Feet",
+          "behavioralObjectives": [
+            "identify the body part or hygiene practice",
+            "explain why care is important",
+            "demonstrate or describe safe personal-care habits."
+          ],
+          "instructionalMaterials": "body charts, hygiene items, pictures, flashcards, board and marker.",
+          "lessonContent": "Feet help us stand, walk and run. Good foot care includes washing and drying the feet, keeping toenails neat, wearing clean and suitable footwear, and reporting injuries or painful areas to an adult.",
+          "teacherLearnerActivities": "Teacher discusses foot-care habits with pictures. Learners identify good footwear and explain why feet should be kept clean and dry.",
+          "evaluation": "Mention four ways of caring for the feet.",
+          "assignment": "Check your footwear and explain how you keep your feet clean."
+        },
+        {
+          "subject": "Agricultural Science",
+          "week": 5,
+          "dateRange": "October 12–16, 2026",
+          "topic": "Domestic Uses of Plants",
+          "behavioralObjectives": [
+            "identify the agricultural concept or examples",
+            "state one or more uses or characteristics",
+            "show safe and responsible attitudes toward plants or animals."
+          ],
+          "instructionalMaterials": "plant or animal pictures, real samples where safe, charts, flashcards, board and marker.",
+          "lessonContent": "Plants have many domestic uses. People eat roots, stems, leaves, fruits and seeds; use some plants for spices, medicine, shade, fuel and decoration. Examples include cassava, maize, plantain, vegetables, pepper and fruit trees.",
+          "teacherLearnerActivities": "Teacher shows pictures of plants and asks learners how each is used at home. Learners group examples by food, medicine, decoration or other household use.",
+          "evaluation": "Mention five domestic uses of plants and give an example for two of them.",
+          "assignment": "List five plants used in your home and state one use for each."
+        },
+        {
+          "subject": "Cultural and Creative Arts",
+          "week": 5,
+          "dateRange": "October 12–16, 2026",
+          "topic": "Definition of Drama",
+          "behavioralObjectives": [
+            "explain the artistic idea in simple language",
+            "identify examples",
+            "participate in a creative activity using simple materials."
+          ],
+          "instructionalMaterials": "drawing paper, pencils or crayons, picture cards, simple art/craft materials, board and marker.",
+          "lessonContent": "Drama is the art of acting out a story, event or idea. It uses characters, speech, movement and sometimes simple costumes or props. Drama helps learners build confidence, imagination and cooperation.",
+          "teacherLearnerActivities": "Teacher tells a short story and assigns simple roles. Learners act out the story using gestures and short lines.",
+          "evaluation": "What is drama? Mention two things used in drama.",
+          "assignment": "Act out a two-minute story with a family member."
+        },
+        {
+          "subject": "Yoruba Language",
+          "week": 5,
+          "dateRange": "October 12–16, 2026",
+          "topic": "Isorongbesi laarin Akekoo (II)",
+          "behavioralObjectives": [
+            "recognise and pronounce the target Yoruba words or expressions",
+            "connect words with familiar objects, numbers or pictures",
+            "use the language in simple oral practice."
+          ],
+          "instructionalMaterials": "Yoruba alphabet/vocabulary cards, pictures, real objects, number cards, board and marker.",
+          "lessonContent": "Isorongbesi activities develop learners’ ability to hear, repeat and use simple Yoruba expressions appropriately. The teacher introduces short, familiar expressions and guides learners to repeat them with correct pronunciation and meaning.",
+          "teacherLearnerActivities": "Teacher models short expressions and explains when they are used. Learners repeat chorally and individually, then use them in simple classroom exchanges.",
+          "evaluation": "Repeat three expressions correctly and explain or demonstrate their use.",
+          "assignment": "Practise three expressions with a family member."
+        },
+        {
+          "subject": "Igbo Language",
+          "week": 5,
+          "dateRange": "October 12–16, 2026",
+          "topic": "Nkowa Onwe (A Composition About Myself)",
+          "behavioralObjectives": [
+            "recognise the target Igbo letters, words or expressions",
+            "pronounce them with guidance",
+            "use the new language in a simple oral activity."
+          ],
+          "instructionalMaterials": "Igbo alphabet/word cards, pictures, real objects, board and marker, textbook.",
+          "lessonContent": "Nkowa onwe means a simple description or introduction about oneself. Learners practise giving their name, age, class and other simple personal information in Igbo using short sentences. The teacher keeps the sentences brief and familiar.",
+          "teacherLearnerActivities": "Teacher models a short self-introduction. Learners repeat the sentence pattern and practise introducing themselves to a partner.",
+          "evaluation": "Give a simple self-introduction in Igbo using at least two pieces of information.",
+          "assignment": "Practise a short self-introduction with a parent or guardian."
+        },
+        {
+          "subject": "French Language",
+          "week": 5,
+          "dateRange": "October 12–16, 2026",
+          "topic": "Les Nombres (V)",
+          "behavioralObjectives": [
+            "recognise the target French vocabulary",
+            "pronounce the words with guidance",
+            "use the vocabulary in a simple oral response."
+          ],
+          "instructionalMaterials": "French word cards, number or colour cards, pictures, audio recording if available, board and marker.",
+          "lessonContent": "Les nombres are numbers in French. Learners practise listening to, saying, recognising and using the numbers within the range taught. Early number names include un, deux, trois, quatre, cinq, six, sept, huit, neuf and dix.",
+          "teacherLearnerActivities": "Teacher displays number cards and pronounces each number. Learners repeat, count objects, identify the written number and play simple number-recognition games.",
+          "evaluation": "Count from 1 to 10 in French and match five French number words to figures.",
+          "assignment": "Write and practise the French numbers taught in class."
+        },
+        {
+          "subject": "History",
+          "week": 5,
+          "dateRange": "October 12–16, 2026",
+          "topic": "Branches of Art",
+          "behavioralObjectives": [
+            "explain the historical idea simply",
+            "identify people, places or sources connected to the topic",
+            "state why the lesson is important for understanding the past."
+          ],
+          "instructionalMaterials": "old photographs or pictures, family tree/chart, map or place pictures, story cards, board and marker.",
+          "lessonContent": "Art has different branches, such as visual art, music, drama and dance. Studying these branches helps historians understand how people in different periods expressed ideas, beliefs and daily life. Examples may include traditional musical instruments, clothing patterns, sculpture, painting and storytelling.",
+          "teacherLearnerActivities": "Teacher shows examples and asks learners what each reveals about a people or period. Learners classify the examples by art branch.",
+          "evaluation": "Name four branches of art and give one example of each.",
+          "assignment": "Draw one traditional art example from your community."
+        },
+        {
+          "subject": "Verbal Reasoning",
+          "week": 5,
+          "dateRange": "October 12–16, 2026",
+          "topic": "Decoding",
+          "behavioralObjectives": [
+            "identify the verbal reasoning pattern",
+            "apply the pattern to simple examples",
+            "give accurate answers and explain the rule in simple words."
+          ],
+          "instructionalMaterials": "letter cards, word cards, picture cards, worksheet, board and marker.",
+          "lessonContent": "Coding in verbal reasoning means using a simple rule to replace one letter or word with another symbol or letter. For example, if a rule changes A to B, the learner applies the same rule consistently. Basic 1 activities should use very simple one-step codes.",
+          "teacherLearnerActivities": "Teacher demonstrates a simple letter-shift or symbol code with two or three examples. Learners apply the same rule to new examples.",
+          "evaluation": "Use the given code rule to answer three short questions.",
+          "assignment": "Create a simple three-letter code and write three coded examples."
+        },
+        {
+          "subject": "Quantitative Reasoning",
+          "week": 5,
+          "dateRange": "October 12–16, 2026",
+          "topic": "Multiplication (III)",
+          "behavioralObjectives": [
+            "understand the quantitative relationship",
+            "solve simple examples using objects or numbers",
+            "show the steps or reasoning clearly."
+          ],
+          "instructionalMaterials": "counters or bottle tops, number cards, number line, worksheet, board and marker.",
+          "lessonContent": "Multiplication means finding the total in equal groups. It can be understood as repeated addition. For example, 2 × 3 means two groups of three, giving 6. Learners use counters and simple number facts before moving to written multiplication.",
+          "teacherLearnerActivities": "Teacher makes equal groups with counters and models repeated addition. Learners build groups and solve simple multiplication examples.",
+          "evaluation": "Solve: 2×3, 3×2, 2×4 and 4×2. Explain one answer using equal groups.",
+          "assignment": "Practise ten simple multiplication questions using 2s and 3s."
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "dateRange": "October 19–23, 2026",
+      "subjects": [
+        {
+          "subject": "English Language",
+          "week": 6,
+          "dateRange": "October 19–23, 2026",
+          "topic": "Identification of Objects with Emphasis on Articles “A” and “AN” (Contd.)",
+          "behavioralObjectives": [
+            "identify and explain the key idea in the lesson",
+            "use the new language skill in simple examples",
+            "respond correctly to simple oral and written questions."
+          ],
+          "instructionalMaterials": "flashcards, picture cards, word cards, board and marker, textbook.",
+          "lessonContent": "The words “a” and “an” are articles used before singular naming words. Use “a” before a consonant sound, as in a boy, a cat and a book. Use “an” before a vowel sound, as in an apple, an egg and an orange. Learners practise choosing the correct article.",
+          "teacherLearnerActivities": "Teacher shows pictures and says the names with a or an. Learners repeat, choose the correct article on word cards and build simple phrases.",
+          "evaluation": "Fill in: ___ apple, ___ boy, ___ egg, ___ book, ___ orange.",
+          "assignment": "Write five examples with “a” and five with “an.”"
+        },
+        {
+          "subject": "Mathematics",
+          "week": 6,
+          "dateRange": "October 19–23, 2026",
+          "topic": "Whole Numbers (Counting 41–50)",
+          "behavioralObjectives": [
+            "identify and explain the number concept",
+            "solve simple examples using concrete materials and numerals",
+            "write or state answers correctly."
+          ],
+          "instructionalMaterials": "number cards, counters or bottle tops, number chart, board and marker, exercise book.",
+          "lessonContent": "Learners count, read and write whole numbers from 41 to 50. They practise the order of numbers and identify the number that comes before or after a given number. Repeated oral counting helps build confidence and fluency.",
+          "teacherLearnerActivities": "Teacher displays 41–50 on a number chart and counts with learners. Learners arrange numeral cards, fill gaps in sequences, and count 41 objects onward where practical.",
+          "evaluation": "1. Count 41–50.\n2. What comes after 47?\n3. What comes before 50?\n4. Fill in: 41, 42, __, 44, __.",
+          "assignment": "Write 41–50 twice."
+        },
+        {
+          "subject": "Basic Science",
+          "week": 6,
+          "dateRange": "October 19–23, 2026",
+          "topic": "Energy (III)",
+          "behavioralObjectives": [
+            "explain the key science idea in simple language",
+            "identify familiar examples",
+            "relate the lesson to everyday life and safety."
+          ],
+          "instructionalMaterials": "real objects, picture charts, flashcards, simple demonstration items, board and marker.",
+          "lessonContent": "Energy is the ability to make things happen or do work. Children experience energy when they move, play, hear sounds, see with light, feel heat and use electrical appliances. Common forms and sources discussed at this level include heat, light, sound and movement. Safety is important when using sources of energy.",
+          "teacherLearnerActivities": "Teacher demonstrates simple examples such as light from a torch, sound from clapping, heat from the sun and movement during play. Learners identify the type or source of energy in each example.",
+          "evaluation": "Give three examples of energy in everyday life and identify the source or form in each case.",
+          "assignment": "Find three examples of energy use at home and write what the energy helps you do."
+        },
+        {
+          "subject": "Information Technology",
+          "week": 6,
+          "dateRange": "October 19–23, 2026",
+          "topic": "Parts of a Computer (III)",
+          "behavioralObjectives": [
+            "identify the computer concept or part",
+            "state its simple use or purpose",
+            "demonstrate safe handling or basic use where appropriate."
+          ],
+          "instructionalMaterials": "computer set, keyboard and mouse, computer charts, flashcards, board and marker.",
+          "lessonContent": "A computer has several parts that work together. The monitor displays information, the keyboard is used for typing, the mouse helps point and select, and the system unit contains important internal components. Learners identify each part by sight and state a simple function.",
+          "teacherLearnerActivities": "Teacher points to a computer set and names each part. Learners repeat the names, point to the parts, and match each part to its use.",
+          "evaluation": "Name four computer parts and give one use of each.",
+          "assignment": "Draw and label four parts of a computer."
+        },
+        {
+          "subject": "Physical and Health Education (P.H.E.)",
+          "week": 6,
+          "dateRange": "October 19–23, 2026",
+          "topic": "Sports and Games (I)",
+          "behavioralObjectives": [
+            "describe the movement or physical-skill concept",
+            "perform the skill with simple control",
+            "observe basic safety and fair-play rules."
+          ],
+          "instructionalMaterials": "soft balls or bean bags, cones or markers, open play area, whistle if available, water for hydration.",
+          "lessonContent": "Sports and games are organised physical activities that help the body become strong and healthy. Simple Basic 1 activities may include running, ball games, hopping, jumping, relay play and throwing games. Learners practise fair play, turn-taking and following simple rules.",
+          "teacherLearnerActivities": "Teacher explains one or two simple games, demonstrates the rules, and organises learners in small groups. Learners participate, take turns and practise teamwork.",
+          "evaluation": "Name three sports or games and state one rule for safe play.",
+          "assignment": "Ask a parent or guardian to name two traditional or modern games played in your community."
+        },
+        {
+          "subject": "Christian Religious Studies (C.R.S.)",
+          "week": 6,
+          "dateRange": "October 19–23, 2026",
+          "topic": "God’s Gift of His Son (II)",
+          "behavioralObjectives": [
+            "state the main Bible teaching in simple words",
+            "identify a key example or story",
+            "show one good behaviour linked to the lesson."
+          ],
+          "instructionalMaterials": "Bible, Bible story pictures, flashcards, board and marker, children’s song if available.",
+          "lessonContent": "Christians believe that God gave His Son, Jesus Christ, as a special gift to humanity. Jesus shows God’s love and teaches people to love, forgive and do good. Learners are introduced to the Christmas story and the idea of God’s love in a child-friendly way.",
+          "teacherLearnerActivities": "Teacher tells a simple story about Jesus’ birth and explains the idea of God’s gift. Learners listen, answer questions and act out a short scene or arrange story pictures.",
+          "evaluation": "1. Who is God’s Son? 2. What does Jesus teach about love? 3. Why do Christians thank God for Jesus?",
+          "assignment": "Draw a picture representing the birth or ministry of Jesus and tell its story at home."
+        },
+        {
+          "subject": "Islamic Studies",
+          "week": 6,
+          "dateRange": "October 19–23, 2026",
+          "topic": "Articles of Faith in Islam",
+          "behavioralObjectives": [
+            "state the main Islamic teaching in simple words",
+            "identify important terms or examples",
+            "show respectful conduct connected with the lesson."
+          ],
+          "instructionalMaterials": "Qur’an, Arabic letter or topic cards, pictures, audio recitation where suitable, board and marker.",
+          "lessonContent": "The Articles of Faith are core beliefs in Islam. At Basic 1 level, learners are introduced to belief in Allah, His angels, His books, His messengers, the Last Day, and Allah’s decree. The lesson emphasises sincere belief and good conduct.",
+          "teacherLearnerActivities": "Teacher introduces each article using simple language and visual cards. Learners repeat the names, match each belief with a simple description, and discuss respectful behaviour.",
+          "evaluation": "Name the Articles of Faith introduced in the lesson.",
+          "assignment": "Learn the six Articles of Faith and tell a parent what each means in simple words."
+        },
+        {
+          "subject": "Civic Education",
+          "week": 6,
+          "dateRange": "October 19–23, 2026",
+          "topic": "Qualities of a Good Citizen",
+          "behavioralObjectives": [
+            "explain the civic idea in simple words",
+            "identify responsible behaviour connected with the topic",
+            "demonstrate respect, cooperation or responsibility."
+          ],
+          "instructionalMaterials": "picture cards, posters, flashcards, board and marker, simple role-play materials.",
+          "lessonContent": "A good citizen is honest, respectful, responsible, peaceful, helpful and willing to obey reasonable laws. Good citizens care for people and property, tell the truth and contribute positively to their community.",
+          "teacherLearnerActivities": "Teacher uses character cards to discuss good and poor choices. Learners sort qualities into positive behaviours and act out one example of responsible citizenship.",
+          "evaluation": "Mention five qualities of a good citizen.",
+          "assignment": "Choose three good-citizen qualities and explain how you can practise them."
+        },
+        {
+          "subject": "Social Studies",
+          "week": 6,
+          "dateRange": "October 19–23, 2026",
+          "topic": "Culture",
+          "behavioralObjectives": [
+            "explain the social concept simply",
+            "identify examples from family or community life",
+            "demonstrate a positive social value or behaviour."
+          ],
+          "instructionalMaterials": "family/community pictures, charts, flashcards, board and marker, role-play cards.",
+          "lessonContent": "Culture is the way of life of a people. It includes language, food, dressing, music, dance, greetings, beliefs, festivals, occupations and customs. Culture is learned and shared across generations.",
+          "teacherLearnerActivities": "Teacher shows pictures of Nigerian cultural practices. Learners identify examples of language, food, clothing, music or festivals from their communities.",
+          "evaluation": "What is culture? Mention four parts of culture.",
+          "assignment": "Draw or describe one cultural practice in your family or community."
+        },
+        {
+          "subject": "Security Education",
+          "week": 6,
+          "dateRange": "October 19–23, 2026",
+          "topic": "Security Gadgets",
+          "behavioralObjectives": [
+            "explain the security concept simply",
+            "identify a possible risk or protective measure",
+            "choose a safe response and know when to tell a trusted adult."
+          ],
+          "instructionalMaterials": "safety posters, warning-sign cards, pictures, flashcards, board and marker.",
+          "lessonContent": "Security gadgets are devices used to help protect people and property. Examples include alarms, locks, security lights, cameras and access-control devices. Children should understand their purpose without attempting to operate restricted equipment without adult supervision.",
+          "teacherLearnerActivities": "Teacher shows pictures of security devices and explains their uses. Learners match each device to the protection it provides.",
+          "evaluation": "Name four security gadgets and state one use of each.",
+          "assignment": "Draw two security gadgets and write their uses."
+        },
+        {
+          "subject": "Vocational Education",
+          "week": 6,
+          "dateRange": "October 19–23, 2026",
+          "topic": "Musical Instruments",
+          "behavioralObjectives": [
+            "identify the vocational concept or item",
+            "state its use or importance",
+            "demonstrate safe and responsible work habits."
+          ],
+          "instructionalMaterials": "real tools or pictures, occupation cards, household objects, charts, board and marker.",
+          "lessonContent": "Musical instruments are objects used to produce music. Examples include drums, keyboard, guitar, recorder, flute, maracas and xylophone. Instruments can be grouped by how they produce sound, but at Basic 1 level learners focus on recognising and naming familiar instruments.",
+          "teacherLearnerActivities": "Teacher plays or demonstrates simple instruments where available. Learners identify the sound or picture and copy simple rhythm patterns by clapping.",
+          "evaluation": "Name five musical instruments and identify one instrument that can be beaten to make sound.",
+          "assignment": "Draw two musical instruments and write their names."
+        },
+        {
+          "subject": "Home Economics",
+          "week": 6,
+          "dateRange": "October 19–23, 2026",
+          "topic": "Care of the Mouth",
+          "behavioralObjectives": [
+            "identify the body part or hygiene practice",
+            "explain why care is important",
+            "demonstrate or describe safe personal-care habits."
+          ],
+          "instructionalMaterials": "body charts, hygiene items, pictures, flashcards, board and marker.",
+          "lessonContent": "The mouth helps us eat, speak and taste. Good mouth care includes brushing the teeth, rinsing after meals, drinking clean water and avoiding excessive sugary foods. Children should report mouth pain or sores to an adult.",
+          "teacherLearnerActivities": "Teacher uses a mouth chart and demonstrates healthy mouth-care habits. Learners identify good and poor habits.",
+          "evaluation": "Mention three uses of the mouth and three ways to care for it.",
+          "assignment": "Write five habits that help keep the mouth healthy."
+        },
+        {
+          "subject": "Agricultural Science",
+          "week": 6,
+          "dateRange": "October 19–23, 2026",
+          "topic": "Commercial Uses of Plants",
+          "behavioralObjectives": [
+            "identify the agricultural concept or examples",
+            "state one or more uses or characteristics",
+            "show safe and responsible attitudes toward plants or animals."
+          ],
+          "instructionalMaterials": "plant or animal pictures, real samples where safe, charts, flashcards, board and marker.",
+          "lessonContent": "Commercial use means using plants to produce goods that can be sold or used in business. Crops such as cocoa, oil palm, rubber, cotton, rice, cassava and maize may provide raw materials, food or products for markets and industries.",
+          "teacherLearnerActivities": "Teacher displays products made from crops. Learners match each crop with a familiar product and discuss why crops are economically useful.",
+          "evaluation": "What is a commercial use of a plant? Mention four crops with commercial value.",
+          "assignment": "Find three plant products sold in a market and identify the plant they come from."
+        },
+        {
+          "subject": "Cultural and Creative Arts",
+          "week": 6,
+          "dateRange": "October 19–23, 2026",
+          "topic": "Meaning of Teamwork",
+          "behavioralObjectives": [
+            "explain the artistic idea in simple language",
+            "identify examples",
+            "participate in a creative activity using simple materials."
+          ],
+          "instructionalMaterials": "drawing paper, pencils or crayons, picture cards, simple art/craft materials, board and marker.",
+          "lessonContent": "Teamwork means working together to achieve a common goal. Good teamwork involves listening, taking turns, sharing materials, helping others and respecting different ideas. Art projects often require teamwork.",
+          "teacherLearnerActivities": "Teacher gives a simple group drawing or rhythm task. Learners share materials, take turns and complete the activity together.",
+          "evaluation": "What is teamwork? Mention four behaviours that show good teamwork.",
+          "assignment": "Do one simple group task at home and explain how you worked together."
+        },
+        {
+          "subject": "Yoruba Language",
+          "week": 6,
+          "dateRange": "October 19–23, 2026",
+          "topic": "Isorongbesi laarin Akekoo (III)",
+          "behavioralObjectives": [
+            "recognise and pronounce the target Yoruba words or expressions",
+            "connect words with familiar objects, numbers or pictures",
+            "use the language in simple oral practice."
+          ],
+          "instructionalMaterials": "Yoruba alphabet/vocabulary cards, pictures, real objects, number cards, board and marker.",
+          "lessonContent": "Isorongbesi activities develop learners’ ability to hear, repeat and use simple Yoruba expressions appropriately. The teacher introduces short, familiar expressions and guides learners to repeat them with correct pronunciation and meaning.",
+          "teacherLearnerActivities": "Teacher models short expressions and explains when they are used. Learners repeat chorally and individually, then use them in simple classroom exchanges.",
+          "evaluation": "Repeat three expressions correctly and explain or demonstrate their use.",
+          "assignment": "Practise three expressions with a family member."
+        },
+        {
+          "subject": "Igbo Language",
+          "week": 6,
+          "dateRange": "October 19–23, 2026",
+          "topic": "Kwu Nid A Nwere Udaelu, Ndi Nke Ozo Nwere Udale",
+          "behavioralObjectives": [
+            "recognise the target Igbo letters, words or expressions",
+            "pronounce them with guidance",
+            "use the new language in a simple oral activity."
+          ],
+          "instructionalMaterials": "Igbo alphabet/word cards, pictures, real objects, board and marker, textbook.",
+          "lessonContent": "This lesson focuses on listening for different vowel or sound qualities in Igbo and recognising the sound patterns demonstrated by the teacher. Learners practise careful listening, repetition and matching sound with written forms.",
+          "teacherLearnerActivities": "Teacher models the target sounds in clear pairs and uses simple words. Learners listen, repeat and identify which sound they hear.",
+          "evaluation": "Repeat the target sounds and identify the correct example from two choices.",
+          "assignment": "Practise the target sounds and words aloud."
+        },
+        {
+          "subject": "French Language",
+          "week": 6,
+          "dateRange": "October 19–23, 2026",
+          "topic": "Les Couleurs en Français",
+          "behavioralObjectives": [
+            "recognise the target French vocabulary",
+            "pronounce the words with guidance",
+            "use the vocabulary in a simple oral response."
+          ],
+          "instructionalMaterials": "French word cards, number or colour cards, pictures, audio recording if available, board and marker.",
+          "lessonContent": "Les couleurs means colours in French. Common beginner colours include rouge (red), bleu (blue), jaune (yellow), vert (green), noir (black), blanc (white) and orange. Learners connect each French word to a coloured object or picture.",
+          "teacherLearnerActivities": "Teacher displays coloured objects and says each French colour. Learners repeat, point to the correct colour and practise short phrases such as “rouge” or “un objet rouge.”",
+          "evaluation": "Name five colours in French and identify them on a colour chart.",
+          "assignment": "Colour seven objects and label the colours in French."
+        },
+        {
+          "subject": "History",
+          "week": 6,
+          "dateRange": "October 19–23, 2026",
+          "topic": "Branches of Art (Contd.)",
+          "behavioralObjectives": [
+            "explain the historical idea simply",
+            "identify people, places or sources connected to the topic",
+            "state why the lesson is important for understanding the past."
+          ],
+          "instructionalMaterials": "old photographs or pictures, family tree/chart, map or place pictures, story cards, board and marker.",
+          "lessonContent": "Art has different branches, such as visual art, music, drama and dance. Studying these branches helps historians understand how people in different periods expressed ideas, beliefs and daily life. Examples may include traditional musical instruments, clothing patterns, sculpture, painting and storytelling.",
+          "teacherLearnerActivities": "Teacher shows examples and asks learners what each reveals about a people or period. Learners classify the examples by art branch.",
+          "evaluation": "Name four branches of art and give one example of each.",
+          "assignment": "Draw one traditional art example from your community."
+        },
+        {
+          "subject": "Verbal Reasoning",
+          "week": 6,
+          "dateRange": "October 19–23, 2026",
+          "topic": "Familiar Words",
+          "behavioralObjectives": [
+            "identify the verbal reasoning pattern",
+            "apply the pattern to simple examples",
+            "give accurate answers and explain the rule in simple words."
+          ],
+          "instructionalMaterials": "letter cards, word cards, picture cards, worksheet, board and marker.",
+          "lessonContent": "Familiar words are common words children meet often in speech, books and daily life. Learners recognise, read and use words such as boy, girl, book, home, school, sun, food and play. Repeated practice builds vocabulary and reading fluency.",
+          "teacherLearnerActivities": "Teacher uses word cards and pictures. Learners match words to pictures, read the words aloud and use selected words in short phrases.",
+          "evaluation": "Read ten familiar words and match five of them to pictures.",
+          "assignment": "Write ten familiar words and read them aloud to a parent or guardian."
+        },
+        {
+          "subject": "Quantitative Reasoning",
+          "week": 6,
+          "dateRange": "October 19–23, 2026",
+          "topic": "Addition (I)",
+          "behavioralObjectives": [
+            "understand the quantitative relationship",
+            "solve simple examples using objects or numbers",
+            "show the steps or reasoning clearly."
+          ],
+          "instructionalMaterials": "counters or bottle tops, number cards, number line, worksheet, board and marker.",
+          "lessonContent": "Addition means putting quantities together to find a total. Learners combine objects, count on and write simple number sentences. Early work should use numbers within the learners’ current range.",
+          "teacherLearnerActivities": "Teacher demonstrates addition with counters and a number line. Learners combine groups, count on and write the matching number sentence.",
+          "evaluation": "Solve 3+2, 4+1, 5+3 and 6+2 using objects or mental counting.",
+          "assignment": "Solve ten simple addition questions."
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "dateRange": "October 26–30, 2026",
+      "subjects": [
+        {
+          "subject": "English Language",
+          "week": 7,
+          "dateRange": "October 26–30, 2026",
+          "topic": "Mid-Term Test",
+          "behavioralObjectives": [
+            "review major topics taught in Weeks 1–6",
+            "demonstrate understanding through oral, written or practical activities",
+            "identify areas that need more practice."
+          ],
+          "instructionalMaterials": "revision charts, flashcards, learners’ notebooks, sample test questions, relevant subject materials.",
+          "lessonContent": "Week 7 is a Mid-Term Test and revision period for English Language. The teacher should briefly revise the key ideas from Weeks 1–6, clarify common misconceptions, and assess learners using age-appropriate questions and practical activities where appropriate.",
+          "teacherLearnerActivities": "Teacher revises key points, models sample questions, gives learners time to answer practice items, administers the mid-term assessment, and gives brief feedback. Learners participate in revision, complete the assessment independently, and discuss corrections with guidance.",
+          "evaluation": "Use a short written, oral or practical mid-term assessment covering the major skills taught in Weeks 1–6.",
+          "assignment": "Correct the missed questions from the mid-term exercise and revise the weak areas with a parent or guardian."
+        },
+        {
+          "subject": "Mathematics",
+          "week": 7,
+          "dateRange": "October 26–30, 2026",
+          "topic": "Mid-Term Test",
+          "behavioralObjectives": [
+            "review major topics taught in Weeks 1–6",
+            "demonstrate understanding through oral, written or practical activities",
+            "identify areas that need more practice."
+          ],
+          "instructionalMaterials": "revision charts, flashcards, learners’ notebooks, sample test questions, relevant subject materials.",
+          "lessonContent": "Week 7 is a Mid-Term Test and revision period for Mathematics. The teacher should briefly revise the key ideas from Weeks 1–6, clarify common misconceptions, and assess learners using age-appropriate questions and practical activities where appropriate.",
+          "teacherLearnerActivities": "Teacher revises key points, models sample questions, gives learners time to answer practice items, administers the mid-term assessment, and gives brief feedback. Learners participate in revision, complete the assessment independently, and discuss corrections with guidance.",
+          "evaluation": "Use a short written, oral or practical mid-term assessment covering the major skills taught in Weeks 1–6.",
+          "assignment": "Correct the missed questions from the mid-term exercise and revise the weak areas with a parent or guardian."
+        },
+        {
+          "subject": "Basic Science",
+          "week": 7,
+          "dateRange": "October 26–30, 2026",
+          "topic": "Mid-Term Test",
+          "behavioralObjectives": [
+            "review major topics taught in Weeks 1–6",
+            "demonstrate understanding through oral, written or practical activities",
+            "identify areas that need more practice."
+          ],
+          "instructionalMaterials": "revision charts, flashcards, learners’ notebooks, sample test questions, relevant subject materials.",
+          "lessonContent": "Week 7 is a Mid-Term Test and revision period for Basic Science. The teacher should briefly revise the key ideas from Weeks 1–6, clarify common misconceptions, and assess learners using age-appropriate questions and practical activities where appropriate.",
+          "teacherLearnerActivities": "Teacher revises key points, models sample questions, gives learners time to answer practice items, administers the mid-term assessment, and gives brief feedback. Learners participate in revision, complete the assessment independently, and discuss corrections with guidance.",
+          "evaluation": "Use a short written, oral or practical mid-term assessment covering the major skills taught in Weeks 1–6.",
+          "assignment": "Correct the missed questions from the mid-term exercise and revise the weak areas with a parent or guardian."
+        },
+        {
+          "subject": "Information Technology",
+          "week": 7,
+          "dateRange": "October 26–30, 2026",
+          "topic": "Mid-Term Test",
+          "behavioralObjectives": [
+            "review major topics taught in Weeks 1–6",
+            "demonstrate understanding through oral, written or practical activities",
+            "identify areas that need more practice."
+          ],
+          "instructionalMaterials": "revision charts, flashcards, learners’ notebooks, sample test questions, relevant subject materials.",
+          "lessonContent": "Week 7 is a Mid-Term Test and revision period for Information Technology. The teacher should briefly revise the key ideas from Weeks 1–6, clarify common misconceptions, and assess learners using age-appropriate questions and practical activities where appropriate.",
+          "teacherLearnerActivities": "Teacher revises key points, models sample questions, gives learners time to answer practice items, administers the mid-term assessment, and gives brief feedback. Learners participate in revision, complete the assessment independently, and discuss corrections with guidance.",
+          "evaluation": "Use a short written, oral or practical mid-term assessment covering the major skills taught in Weeks 1–6.",
+          "assignment": "Correct the missed questions from the mid-term exercise and revise the weak areas with a parent or guardian."
+        },
+        {
+          "subject": "Physical and Health Education (P.H.E.)",
+          "week": 7,
+          "dateRange": "October 26–30, 2026",
+          "topic": "Mid-Term Test",
+          "behavioralObjectives": [
+            "review major topics taught in Weeks 1–6",
+            "demonstrate understanding through oral, written or practical activities",
+            "identify areas that need more practice."
+          ],
+          "instructionalMaterials": "revision charts, flashcards, learners’ notebooks, sample test questions, relevant subject materials.",
+          "lessonContent": "Week 7 is a Mid-Term Test and revision period for Physical and Health Education (P.H.E.). The teacher should briefly revise the key ideas from Weeks 1–6, clarify common misconceptions, and assess learners using age-appropriate questions and practical activities where appropriate.",
+          "teacherLearnerActivities": "Teacher revises key points, models sample questions, gives learners time to answer practice items, administers the mid-term assessment, and gives brief feedback. Learners participate in revision, complete the assessment independently, and discuss corrections with guidance.",
+          "evaluation": "Use a short written, oral or practical mid-term assessment covering the major skills taught in Weeks 1–6.",
+          "assignment": "Correct the missed questions from the mid-term exercise and revise the weak areas with a parent or guardian."
+        },
+        {
+          "subject": "Christian Religious Studies (C.R.S.)",
+          "week": 7,
+          "dateRange": "October 26–30, 2026",
+          "topic": "Mid-Term Test",
+          "behavioralObjectives": [
+            "review major topics taught in Weeks 1–6",
+            "demonstrate understanding through oral, written or practical activities",
+            "identify areas that need more practice."
+          ],
+          "instructionalMaterials": "revision charts, flashcards, learners’ notebooks, sample test questions, relevant subject materials.",
+          "lessonContent": "Week 7 is a Mid-Term Test and revision period for Christian Religious Studies (C.R.S.). The teacher should briefly revise the key ideas from Weeks 1–6, clarify common misconceptions, and assess learners using age-appropriate questions and practical activities where appropriate.",
+          "teacherLearnerActivities": "Teacher revises key points, models sample questions, gives learners time to answer practice items, administers the mid-term assessment, and gives brief feedback. Learners participate in revision, complete the assessment independently, and discuss corrections with guidance.",
+          "evaluation": "Use a short written, oral or practical mid-term assessment covering the major skills taught in Weeks 1–6.",
+          "assignment": "Correct the missed questions from the mid-term exercise and revise the weak areas with a parent or guardian."
+        },
+        {
+          "subject": "Islamic Studies",
+          "week": 7,
+          "dateRange": "October 26–30, 2026",
+          "topic": "Mid-Term Test",
+          "behavioralObjectives": [
+            "review major topics taught in Weeks 1–6",
+            "demonstrate understanding through oral, written or practical activities",
+            "identify areas that need more practice."
+          ],
+          "instructionalMaterials": "revision charts, flashcards, learners’ notebooks, sample test questions, relevant subject materials.",
+          "lessonContent": "Week 7 is a Mid-Term Test and revision period for Islamic Studies. The teacher should briefly revise the key ideas from Weeks 1–6, clarify common misconceptions, and assess learners using age-appropriate questions and practical activities where appropriate.",
+          "teacherLearnerActivities": "Teacher revises key points, models sample questions, gives learners time to answer practice items, administers the mid-term assessment, and gives brief feedback. Learners participate in revision, complete the assessment independently, and discuss corrections with guidance.",
+          "evaluation": "Use a short written, oral or practical mid-term assessment covering the major skills taught in Weeks 1–6.",
+          "assignment": "Correct the missed questions from the mid-term exercise and revise the weak areas with a parent or guardian."
+        },
+        {
+          "subject": "Civic Education",
+          "week": 7,
+          "dateRange": "October 26–30, 2026",
+          "topic": "Mid-Term Test",
+          "behavioralObjectives": [
+            "review major topics taught in Weeks 1–6",
+            "demonstrate understanding through oral, written or practical activities",
+            "identify areas that need more practice."
+          ],
+          "instructionalMaterials": "revision charts, flashcards, learners’ notebooks, sample test questions, relevant subject materials.",
+          "lessonContent": "Week 7 is a Mid-Term Test and revision period for Civic Education. The teacher should briefly revise the key ideas from Weeks 1–6, clarify common misconceptions, and assess learners using age-appropriate questions and practical activities where appropriate.",
+          "teacherLearnerActivities": "Teacher revises key points, models sample questions, gives learners time to answer practice items, administers the mid-term assessment, and gives brief feedback. Learners participate in revision, complete the assessment independently, and discuss corrections with guidance.",
+          "evaluation": "Use a short written, oral or practical mid-term assessment covering the major skills taught in Weeks 1–6.",
+          "assignment": "Correct the missed questions from the mid-term exercise and revise the weak areas with a parent or guardian."
+        },
+        {
+          "subject": "Social Studies",
+          "week": 7,
+          "dateRange": "October 26–30, 2026",
+          "topic": "Mid-Term Test",
+          "behavioralObjectives": [
+            "review major topics taught in Weeks 1–6",
+            "demonstrate understanding through oral, written or practical activities",
+            "identify areas that need more practice."
+          ],
+          "instructionalMaterials": "revision charts, flashcards, learners’ notebooks, sample test questions, relevant subject materials.",
+          "lessonContent": "Week 7 is a Mid-Term Test and revision period for Social Studies. The teacher should briefly revise the key ideas from Weeks 1–6, clarify common misconceptions, and assess learners using age-appropriate questions and practical activities where appropriate.",
+          "teacherLearnerActivities": "Teacher revises key points, models sample questions, gives learners time to answer practice items, administers the mid-term assessment, and gives brief feedback. Learners participate in revision, complete the assessment independently, and discuss corrections with guidance.",
+          "evaluation": "Use a short written, oral or practical mid-term assessment covering the major skills taught in Weeks 1–6.",
+          "assignment": "Correct the missed questions from the mid-term exercise and revise the weak areas with a parent or guardian."
+        },
+        {
+          "subject": "Security Education",
+          "week": 7,
+          "dateRange": "October 26–30, 2026",
+          "topic": "Mid-Term Test",
+          "behavioralObjectives": [
+            "review major topics taught in Weeks 1–6",
+            "demonstrate understanding through oral, written or practical activities",
+            "identify areas that need more practice."
+          ],
+          "instructionalMaterials": "revision charts, flashcards, learners’ notebooks, sample test questions, relevant subject materials.",
+          "lessonContent": "Week 7 is a Mid-Term Test and revision period for Security Education. The teacher should briefly revise the key ideas from Weeks 1–6, clarify common misconceptions, and assess learners using age-appropriate questions and practical activities where appropriate.",
+          "teacherLearnerActivities": "Teacher revises key points, models sample questions, gives learners time to answer practice items, administers the mid-term assessment, and gives brief feedback. Learners participate in revision, complete the assessment independently, and discuss corrections with guidance.",
+          "evaluation": "Use a short written, oral or practical mid-term assessment covering the major skills taught in Weeks 1–6.",
+          "assignment": "Correct the missed questions from the mid-term exercise and revise the weak areas with a parent or guardian."
+        },
+        {
+          "subject": "Vocational Education",
+          "week": 7,
+          "dateRange": "October 26–30, 2026",
+          "topic": "Mid-Term Test",
+          "behavioralObjectives": [
+            "review major topics taught in Weeks 1–6",
+            "demonstrate understanding through oral, written or practical activities",
+            "identify areas that need more practice."
+          ],
+          "instructionalMaterials": "revision charts, flashcards, learners’ notebooks, sample test questions, relevant subject materials.",
+          "lessonContent": "Week 7 is a Mid-Term Test and revision period for Vocational Education. The teacher should briefly revise the key ideas from Weeks 1–6, clarify common misconceptions, and assess learners using age-appropriate questions and practical activities where appropriate.",
+          "teacherLearnerActivities": "Teacher revises key points, models sample questions, gives learners time to answer practice items, administers the mid-term assessment, and gives brief feedback. Learners participate in revision, complete the assessment independently, and discuss corrections with guidance.",
+          "evaluation": "Use a short written, oral or practical mid-term assessment covering the major skills taught in Weeks 1–6.",
+          "assignment": "Correct the missed questions from the mid-term exercise and revise the weak areas with a parent or guardian."
+        },
+        {
+          "subject": "Home Economics",
+          "week": 7,
+          "dateRange": "October 26–30, 2026",
+          "topic": "Mid-Term Test",
+          "behavioralObjectives": [
+            "review major topics taught in Weeks 1–6",
+            "demonstrate understanding through oral, written or practical activities",
+            "identify areas that need more practice."
+          ],
+          "instructionalMaterials": "revision charts, flashcards, learners’ notebooks, sample test questions, relevant subject materials.",
+          "lessonContent": "Week 7 is a Mid-Term Test and revision period for Home Economics. The teacher should briefly revise the key ideas from Weeks 1–6, clarify common misconceptions, and assess learners using age-appropriate questions and practical activities where appropriate.",
+          "teacherLearnerActivities": "Teacher revises key points, models sample questions, gives learners time to answer practice items, administers the mid-term assessment, and gives brief feedback. Learners participate in revision, complete the assessment independently, and discuss corrections with guidance.",
+          "evaluation": "Use a short written, oral or practical mid-term assessment covering the major skills taught in Weeks 1–6.",
+          "assignment": "Correct the missed questions from the mid-term exercise and revise the weak areas with a parent or guardian."
+        },
+        {
+          "subject": "Agricultural Science",
+          "week": 7,
+          "dateRange": "October 26–30, 2026",
+          "topic": "Mid-Term Test",
+          "behavioralObjectives": [
+            "review major topics taught in Weeks 1–6",
+            "demonstrate understanding through oral, written or practical activities",
+            "identify areas that need more practice."
+          ],
+          "instructionalMaterials": "revision charts, flashcards, learners’ notebooks, sample test questions, relevant subject materials.",
+          "lessonContent": "Week 7 is a Mid-Term Test and revision period for Agricultural Science. The teacher should briefly revise the key ideas from Weeks 1–6, clarify common misconceptions, and assess learners using age-appropriate questions and practical activities where appropriate.",
+          "teacherLearnerActivities": "Teacher revises key points, models sample questions, gives learners time to answer practice items, administers the mid-term assessment, and gives brief feedback. Learners participate in revision, complete the assessment independently, and discuss corrections with guidance.",
+          "evaluation": "Use a short written, oral or practical mid-term assessment covering the major skills taught in Weeks 1–6.",
+          "assignment": "Correct the missed questions from the mid-term exercise and revise the weak areas with a parent or guardian."
+        },
+        {
+          "subject": "Cultural and Creative Arts",
+          "week": 7,
+          "dateRange": "October 26–30, 2026",
+          "topic": "Mid-Term Test",
+          "behavioralObjectives": [
+            "review major topics taught in Weeks 1–6",
+            "demonstrate understanding through oral, written or practical activities",
+            "identify areas that need more practice."
+          ],
+          "instructionalMaterials": "revision charts, flashcards, learners’ notebooks, sample test questions, relevant subject materials.",
+          "lessonContent": "Week 7 is a Mid-Term Test and revision period for Cultural and Creative Arts. The teacher should briefly revise the key ideas from Weeks 1–6, clarify common misconceptions, and assess learners using age-appropriate questions and practical activities where appropriate.",
+          "teacherLearnerActivities": "Teacher revises key points, models sample questions, gives learners time to answer practice items, administers the mid-term assessment, and gives brief feedback. Learners participate in revision, complete the assessment independently, and discuss corrections with guidance.",
+          "evaluation": "Use a short written, oral or practical mid-term assessment covering the major skills taught in Weeks 1–6.",
+          "assignment": "Correct the missed questions from the mid-term exercise and revise the weak areas with a parent or guardian."
+        },
+        {
+          "subject": "Yoruba Language",
+          "week": 7,
+          "dateRange": "October 26–30, 2026",
+          "topic": "Mid-Term Test",
+          "behavioralObjectives": [
+            "review major topics taught in Weeks 1–6",
+            "demonstrate understanding through oral, written or practical activities",
+            "identify areas that need more practice."
+          ],
+          "instructionalMaterials": "revision charts, flashcards, learners’ notebooks, sample test questions, relevant subject materials.",
+          "lessonContent": "Week 7 is a Mid-Term Test and revision period for Yoruba Language. The teacher should briefly revise the key ideas from Weeks 1–6, clarify common misconceptions, and assess learners using age-appropriate questions and practical activities where appropriate.",
+          "teacherLearnerActivities": "Teacher revises key points, models sample questions, gives learners time to answer practice items, administers the mid-term assessment, and gives brief feedback. Learners participate in revision, complete the assessment independently, and discuss corrections with guidance.",
+          "evaluation": "Use a short written, oral or practical mid-term assessment covering the major skills taught in Weeks 1–6.",
+          "assignment": "Correct the missed questions from the mid-term exercise and revise the weak areas with a parent or guardian."
+        },
+        {
+          "subject": "Igbo Language",
+          "week": 7,
+          "dateRange": "October 26–30, 2026",
+          "topic": "Mid-Term Test",
+          "behavioralObjectives": [
+            "review major topics taught in Weeks 1–6",
+            "demonstrate understanding through oral, written or practical activities",
+            "identify areas that need more practice."
+          ],
+          "instructionalMaterials": "revision charts, flashcards, learners’ notebooks, sample test questions, relevant subject materials.",
+          "lessonContent": "Week 7 is a Mid-Term Test and revision period for Igbo Language. The teacher should briefly revise the key ideas from Weeks 1–6, clarify common misconceptions, and assess learners using age-appropriate questions and practical activities where appropriate.",
+          "teacherLearnerActivities": "Teacher revises key points, models sample questions, gives learners time to answer practice items, administers the mid-term assessment, and gives brief feedback. Learners participate in revision, complete the assessment independently, and discuss corrections with guidance.",
+          "evaluation": "Use a short written, oral or practical mid-term assessment covering the major skills taught in Weeks 1–6.",
+          "assignment": "Correct the missed questions from the mid-term exercise and revise the weak areas with a parent or guardian."
+        },
+        {
+          "subject": "French Language",
+          "week": 7,
+          "dateRange": "October 26–30, 2026",
+          "topic": "Mid-Term Test",
+          "behavioralObjectives": [
+            "review major topics taught in Weeks 1–6",
+            "demonstrate understanding through oral, written or practical activities",
+            "identify areas that need more practice."
+          ],
+          "instructionalMaterials": "revision charts, flashcards, learners’ notebooks, sample test questions, relevant subject materials.",
+          "lessonContent": "Week 7 is a Mid-Term Test and revision period for French Language. The teacher should briefly revise the key ideas from Weeks 1–6, clarify common misconceptions, and assess learners using age-appropriate questions and practical activities where appropriate.",
+          "teacherLearnerActivities": "Teacher revises key points, models sample questions, gives learners time to answer practice items, administers the mid-term assessment, and gives brief feedback. Learners participate in revision, complete the assessment independently, and discuss corrections with guidance.",
+          "evaluation": "Use a short written, oral or practical mid-term assessment covering the major skills taught in Weeks 1–6.",
+          "assignment": "Correct the missed questions from the mid-term exercise and revise the weak areas with a parent or guardian."
+        },
+        {
+          "subject": "History",
+          "week": 7,
+          "dateRange": "October 26–30, 2026",
+          "topic": "Mid-Term Test",
+          "behavioralObjectives": [
+            "review major topics taught in Weeks 1–6",
+            "demonstrate understanding through oral, written or practical activities",
+            "identify areas that need more practice."
+          ],
+          "instructionalMaterials": "revision charts, flashcards, learners’ notebooks, sample test questions, relevant subject materials.",
+          "lessonContent": "Week 7 is a Mid-Term Test and revision period for History. The teacher should briefly revise the key ideas from Weeks 1–6, clarify common misconceptions, and assess learners using age-appropriate questions and practical activities where appropriate.",
+          "teacherLearnerActivities": "Teacher revises key points, models sample questions, gives learners time to answer practice items, administers the mid-term assessment, and gives brief feedback. Learners participate in revision, complete the assessment independently, and discuss corrections with guidance.",
+          "evaluation": "Use a short written, oral or practical mid-term assessment covering the major skills taught in Weeks 1–6.",
+          "assignment": "Correct the missed questions from the mid-term exercise and revise the weak areas with a parent or guardian."
+        },
+        {
+          "subject": "Verbal Reasoning",
+          "week": 7,
+          "dateRange": "October 26–30, 2026",
+          "topic": "Mid-Term Test",
+          "behavioralObjectives": [
+            "review major topics taught in Weeks 1–6",
+            "demonstrate understanding through oral, written or practical activities",
+            "identify areas that need more practice."
+          ],
+          "instructionalMaterials": "revision charts, flashcards, learners’ notebooks, sample test questions, relevant subject materials.",
+          "lessonContent": "Week 7 is a Mid-Term Test and revision period for Verbal Reasoning. The teacher should briefly revise the key ideas from Weeks 1–6, clarify common misconceptions, and assess learners using age-appropriate questions and practical activities where appropriate.",
+          "teacherLearnerActivities": "Teacher revises key points, models sample questions, gives learners time to answer practice items, administers the mid-term assessment, and gives brief feedback. Learners participate in revision, complete the assessment independently, and discuss corrections with guidance.",
+          "evaluation": "Use a short written, oral or practical mid-term assessment covering the major skills taught in Weeks 1–6.",
+          "assignment": "Correct the missed questions from the mid-term exercise and revise the weak areas with a parent or guardian."
+        },
+        {
+          "subject": "Quantitative Reasoning",
+          "week": 7,
+          "dateRange": "October 26–30, 2026",
+          "topic": "Mid-Term Test",
+          "behavioralObjectives": [
+            "review major topics taught in Weeks 1–6",
+            "demonstrate understanding through oral, written or practical activities",
+            "identify areas that need more practice."
+          ],
+          "instructionalMaterials": "revision charts, flashcards, learners’ notebooks, sample test questions, relevant subject materials.",
+          "lessonContent": "Week 7 is a Mid-Term Test and revision period for Quantitative Reasoning. The teacher should briefly revise the key ideas from Weeks 1–6, clarify common misconceptions, and assess learners using age-appropriate questions and practical activities where appropriate.",
+          "teacherLearnerActivities": "Teacher revises key points, models sample questions, gives learners time to answer practice items, administers the mid-term assessment, and gives brief feedback. Learners participate in revision, complete the assessment independently, and discuss corrections with guidance.",
+          "evaluation": "Use a short written, oral or practical mid-term assessment covering the major skills taught in Weeks 1–6.",
+          "assignment": "Correct the missed questions from the mid-term exercise and revise the weak areas with a parent or guardian."
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "dateRange": "November 2–6, 2026",
+      "subjects": [
+        {
+          "subject": "English Language",
+          "week": 8,
+          "dateRange": "November 2–6, 2026",
+          "topic": "Blending Sounds of Letters to Form Words",
+          "behavioralObjectives": [
+            "identify and explain the key idea in the lesson",
+            "use the new language skill in simple examples",
+            "respond correctly to simple oral and written questions."
+          ],
+          "instructionalMaterials": "flashcards, picture cards, word cards, board and marker, textbook.",
+          "lessonContent": "Blending means joining individual letter sounds to make a word. For example, /c/ + /a/ + /t/ becomes cat. Learners practise simple consonant-vowel-consonant words such as cat, bat, sun, pen and dog.",
+          "teacherLearnerActivities": "Teacher models slow sound blending, then increases the speed. Learners tap or point to each letter, say the sounds, and blend them into whole words.",
+          "evaluation": "Blend the sounds in c-a-t, p-e-n, s-u-n and d-o-g. Read the completed words.",
+          "assignment": "Practise reading ten three-letter words."
+        },
+        {
+          "subject": "Mathematics",
+          "week": 8,
+          "dateRange": "November 2–6, 2026",
+          "topic": "Counting, Skill",
+          "behavioralObjectives": [
+            "identify and explain the number concept",
+            "solve simple examples using concrete materials and numerals",
+            "write or state answers correctly."
+          ],
+          "instructionalMaterials": "number cards, counters or bottle tops, number chart, board and marker, exercise book.",
+          "lessonContent": "Counting skill involves saying numbers in the correct sequence, counting objects accurately once each, and matching the final count to the quantity. Learners practise one-to-one counting and simple number recognition.",
+          "teacherLearnerActivities": "Teacher uses objects, claps and steps for counting practice. Learners count aloud, touch each object once, and record the final number.",
+          "evaluation": "Count groups of objects and write the total for each group.",
+          "assignment": "Count five different groups of household objects and record the totals."
+        },
+        {
+          "subject": "Basic Science",
+          "week": 8,
+          "dateRange": "November 2–6, 2026",
+          "topic": "Energy (IV)",
+          "behavioralObjectives": [
+            "explain the key science idea in simple language",
+            "identify familiar examples",
+            "relate the lesson to everyday life and safety."
+          ],
+          "instructionalMaterials": "real objects, picture charts, flashcards, simple demonstration items, board and marker.",
+          "lessonContent": "Energy is the ability to make things happen or do work. Children experience energy when they move, play, hear sounds, see with light, feel heat and use electrical appliances. Common forms and sources discussed at this level include heat, light, sound and movement. Safety is important when using sources of energy.",
+          "teacherLearnerActivities": "Teacher demonstrates simple examples such as light from a torch, sound from clapping, heat from the sun and movement during play. Learners identify the type or source of energy in each example.",
+          "evaluation": "Give three examples of energy in everyday life and identify the source or form in each case.",
+          "assignment": "Find three examples of energy use at home and write what the energy helps you do."
+        },
+        {
+          "subject": "Information Technology",
+          "week": 8,
+          "dateRange": "November 2–6, 2026",
+          "topic": "Keyboard",
+          "behavioralObjectives": [
+            "identify the computer concept or part",
+            "state its simple use or purpose",
+            "demonstrate safe handling or basic use where appropriate."
+          ],
+          "instructionalMaterials": "computer set, keyboard and mouse, computer charts, flashcards, board and marker.",
+          "lessonContent": "A keyboard is an input device used to enter letters, numbers and commands into a computer. Important keys for beginners include letter keys, number keys, the Spacebar, Enter and Backspace. Learners practise locating keys and typing short words.",
+          "teacherLearnerActivities": "Teacher shows a keyboard and points out common keys. Learners locate keys, type their names or simple words, and practise using Spacebar and Backspace.",
+          "evaluation": "1. What is a keyboard used for? 2. Name three keys. 3. Which key makes a space between words?",
+          "assignment": "Draw a simple keyboard and label the Spacebar, Enter and Backspace keys."
+        },
+        {
+          "subject": "Physical and Health Education (P.H.E.)",
+          "week": 8,
+          "dateRange": "November 2–6, 2026",
+          "topic": "Sports and Games (II)",
+          "behavioralObjectives": [
+            "describe the movement or physical-skill concept",
+            "perform the skill with simple control",
+            "observe basic safety and fair-play rules."
+          ],
+          "instructionalMaterials": "soft balls or bean bags, cones or markers, open play area, whistle if available, water for hydration.",
+          "lessonContent": "Sports and games are organised physical activities that help the body become strong and healthy. Simple Basic 1 activities may include running, ball games, hopping, jumping, relay play and throwing games. Learners practise fair play, turn-taking and following simple rules.",
+          "teacherLearnerActivities": "Teacher explains one or two simple games, demonstrates the rules, and organises learners in small groups. Learners participate, take turns and practise teamwork.",
+          "evaluation": "Name three sports or games and state one rule for safe play.",
+          "assignment": "Ask a parent or guardian to name two traditional or modern games played in your community."
+        },
+        {
+          "subject": "Christian Religious Studies (C.R.S.)",
+          "week": 8,
+          "dateRange": "November 2–6, 2026",
+          "topic": "God Is Our Father (I)",
+          "behavioralObjectives": [
+            "state the main Bible teaching in simple words",
+            "identify a key example or story",
+            "show one good behaviour linked to the lesson."
+          ],
+          "instructionalMaterials": "Bible, Bible story pictures, flashcards, board and marker, children’s song if available.",
+          "lessonContent": "The Bible teaches Christians to know God as Father. A loving father cares, guides, protects and provides for his children. Learners are encouraged to trust God, pray to Him and show love and obedience.",
+          "teacherLearnerActivities": "Teacher explains the idea of God as Father and relates it to caring parents. Learners share examples of care, practise a simple prayer, and identify respectful behaviour.",
+          "evaluation": "State two ways a loving father cares for children. How can we show love to God?",
+          "assignment": "Learn and practise a short prayer of thanksgiving to God."
+        },
+        {
+          "subject": "Islamic Studies",
+          "week": 8,
+          "dateRange": "November 2–6, 2026",
+          "topic": "Cleanliness in Islam",
+          "behavioralObjectives": [
+            "state the main Islamic teaching in simple words",
+            "identify important terms or examples",
+            "show respectful conduct connected with the lesson."
+          ],
+          "instructionalMaterials": "Qur’an, Arabic letter or topic cards, pictures, audio recitation where suitable, board and marker.",
+          "lessonContent": "Cleanliness is highly valued in Islam. Muslims keep the body, clothes and surroundings clean and practise purification before worship. Simple habits include washing regularly, keeping clothes clean, trimming nails, brushing teeth and disposing of waste properly.",
+          "teacherLearnerActivities": "Teacher discusses clean and unclean habits and demonstrates proper handwashing. Learners identify good hygiene practices and role-play keeping their surroundings clean.",
+          "evaluation": "Mention four ways of keeping the body and surroundings clean.",
+          "assignment": "Demonstrate one good cleanliness habit at home and explain why it is important."
+        },
+        {
+          "subject": "Civic Education",
+          "week": 8,
+          "dateRange": "November 2–6, 2026",
+          "topic": "Rights and Duties of Citizens in the Society",
+          "behavioralObjectives": [
+            "explain the civic idea in simple words",
+            "identify responsible behaviour connected with the topic",
+            "demonstrate respect, cooperation or responsibility."
+          ],
+          "instructionalMaterials": "picture cards, posters, flashcards, board and marker, simple role-play materials.",
+          "lessonContent": "Civic Education helps society by teaching people to respect laws, protect public property, cooperate, settle disputes peacefully, participate in community activities and care for others. Good civic behaviour supports peace and development.",
+          "teacherLearnerActivities": "Teacher presents simple community situations such as keeping a public place clean or helping a neighbour. Learners discuss responsible responses.",
+          "evaluation": "Mention four ways civic learning can help society.",
+          "assignment": "Name two ways you can help your community this week."
+        },
+        {
+          "subject": "Social Studies",
+          "week": 8,
+          "dateRange": "November 2–6, 2026",
+          "topic": "Values That Show Good Morals in Our Society",
+          "behavioralObjectives": [
+            "explain the social concept simply",
+            "identify examples from family or community life",
+            "demonstrate a positive social value or behaviour."
+          ],
+          "instructionalMaterials": "family/community pictures, charts, flashcards, board and marker, role-play cards.",
+          "lessonContent": "Good morals are behaviours that are considered right and acceptable. Examples include honesty, respect, kindness, obedience, cleanliness, patience, cooperation and keeping promises. Good morals help families and communities live peacefully.",
+          "teacherLearnerActivities": "Teacher presents simple behaviour cards. Learners classify actions as good morals and explain the value of each one.",
+          "evaluation": "Mention five good morals and give one example.",
+          "assignment": "Write three good moral behaviours you practised this week."
+        },
+        {
+          "subject": "Security Education",
+          "week": 8,
+          "dateRange": "November 2–6, 2026",
+          "topic": "Home Security",
+          "behavioralObjectives": [
+            "explain the security concept simply",
+            "identify a possible risk or protective measure",
+            "choose a safe response and know when to tell a trusted adult."
+          ],
+          "instructionalMaterials": "safety posters, warning-sign cards, pictures, flashcards, board and marker.",
+          "lessonContent": "Home security involves practices that keep people and property safe. Basic measures include locking doors and windows, keeping harmful items out of children’s reach, not opening the door to unknown persons without adult guidance, and knowing how to contact a trusted adult in an emergency.",
+          "teacherLearnerActivities": "Teacher presents safe and unsafe home situations. Learners identify the safer behaviour and practise a simple emergency-reporting conversation.",
+          "evaluation": "Mention four home-security rules.",
+          "assignment": "Tell a parent or guardian five home-safety rules you remember."
+        },
+        {
+          "subject": "Vocational Education",
+          "week": 8,
+          "dateRange": "November 2–6, 2026",
+          "topic": "Electrical Home Appliances",
+          "behavioralObjectives": [
+            "identify the vocational concept or item",
+            "state its use or importance",
+            "demonstrate safe and responsible work habits."
+          ],
+          "instructionalMaterials": "real tools or pictures, occupation cards, household objects, charts, board and marker.",
+          "lessonContent": "Electrical home appliances are devices that use electricity to perform household tasks. Examples include a fan, television, refrigerator, electric iron and blender. Children should never use electrical appliances unsupervised or touch sockets and plugs with wet hands.",
+          "teacherLearnerActivities": "Teacher shows pictures of appliances and explains their uses and safety rules. Learners match appliances to tasks and identify unsafe actions.",
+          "evaluation": "Name four electrical appliances and state one safety rule.",
+          "assignment": "List five electrical appliances found at home."
+        },
+        {
+          "subject": "Home Economics",
+          "week": 8,
+          "dateRange": "November 2–6, 2026",
+          "topic": "Care of the Teeth",
+          "behavioralObjectives": [
+            "identify the body part or hygiene practice",
+            "explain why care is important",
+            "demonstrate or describe safe personal-care habits."
+          ],
+          "instructionalMaterials": "body charts, hygiene items, pictures, flashcards, board and marker.",
+          "lessonContent": "Teeth help us bite and chew food. To care for the teeth, brush regularly with a toothbrush and fluoride toothpaste as appropriate, clean between teeth as instructed, limit frequent sugary snacks and visit a dental professional when advised.",
+          "teacherLearnerActivities": "Teacher demonstrates brushing on a model or chart. Learners practise the brushing movements and identify foods or habits that can harm teeth.",
+          "evaluation": "What do teeth do? Mention four ways to care for them.",
+          "assignment": "Draw a toothbrush and write four tooth-care rules."
+        },
+        {
+          "subject": "Agricultural Science",
+          "week": 8,
+          "dateRange": "November 2–6, 2026",
+          "topic": "Dangerous and Harmful Plants",
+          "behavioralObjectives": [
+            "identify the agricultural concept or examples",
+            "state one or more uses or characteristics",
+            "show safe and responsible attitudes toward plants or animals."
+          ],
+          "instructionalMaterials": "plant or animal pictures, real samples where safe, charts, flashcards, board and marker.",
+          "lessonContent": "Some plants can harm people or animals through poisonous leaves, fruits, thorns or irritating sap. Children should not eat unknown plants or touch unfamiliar plants without adult guidance. When in doubt, leave the plant alone and ask a trusted adult.",
+          "teacherLearnerActivities": "Teacher shows pictures of harmless and potentially harmful plants and discusses safe behaviour. Learners identify the rule: do not taste or handle unknown plants.",
+          "evaluation": "Why should children avoid eating unknown plants? Mention two ways plants can harm people.",
+          "assignment": "Draw a warning sign for “Do not eat unknown plants.”"
+        },
+        {
+          "subject": "Cultural and Creative Arts",
+          "week": 8,
+          "dateRange": "November 2–6, 2026",
+          "topic": "Types of Art",
+          "behavioralObjectives": [
+            "explain the artistic idea in simple language",
+            "identify examples",
+            "participate in a creative activity using simple materials."
+          ],
+          "instructionalMaterials": "drawing paper, pencils or crayons, picture cards, simple art/craft materials, board and marker.",
+          "lessonContent": "Different types of art include drawing, painting, sculpture, music, drama, dance and craft. Each type uses different materials or skills, but all involve creativity and expression.",
+          "teacherLearnerActivities": "Teacher displays or demonstrates several types. Learners name them and choose one to practise.",
+          "evaluation": "Mention five types of art.",
+          "assignment": "Make one small artwork using drawing or collage and bring it to class."
+        },
+        {
+          "subject": "Yoruba Language",
+          "week": 8,
+          "dateRange": "November 2–6, 2026",
+          "topic": "Onka 1–10 (I)",
+          "behavioralObjectives": [
+            "recognise and pronounce the target Yoruba words or expressions",
+            "connect words with familiar objects, numbers or pictures",
+            "use the language in simple oral practice."
+          ],
+          "instructionalMaterials": "Yoruba alphabet/vocabulary cards, pictures, real objects, number cards, board and marker.",
+          "lessonContent": "Learners practise Yoruba number names from 1–10 through oral repetition, counting objects and matching number words with quantities.",
+          "teacherLearnerActivities": "Teacher counts objects while saying the Yoruba numbers. Learners repeat and match number cards to groups of objects.",
+          "evaluation": "Count 1–10 in Yoruba.",
+          "assignment": "Write or practise Yoruba number names 1–10."
+        },
+        {
+          "subject": "Igbo Language",
+          "week": 8,
+          "dateRange": "November 2–6, 2026",
+          "topic": "—",
+          "behavioralObjectives": [],
+          "instructionalMaterials": "",
+          "lessonContent": "",
+          "teacherLearnerActivities": "Use the period according to the school timetable, catch-up needs, revision, practical work or the next approved topic from the school’s official scheme.",
+          "evaluation": "Confirm the work completed during the period and identify any learning gaps that need attention.",
+          "assignment": "Complete any unfinished classwork or revision exercise assigned by the teacher."
+        },
+        {
+          "subject": "French Language",
+          "week": 8,
+          "dateRange": "November 2–6, 2026",
+          "topic": "Les Couleurs en Français",
+          "behavioralObjectives": [
+            "recognise the target French vocabulary",
+            "pronounce the words with guidance",
+            "use the vocabulary in a simple oral response."
+          ],
+          "instructionalMaterials": "French word cards, number or colour cards, pictures, audio recording if available, board and marker.",
+          "lessonContent": "Les couleurs means colours in French. Common beginner colours include rouge (red), bleu (blue), jaune (yellow), vert (green), noir (black), blanc (white) and orange. Learners connect each French word to a coloured object or picture.",
+          "teacherLearnerActivities": "Teacher displays coloured objects and says each French colour. Learners repeat, point to the correct colour and practise short phrases such as “rouge” or “un objet rouge.”",
+          "evaluation": "Name five colours in French and identify them on a colour chart.",
+          "assignment": "Colour seven objects and label the colours in French."
+        },
+        {
+          "subject": "History",
+          "week": 8,
+          "dateRange": "November 2–6, 2026",
+          "topic": "People in the Community",
+          "behavioralObjectives": [
+            "explain the historical idea simply",
+            "identify people, places or sources connected to the topic",
+            "state why the lesson is important for understanding the past."
+          ],
+          "instructionalMaterials": "old photographs or pictures, family tree/chart, map or place pictures, story cards, board and marker.",
+          "lessonContent": "People in a community have different roles and occupations. Examples include teachers, farmers, traders, doctors, nurses, drivers, builders, police officers and artisans. Their work helps meet community needs and keeps services running.",
+          "teacherLearnerActivities": "Teacher presents occupation cards and asks learners to identify people and their roles. Learners match workers to places such as school, hospital, market or farm.",
+          "evaluation": "Mention six people or occupations found in a community and state one service provided by three of them.",
+          "assignment": "Draw two community workers and write what each does."
+        },
+        {
+          "subject": "Verbal Reasoning",
+          "week": 8,
+          "dateRange": "November 2–6, 2026",
+          "topic": "Familiar Words",
+          "behavioralObjectives": [
+            "identify the verbal reasoning pattern",
+            "apply the pattern to simple examples",
+            "give accurate answers and explain the rule in simple words."
+          ],
+          "instructionalMaterials": "letter cards, word cards, picture cards, worksheet, board and marker.",
+          "lessonContent": "Familiar words are common words children meet often in speech, books and daily life. Learners recognise, read and use words such as boy, girl, book, home, school, sun, food and play. Repeated practice builds vocabulary and reading fluency.",
+          "teacherLearnerActivities": "Teacher uses word cards and pictures. Learners match words to pictures, read the words aloud and use selected words in short phrases.",
+          "evaluation": "Read ten familiar words and match five of them to pictures.",
+          "assignment": "Write ten familiar words and read them aloud to a parent or guardian."
+        },
+        {
+          "subject": "Quantitative Reasoning",
+          "week": 8,
+          "dateRange": "November 2–6, 2026",
+          "topic": "Addition (II)",
+          "behavioralObjectives": [
+            "understand the quantitative relationship",
+            "solve simple examples using objects or numbers",
+            "show the steps or reasoning clearly."
+          ],
+          "instructionalMaterials": "counters or bottle tops, number cards, number line, worksheet, board and marker.",
+          "lessonContent": "Addition means putting quantities together to find a total. Learners combine objects, count on and write simple number sentences. Early work should use numbers within the learners’ current range.",
+          "teacherLearnerActivities": "Teacher demonstrates addition with counters and a number line. Learners combine groups, count on and write the matching number sentence.",
+          "evaluation": "Solve 3+2, 4+1, 5+3 and 6+2 using objects or mental counting.",
+          "assignment": "Solve ten simple addition questions."
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "dateRange": "November 9–13, 2026",
+      "subjects": [
+        {
+          "subject": "English Language",
+          "week": 9,
+          "dateRange": "November 9–13, 2026",
+          "topic": "Simple Commands",
+          "behavioralObjectives": [
+            "identify and explain the key idea in the lesson",
+            "use the new language skill in simple examples",
+            "respond correctly to simple oral and written questions."
+          ],
+          "instructionalMaterials": "flashcards, picture cards, word cards, board and marker, textbook.",
+          "lessonContent": "Commands are instructions given to make someone do something. Examples are stand up, sit down, clap your hands, open your book, close your book, come here and go back. Learners practise understanding and carrying out short commands.",
+          "teacherLearnerActivities": "Teacher gives one-step commands, then combines two familiar commands. Learners listen carefully and respond correctly.",
+          "evaluation": "Carry out the commands: stand up, clap twice, open your book. Give one command to a classmate.",
+          "assignment": "Write five classroom commands."
+        },
+        {
+          "subject": "Mathematics",
+          "week": 9,
+          "dateRange": "November 9–13, 2026",
+          "topic": "Introduction to Math Facts",
+          "behavioralObjectives": [
+            "identify and explain the number concept",
+            "solve simple examples using concrete materials and numerals",
+            "write or state answers correctly."
+          ],
+          "instructionalMaterials": "number cards, counters or bottle tops, number chart, board and marker, exercise book.",
+          "lessonContent": "Math facts are number relationships that learners can recall quickly. Early facts include number bonds, simple addition combinations and multiplication patterns. Learners use counters and pictures first, then practise recalling the facts mentally.",
+          "teacherLearnerActivities": "Teacher models number bonds with counters and ten-frames. Learners build, say and write simple facts, then complete oral recall games.",
+          "evaluation": "Complete: 2+3=__, 5+1=__, 4+0=__, 2+2=__.",
+          "assignment": "Practise ten basic addition facts within 10."
+        },
+        {
+          "subject": "Basic Science",
+          "week": 9,
+          "dateRange": "November 9–13, 2026",
+          "topic": "Water",
+          "behavioralObjectives": [
+            "explain the key science idea in simple language",
+            "identify familiar examples",
+            "relate the lesson to everyday life and safety."
+          ],
+          "instructionalMaterials": "real objects, picture charts, flashcards, simple demonstration items, board and marker.",
+          "lessonContent": "Water is essential for life. People, animals and plants need water for drinking, cooking, washing and growth. Sources of water include rain, rivers, streams, wells, taps and stored water. Water should be kept clean and used carefully.",
+          "teacherLearnerActivities": "Teacher shows pictures of water sources and discusses uses of water. Learners name sources they know, sort uses of water, and discuss ways to keep water clean.",
+          "evaluation": "1. Mention three sources of water. 2. State three uses of water. 3. Why should drinking water be clean?",
+          "assignment": "Draw one source of water and write three uses of water."
+        },
+        {
+          "subject": "Information Technology",
+          "week": 9,
+          "dateRange": "November 9–13, 2026",
+          "topic": "Keyboard (Contd.)",
+          "behavioralObjectives": [
+            "identify the computer concept or part",
+            "state its simple use or purpose",
+            "demonstrate safe handling or basic use where appropriate."
+          ],
+          "instructionalMaterials": "computer set, keyboard and mouse, computer charts, flashcards, board and marker.",
+          "lessonContent": "A keyboard is an input device used to enter letters, numbers and commands into a computer. Important keys for beginners include letter keys, number keys, the Spacebar, Enter and Backspace. Learners practise locating keys and typing short words.",
+          "teacherLearnerActivities": "Teacher shows a keyboard and points out common keys. Learners locate keys, type their names or simple words, and practise using Spacebar and Backspace.",
+          "evaluation": "1. What is a keyboard used for? 2. Name three keys. 3. Which key makes a space between words?",
+          "assignment": "Draw a simple keyboard and label the Spacebar, Enter and Backspace keys."
+        },
+        {
+          "subject": "Physical and Health Education (P.H.E.)",
+          "week": 9,
+          "dateRange": "November 9–13, 2026",
+          "topic": "Athletics (Simple Jumps)",
+          "behavioralObjectives": [
+            "describe the movement or physical-skill concept",
+            "perform the skill with simple control",
+            "observe basic safety and fair-play rules."
+          ],
+          "instructionalMaterials": "soft balls or bean bags, cones or markers, open play area, whistle if available, water for hydration.",
+          "lessonContent": "Athletics includes activities such as running, jumping and throwing. A simple jump begins with a safe take-off, controlled movement through the air and a soft landing with bent knees. Learners practise from low heights or over very small markers.",
+          "teacherLearnerActivities": "Teacher marks a safe jumping area and demonstrates a small two-foot or simple standing jump. Learners practise one at a time with enough landing space.",
+          "evaluation": "Demonstrate a safe simple jump and state one landing rule.",
+          "assignment": "Practise five small standing jumps in a safe open area with adult supervision."
+        },
+        {
+          "subject": "Christian Religious Studies (C.R.S.)",
+          "week": 9,
+          "dateRange": "November 9–13, 2026",
+          "topic": "God Is Our Father (II)",
+          "behavioralObjectives": [
+            "state the main Bible teaching in simple words",
+            "identify a key example or story",
+            "show one good behaviour linked to the lesson."
+          ],
+          "instructionalMaterials": "Bible, Bible story pictures, flashcards, board and marker, children’s song if available.",
+          "lessonContent": "The Bible teaches Christians to know God as Father. A loving father cares, guides, protects and provides for his children. Learners are encouraged to trust God, pray to Him and show love and obedience.",
+          "teacherLearnerActivities": "Teacher explains the idea of God as Father and relates it to caring parents. Learners share examples of care, practise a simple prayer, and identify respectful behaviour.",
+          "evaluation": "State two ways a loving father cares for children. How can we show love to God?",
+          "assignment": "Learn and practise a short prayer of thanksgiving to God."
+        },
+        {
+          "subject": "Islamic Studies",
+          "week": 9,
+          "dateRange": "November 9–13, 2026",
+          "topic": "The Significance of the Belief in Prophet Muhammad (SAW) as the Last Prophet of Allah",
+          "behavioralObjectives": [
+            "state the main Islamic teaching in simple words",
+            "identify important terms or examples",
+            "show respectful conduct connected with the lesson."
+          ],
+          "instructionalMaterials": "Qur’an, Arabic letter or topic cards, pictures, audio recitation where suitable, board and marker.",
+          "lessonContent": "Muslims believe that Prophet Muhammad (peace and blessings be upon him) is the final Prophet and Messenger of Allah. Believing in him includes respecting his teachings, loving his example and practising good character such as honesty, kindness and patience.",
+          "teacherLearnerActivities": "Teacher tells a brief, age-appropriate account of the Prophet’s character. Learners identify good qualities and practise them through simple role-play situations.",
+          "evaluation": "1. Who is the final Prophet in Islam? 2. Mention two good qualities taught by his example.",
+          "assignment": "Write or draw two good qualities Muslims should learn from Prophet Muhammad."
+        },
+        {
+          "subject": "Civic Education",
+          "week": 9,
+          "dateRange": "November 9–13, 2026",
+          "topic": "Public Enlightenment Campaigns",
+          "behavioralObjectives": [
+            "explain the civic idea in simple words",
+            "identify responsible behaviour connected with the topic",
+            "demonstrate respect, cooperation or responsibility."
+          ],
+          "instructionalMaterials": "picture cards, posters, flashcards, board and marker, simple role-play materials.",
+          "lessonContent": "Public enlightenment campaigns are organised activities used to inform people about important issues. Examples include messages about road safety, hygiene, voting, environmental cleanliness and emergency awareness. Campaigns may use posters, radio, television, social media or community meetings.",
+          "teacherLearnerActivities": "Teacher shows sample campaign posters and explains their purpose. Learners design or describe a simple poster on cleanliness or safety.",
+          "evaluation": "What is a public enlightenment campaign? Mention two ways such campaigns can share information.",
+          "assignment": "Draw a simple public-awareness poster about keeping the environment clean."
+        },
+        {
+          "subject": "Social Studies",
+          "week": 9,
+          "dateRange": "November 9–13, 2026",
+          "topic": "Values That Show Good Morals in Our Society (Contd.)",
+          "behavioralObjectives": [
+            "explain the social concept simply",
+            "identify examples from family or community life",
+            "demonstrate a positive social value or behaviour."
+          ],
+          "instructionalMaterials": "family/community pictures, charts, flashcards, board and marker, role-play cards.",
+          "lessonContent": "Good morals are behaviours that are considered right and acceptable. Examples include honesty, respect, kindness, obedience, cleanliness, patience, cooperation and keeping promises. Good morals help families and communities live peacefully.",
+          "teacherLearnerActivities": "Teacher presents simple behaviour cards. Learners classify actions as good morals and explain the value of each one.",
+          "evaluation": "Mention five good morals and give one example.",
+          "assignment": "Write three good moral behaviours you practised this week."
+        },
+        {
+          "subject": "Security Education",
+          "week": 9,
+          "dateRange": "November 9–13, 2026",
+          "topic": "Office Security",
+          "behavioralObjectives": [
+            "explain the security concept simply",
+            "identify a possible risk or protective measure",
+            "choose a safe response and know when to tell a trusted adult."
+          ],
+          "instructionalMaterials": "safety posters, warning-sign cards, pictures, flashcards, board and marker.",
+          "lessonContent": "Office security protects workers, visitors, equipment and information. Basic examples include controlled entry, keeping valuable items secure, following visitor procedures and reporting suspicious behaviour. Children visiting offices should stay with the responsible adult and follow instructions.",
+          "teacherLearnerActivities": "Teacher uses an office picture or role-play. Learners identify who may enter, why visitors may sign in, and how to report concerns.",
+          "evaluation": "Mention three office-security practices.",
+          "assignment": "Write three rules a child should follow when visiting an office."
+        },
+        {
+          "subject": "Vocational Education",
+          "week": 9,
+          "dateRange": "November 9–13, 2026",
+          "topic": "Home Economics",
+          "behavioralObjectives": [
+            "identify the vocational concept or item",
+            "state its use or importance",
+            "demonstrate safe and responsible work habits."
+          ],
+          "instructionalMaterials": "real tools or pictures, occupation cards, household objects, charts, board and marker.",
+          "lessonContent": "Home Economics focuses on skills that help people care for the home, family and personal needs. Basic areas include food, clothing, health, cleanliness, household care and simple home management.",
+          "teacherLearnerActivities": "Teacher presents pictures of common home activities. Learners group activities into areas such as cooking, cleaning, clothing care and personal hygiene.",
+          "evaluation": "What is Home Economics? Mention four areas it covers.",
+          "assignment": "Write three home duties that children can safely help with."
+        },
+        {
+          "subject": "Home Economics",
+          "week": 9,
+          "dateRange": "November 9–13, 2026",
+          "topic": "Care of the Tongue",
+          "behavioralObjectives": [
+            "identify the body part or hygiene practice",
+            "explain why care is important",
+            "demonstrate or describe safe personal-care habits."
+          ],
+          "instructionalMaterials": "body charts, hygiene items, pictures, flashcards, board and marker.",
+          "lessonContent": "The tongue helps us taste food, speak and move food around the mouth. Tongue care includes gentle cleaning as part of oral hygiene, drinking clean water and keeping the mouth clean.",
+          "teacherLearnerActivities": "Teacher uses a mouth chart to show the tongue. Learners explain its functions and identify healthy mouth-care habits.",
+          "evaluation": "Mention two functions of the tongue and three ways to keep the mouth clean.",
+          "assignment": "Write two things the tongue helps us do."
+        },
+        {
+          "subject": "Agricultural Science",
+          "week": 9,
+          "dateRange": "November 9–13, 2026",
+          "topic": "Local Farm Animals",
+          "behavioralObjectives": [
+            "identify the agricultural concept or examples",
+            "state one or more uses or characteristics",
+            "show safe and responsible attitudes toward plants or animals."
+          ],
+          "instructionalMaterials": "plant or animal pictures, real samples where safe, charts, flashcards, board and marker.",
+          "lessonContent": "Farm animals are animals kept by people for food, work, income or other uses. Common local farm animals include chickens, goats, sheep, cattle, pigs, rabbits and fish. Learners identify familiar animals and their products.",
+          "teacherLearnerActivities": "Teacher shows animal pictures or visits a safe farm setting. Learners name animals and match them with products such as eggs, milk or meat.",
+          "evaluation": "Name six local farm animals.",
+          "assignment": "Draw three farm animals and write one use of each."
+        },
+        {
+          "subject": "Cultural and Creative Arts",
+          "week": 9,
+          "dateRange": "November 9–13, 2026",
+          "topic": "Traditional Stories",
+          "behavioralObjectives": [
+            "explain the artistic idea in simple language",
+            "identify examples",
+            "participate in a creative activity using simple materials."
+          ],
+          "instructionalMaterials": "drawing paper, pencils or crayons, picture cards, simple art/craft materials, board and marker.",
+          "lessonContent": "Traditional stories are stories passed from older generations to younger generations. They may teach morals, explain traditions, entertain listeners or preserve community history. Characters may include people, animals or imaginary beings.",
+          "teacherLearnerActivities": "Teacher tells a short local or Nigerian folktale with a clear moral. Learners listen, identify the characters and state the lesson of the story.",
+          "evaluation": "What is a traditional story? Mention one lesson such stories can teach.",
+          "assignment": "Ask an elder to tell you a traditional story and write its title and lesson."
+        },
+        {
+          "subject": "Yoruba Language",
+          "week": 9,
+          "dateRange": "November 9–13, 2026",
+          "topic": "Onka 1–10 (II)",
+          "behavioralObjectives": [
+            "recognise and pronounce the target Yoruba words or expressions",
+            "connect words with familiar objects, numbers or pictures",
+            "use the language in simple oral practice."
+          ],
+          "instructionalMaterials": "Yoruba alphabet/vocabulary cards, pictures, real objects, number cards, board and marker.",
+          "lessonContent": "Learners practise Yoruba number names from 1–10 through oral repetition, counting objects and matching number words with quantities.",
+          "teacherLearnerActivities": "Teacher counts objects while saying the Yoruba numbers. Learners repeat and match number cards to groups of objects.",
+          "evaluation": "Count 1–10 in Yoruba.",
+          "assignment": "Write or practise Yoruba number names 1–10."
+        },
+        {
+          "subject": "Igbo Language",
+          "week": 9,
+          "dateRange": "November 9–13, 2026",
+          "topic": "—",
+          "behavioralObjectives": [],
+          "instructionalMaterials": "",
+          "lessonContent": "",
+          "teacherLearnerActivities": "Use the period according to the school timetable, catch-up needs, revision, practical work or the next approved topic from the school’s official scheme.",
+          "evaluation": "Confirm the work completed during the period and identify any learning gaps that need attention.",
+          "assignment": "Complete any unfinished classwork or revision exercise assigned by the teacher."
+        },
+        {
+          "subject": "French Language",
+          "week": 9,
+          "dateRange": "November 9–13, 2026",
+          "topic": "Le Corps (I)",
+          "behavioralObjectives": [
+            "recognise the target French vocabulary",
+            "pronounce the words with guidance",
+            "use the vocabulary in a simple oral response."
+          ],
+          "instructionalMaterials": "French word cards, number or colour cards, pictures, audio recording if available, board and marker.",
+          "lessonContent": "Le corps means the body. Learners are introduced to simple body-part vocabulary such as la tête (head), les yeux (eyes), les oreilles (ears), le nez (nose), la bouche (mouth), les mains (hands) and les pieds (feet).",
+          "teacherLearnerActivities": "Teacher points to body parts and says the French words. Learners repeat, point to their own body parts and play a simple “show me” game.",
+          "evaluation": "Name five body parts in French and point to each one.",
+          "assignment": "Draw a person and label five body parts in French."
+        },
+        {
+          "subject": "History",
+          "week": 9,
+          "dateRange": "November 9–13, 2026",
+          "topic": "People in the Community (Contd.)",
+          "behavioralObjectives": [
+            "explain the historical idea simply",
+            "identify people, places or sources connected to the topic",
+            "state why the lesson is important for understanding the past."
+          ],
+          "instructionalMaterials": "old photographs or pictures, family tree/chart, map or place pictures, story cards, board and marker.",
+          "lessonContent": "People in a community have different roles and occupations. Examples include teachers, farmers, traders, doctors, nurses, drivers, builders, police officers and artisans. Their work helps meet community needs and keeps services running.",
+          "teacherLearnerActivities": "Teacher presents occupation cards and asks learners to identify people and their roles. Learners match workers to places such as school, hospital, market or farm.",
+          "evaluation": "Mention six people or occupations found in a community and state one service provided by three of them.",
+          "assignment": "Draw two community workers and write what each does."
+        },
+        {
+          "subject": "Verbal Reasoning",
+          "week": 9,
+          "dateRange": "November 9–13, 2026",
+          "topic": "Anagram (Continued)",
+          "behavioralObjectives": [
+            "identify the verbal reasoning pattern",
+            "apply the pattern to simple examples",
+            "give accurate answers and explain the rule in simple words."
+          ],
+          "instructionalMaterials": "letter cards, word cards, picture cards, worksheet, board and marker.",
+          "lessonContent": "An anagram is a word or arrangement made by changing the order of letters. At Basic 1 level, learners work with very short familiar words. For example, the letters of “cat” can be rearranged to form “act.” The focus is on noticing letter order and spelling.",
+          "teacherLearnerActivities": "Teacher writes short letter groups and models rearranging them. Learners rearrange simple letters to form familiar words.",
+          "evaluation": "Rearrange simple letter groups to make words, for example t-a-c → cat/act.",
+          "assignment": "Make five simple words from mixed letter cards provided by the teacher."
+        },
+        {
+          "subject": "Quantitative Reasoning",
+          "week": 9,
+          "dateRange": "November 9–13, 2026",
+          "topic": "Addition (III)",
+          "behavioralObjectives": [
+            "understand the quantitative relationship",
+            "solve simple examples using objects or numbers",
+            "show the steps or reasoning clearly."
+          ],
+          "instructionalMaterials": "counters or bottle tops, number cards, number line, worksheet, board and marker.",
+          "lessonContent": "Addition means putting quantities together to find a total. Learners combine objects, count on and write simple number sentences. Early work should use numbers within the learners’ current range.",
+          "teacherLearnerActivities": "Teacher demonstrates addition with counters and a number line. Learners combine groups, count on and write the matching number sentence.",
+          "evaluation": "Solve 3+2, 4+1, 5+3 and 6+2 using objects or mental counting.",
+          "assignment": "Solve ten simple addition questions."
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "dateRange": "November 16–20, 2026",
+      "subjects": [
+        {
+          "subject": "English Language",
+          "week": 10,
+          "dateRange": "November 16–20, 2026",
+          "topic": "Identification/Pronunciation of Names of Objects",
+          "behavioralObjectives": [
+            "identify and explain the key idea in the lesson",
+            "use the new language skill in simple examples",
+            "respond correctly to simple oral and written questions."
+          ],
+          "instructionalMaterials": "flashcards, picture cards, word cards, board and marker, textbook.",
+          "lessonContent": "Pronunciation is the way a word is spoken. Learners identify familiar objects and practise saying their names clearly, slowly and correctly. The teacher models difficult sounds and encourages learners to speak loudly enough to be heard.",
+          "teacherLearnerActivities": "Teacher shows pictures and objects, says each name, and asks learners to repeat individually and in groups. Learners identify objects and practise clear pronunciation.",
+          "evaluation": "Name and pronounce five objects shown by the teacher.",
+          "assignment": "Practise saying ten object names aloud at home."
+        },
+        {
+          "subject": "Mathematics",
+          "week": 10,
+          "dateRange": "November 16–20, 2026",
+          "topic": "Comparison and Ordering of Numbers",
+          "behavioralObjectives": [
+            "identify and explain the number concept",
+            "solve simple examples using concrete materials and numerals",
+            "write or state answers correctly."
+          ],
+          "instructionalMaterials": "number cards, counters or bottle tops, number chart, board and marker, exercise book.",
+          "lessonContent": "Comparison tells us whether one number is greater than, less than, or equal to another. Learners compare small numbers using objects and then arrange numbers from smallest to greatest and greatest to smallest.",
+          "teacherLearnerActivities": "Teacher models comparison using counters and number cards. Learners compare pairs and order sets of three or more numbers.",
+          "evaluation": "1. Which is greater: 8 or 5?\n2. Which is smaller: 3 or 9?\n3. Order 2, 7, 4 from smallest to greatest.",
+          "assignment": "Write five number pairs and circle the greater number in each pair."
+        },
+        {
+          "subject": "Basic Science",
+          "week": 10,
+          "dateRange": "November 16–20, 2026",
+          "topic": "Water (Contd.)",
+          "behavioralObjectives": [
+            "explain the key science idea in simple language",
+            "identify familiar examples",
+            "relate the lesson to everyday life and safety."
+          ],
+          "instructionalMaterials": "real objects, picture charts, flashcards, simple demonstration items, board and marker.",
+          "lessonContent": "Water is essential for life. People, animals and plants need water for drinking, cooking, washing and growth. Sources of water include rain, rivers, streams, wells, taps and stored water. Water should be kept clean and used carefully.",
+          "teacherLearnerActivities": "Teacher shows pictures of water sources and discusses uses of water. Learners name sources they know, sort uses of water, and discuss ways to keep water clean.",
+          "evaluation": "1. Mention three sources of water. 2. State three uses of water. 3. Why should drinking water be clean?",
+          "assignment": "Draw one source of water and write three uses of water."
+        },
+        {
+          "subject": "Information Technology",
+          "week": 10,
+          "dateRange": "November 16–20, 2026",
+          "topic": "CPU",
+          "behavioralObjectives": [
+            "identify the computer concept or part",
+            "state its simple use or purpose",
+            "demonstrate safe handling or basic use where appropriate."
+          ],
+          "instructionalMaterials": "computer set, keyboard and mouse, computer charts, flashcards, board and marker.",
+          "lessonContent": "CPU means Central Processing Unit. It is a major part of a computer system that processes instructions and data. In Basic 1, learners identify the system unit that houses the processor and understand that the processor helps the computer carry out tasks.",
+          "teacherLearnerActivities": "Teacher points out the system unit and explains the simple idea of processing. Learners identify the system unit and describe its role as the part that helps the computer process instructions.",
+          "evaluation": "1. What does CPU stand for? 2. What does the processor help the computer do?",
+          "assignment": "Write the full meaning of CPU and draw the computer system unit."
+        },
+        {
+          "subject": "Physical and Health Education (P.H.E.)",
+          "week": 10,
+          "dateRange": "November 16–20, 2026",
+          "topic": "—",
+          "behavioralObjectives": [],
+          "instructionalMaterials": "",
+          "lessonContent": "",
+          "teacherLearnerActivities": "Use the period according to the school timetable, catch-up needs, revision, practical work or the next approved topic from the school’s official scheme.",
+          "evaluation": "Confirm the work completed during the period and identify any learning gaps that need attention.",
+          "assignment": "Complete any unfinished classwork or revision exercise assigned by the teacher."
+        },
+        {
+          "subject": "Christian Religious Studies (C.R.S.)",
+          "week": 10,
+          "dateRange": "November 16–20, 2026",
+          "topic": "Revision",
+          "behavioralObjectives": [
+            "recall major lessons taught during the term",
+            "answer simple questions from earlier topics",
+            "show understanding through oral participation and short written work."
+          ],
+          "instructionalMaterials": "Bible, revision cards, pictures, exercise books, board and marker.",
+          "lessonContent": "Revision brings together the main ideas taught in the term. Learners revisit creation, God’s goodness, God as the giver of good things, God’s gift of His Son, God as Father, and the good behaviour expected from believers.",
+          "teacherLearnerActivities": "Teacher asks short review questions, retells selected stories, shows pictures and leads learners in recall activities. Learners answer orally, retell key ideas and complete a short revision exercise.",
+          "evaluation": "Use oral and written revision questions covering the term’s major topics.",
+          "assignment": "Revise the term’s Bible lessons and learn one key sentence from each major topic."
+        },
+        {
+          "subject": "Islamic Studies",
+          "week": 10,
+          "dateRange": "November 16–20, 2026",
+          "topic": "Prophets of Allah in the Qur’an",
+          "behavioralObjectives": [
+            "state the main Islamic teaching in simple words",
+            "identify important terms or examples",
+            "show respectful conduct connected with the lesson."
+          ],
+          "instructionalMaterials": "Qur’an, Arabic letter or topic cards, pictures, audio recitation where suitable, board and marker.",
+          "lessonContent": "Islam teaches that Allah sent prophets to guide people. Learners are introduced to familiar prophets named in the Qur’an, such as Adam, Nuh (Noah), Ibrahim (Abraham), Musa (Moses), Isa (Jesus) and Muhammad (peace and blessings be upon them). Prophets taught people to worship Allah and live righteously.",
+          "teacherLearnerActivities": "Teacher displays names or pictures on cards and briefly introduces selected prophets. Learners match names with simple facts and repeat the lesson respectfully.",
+          "evaluation": "Name four prophets and state the common message they taught.",
+          "assignment": "Write five names of prophets mentioned in the lesson."
+        },
+        {
+          "subject": "Civic Education",
+          "week": 10,
+          "dateRange": "November 16–20, 2026",
+          "topic": "—",
+          "behavioralObjectives": [],
+          "instructionalMaterials": "",
+          "lessonContent": "",
+          "teacherLearnerActivities": "Use the period according to the school timetable, catch-up needs, revision, practical work or the next approved topic from the school’s official scheme.",
+          "evaluation": "Confirm the work completed during the period and identify any learning gaps that need attention.",
+          "assignment": "Complete any unfinished classwork or revision exercise assigned by the teacher."
+        },
+        {
+          "subject": "Social Studies",
+          "week": 10,
+          "dateRange": "November 16–20, 2026",
+          "topic": "Values That Show Bad Morals in Our Society",
+          "behavioralObjectives": [
+            "explain the social concept simply",
+            "identify examples from family or community life",
+            "demonstrate a positive social value or behaviour."
+          ],
+          "instructionalMaterials": "family/community pictures, charts, flashcards, board and marker, role-play cards.",
+          "lessonContent": "Bad morals are behaviours that are harmful, dishonest, disrespectful or unfair. Examples include stealing, lying, fighting, bullying, destroying property and insulting others. Learners are encouraged to recognise these behaviours and choose better alternatives.",
+          "teacherLearnerActivities": "Teacher uses simple scenarios to show bad and better choices. Learners identify what is wrong and suggest a respectful alternative.",
+          "evaluation": "Mention four examples of bad morals. Give a better behaviour for one of them.",
+          "assignment": "Write three bad behaviours children should avoid and the good behaviours that can replace them."
+        },
+        {
+          "subject": "Security Education",
+          "week": 10,
+          "dateRange": "November 16–20, 2026",
+          "topic": "Personal Security",
+          "behavioralObjectives": [
+            "explain the security concept simply",
+            "identify a possible risk or protective measure",
+            "choose a safe response and know when to tell a trusted adult."
+          ],
+          "instructionalMaterials": "safety posters, warning-sign cards, pictures, flashcards, board and marker.",
+          "lessonContent": "Personal security means taking reasonable steps to protect yourself from harm. Children should stay with trusted adults, use safe routes, avoid isolated places, keep personal information private, and report threats or unwanted contact immediately to a trusted adult.",
+          "teacherLearnerActivities": "Teacher discusses safe and unsafe scenarios such as being approached by a stranger or getting lost. Learners practise saying “no,” moving to a safe place and seeking a trusted adult.",
+          "evaluation": "Mention five personal-security rules for children.",
+          "assignment": "Write the names of three trusted adults you can contact for help."
+        },
+        {
+          "subject": "Vocational Education",
+          "week": 10,
+          "dateRange": "November 16–20, 2026",
+          "topic": "Home Furniture",
+          "behavioralObjectives": [
+            "identify the vocational concept or item",
+            "state its use or importance",
+            "demonstrate safe and responsible work habits."
+          ],
+          "instructionalMaterials": "real tools or pictures, occupation cards, household objects, charts, board and marker.",
+          "lessonContent": "Furniture includes movable household items used for sitting, sleeping, storing or working. Examples include chairs, tables, beds, cupboards, shelves and sofas. Furniture should be used carefully and kept clean and in good condition.",
+          "teacherLearnerActivities": "Teacher shows pictures or classroom furniture and asks learners to name each item and describe its use.",
+          "evaluation": "Name five pieces of furniture and state one use of each.",
+          "assignment": "Draw two pieces of furniture used in your home."
+        },
+        {
+          "subject": "Home Economics",
+          "week": 10,
+          "dateRange": "November 16–20, 2026",
+          "topic": "Care of the Eyes",
+          "behavioralObjectives": [
+            "identify the body part or hygiene practice",
+            "explain why care is important",
+            "demonstrate or describe safe personal-care habits."
+          ],
+          "instructionalMaterials": "body charts, hygiene items, pictures, flashcards, board and marker.",
+          "lessonContent": "The eyes help us see. Eye care includes reading in good light, keeping hands clean before touching the face, avoiding dangerous objects near the eyes, wearing recommended protective eyewear, and telling an adult when there is pain or difficulty seeing.",
+          "teacherLearnerActivities": "Teacher discusses good and poor eye-care habits using pictures. Learners identify safe practices and demonstrate a good sitting distance for reading.",
+          "evaluation": "What do we use our eyes for? Mention four ways to care for the eyes.",
+          "assignment": "Write five eye-care rules."
+        },
+        {
+          "subject": "Agricultural Science",
+          "week": 10,
+          "dateRange": "November 16–20, 2026",
+          "topic": "Types of Farm Animals (Based on Habitat)",
+          "behavioralObjectives": [
+            "identify the agricultural concept or examples",
+            "state one or more uses or characteristics",
+            "show safe and responsible attitudes toward plants or animals."
+          ],
+          "instructionalMaterials": "plant or animal pictures, real samples where safe, charts, flashcards, board and marker.",
+          "lessonContent": "Farm animals can be grouped by habitat, meaning where they live. Some live mainly on land, such as goats, sheep, cattle and chickens. Others live in water, such as fish. Some animals can live around both land and water environments depending on the species.",
+          "teacherLearnerActivities": "Teacher displays habitat pictures and animal cards. Learners place each animal in the most suitable habitat group and explain the choice.",
+          "evaluation": "Group five farm animals according to their main habitat.",
+          "assignment": "Draw two land farm animals and one water farm animal."
+        },
+        {
+          "subject": "Cultural and Creative Arts",
+          "week": 10,
+          "dateRange": "November 16–20, 2026",
+          "topic": "—",
+          "behavioralObjectives": [],
+          "instructionalMaterials": "",
+          "lessonContent": "",
+          "teacherLearnerActivities": "Use the period according to the school timetable, catch-up needs, revision, practical work or the next approved topic from the school’s official scheme.",
+          "evaluation": "Confirm the work completed during the period and identify any learning gaps that need attention.",
+          "assignment": "Complete any unfinished classwork or revision exercise assigned by the teacher."
+        },
+        {
+          "subject": "Yoruba Language",
+          "week": 10,
+          "dateRange": "November 16–20, 2026",
+          "topic": "Sise Idamo awon Aworan (I)",
+          "behavioralObjectives": [
+            "recognise and pronounce the target Yoruba words or expressions",
+            "connect words with familiar objects, numbers or pictures",
+            "use the language in simple oral practice."
+          ],
+          "instructionalMaterials": "Yoruba alphabet/vocabulary cards, pictures, real objects, number cards, board and marker.",
+          "lessonContent": "Picture identification helps learners name familiar people, animals, objects and actions in Yoruba. Learners look at each picture, say what they see and listen for the correct word.",
+          "teacherLearnerActivities": "Teacher displays pictures one at a time. Learners identify, pronounce and repeat the Yoruba names and answer simple questions about the pictures.",
+          "evaluation": "Identify and name five pictures in Yoruba.",
+          "assignment": "Draw three familiar objects and write or say their Yoruba names."
+        },
+        {
+          "subject": "Igbo Language",
+          "week": 10,
+          "dateRange": "November 16–20, 2026",
+          "topic": "—",
+          "behavioralObjectives": [],
+          "instructionalMaterials": "",
+          "lessonContent": "",
+          "teacherLearnerActivities": "Use the period according to the school timetable, catch-up needs, revision, practical work or the next approved topic from the school’s official scheme.",
+          "evaluation": "Confirm the work completed during the period and identify any learning gaps that need attention.",
+          "assignment": "Complete any unfinished classwork or revision exercise assigned by the teacher."
+        },
+        {
+          "subject": "French Language",
+          "week": 10,
+          "dateRange": "November 16–20, 2026",
+          "topic": "Le Corps (II)",
+          "behavioralObjectives": [
+            "recognise the target French vocabulary",
+            "pronounce the words with guidance",
+            "use the vocabulary in a simple oral response."
+          ],
+          "instructionalMaterials": "French word cards, number or colour cards, pictures, audio recording if available, board and marker.",
+          "lessonContent": "Le corps means the body. Learners are introduced to simple body-part vocabulary such as la tête (head), les yeux (eyes), les oreilles (ears), le nez (nose), la bouche (mouth), les mains (hands) and les pieds (feet).",
+          "teacherLearnerActivities": "Teacher points to body parts and says the French words. Learners repeat, point to their own body parts and play a simple “show me” game.",
+          "evaluation": "Name five body parts in French and point to each one.",
+          "assignment": "Draw a person and label five body parts in French."
+        },
+        {
+          "subject": "History",
+          "week": 10,
+          "dateRange": "November 16–20, 2026",
+          "topic": "Important Places of History in Lagos State",
+          "behavioralObjectives": [
+            "explain the historical idea simply",
+            "identify people, places or sources connected to the topic",
+            "state why the lesson is important for understanding the past."
+          ],
+          "instructionalMaterials": "old photographs or pictures, family tree/chart, map or place pictures, story cards, board and marker.",
+          "lessonContent": "Lagos State contains places associated with important parts of Nigerian history and culture. Examples learners may encounter include the National Museum Lagos, Freedom Park, Tafawa Balewa Square and other heritage sites. Such places help preserve memories, objects and stories from the past.",
+          "teacherLearnerActivities": "Teacher shows pictures or a simple map of selected Lagos heritage sites. Learners identify the places and discuss why historical sites should be protected.",
+          "evaluation": "Name three important historical or heritage places in Lagos State and state why such places matter.",
+          "assignment": "Draw or describe one historical place in Lagos State that you would like to visit."
+        },
+        {
+          "subject": "Verbal Reasoning",
+          "week": 10,
+          "dateRange": "November 16–20, 2026",
+          "topic": "Familiar Words (Continued)",
+          "behavioralObjectives": [
+            "identify the verbal reasoning pattern",
+            "apply the pattern to simple examples",
+            "give accurate answers and explain the rule in simple words."
+          ],
+          "instructionalMaterials": "letter cards, word cards, picture cards, worksheet, board and marker.",
+          "lessonContent": "Familiar words are common words children meet often in speech, books and daily life. Learners recognise, read and use words such as boy, girl, book, home, school, sun, food and play. Repeated practice builds vocabulary and reading fluency.",
+          "teacherLearnerActivities": "Teacher uses word cards and pictures. Learners match words to pictures, read the words aloud and use selected words in short phrases.",
+          "evaluation": "Read ten familiar words and match five of them to pictures.",
+          "assignment": "Write ten familiar words and read them aloud to a parent or guardian."
+        },
+        {
+          "subject": "Quantitative Reasoning",
+          "week": 10,
+          "dateRange": "November 16–20, 2026",
+          "topic": "Subtraction",
+          "behavioralObjectives": [
+            "understand the quantitative relationship",
+            "solve simple examples using objects or numbers",
+            "show the steps or reasoning clearly."
+          ],
+          "instructionalMaterials": "counters or bottle tops, number cards, number line, worksheet, board and marker.",
+          "lessonContent": "Subtraction means taking away or finding how many are left. Learners begin with real objects, remove some items and count what remains. The written subtraction sign is introduced with simple examples.",
+          "teacherLearnerActivities": "Teacher demonstrates taking away counters. Learners remove objects, count the remainder and write simple subtraction sentences.",
+          "evaluation": "Solve 5−2, 7−3, 8−4 and 9−5.",
+          "assignment": "Solve ten simple subtraction questions within the numbers taught.\nDetailed lesson notes • Week 1 to Week 10"
+        }
+      ]
+    }
+  ]
+};
