@@ -52,14 +52,17 @@
   </main>
 
   <template id="lessonTemplate">
-    <article class="lesson-card">
-      <div class="lesson-head">
-        <div>
-          <p class="lesson-subject"></p>
-          <h2 class="lesson-topic"></h2>
+    <details class="lesson-card">
+      <summary class="lesson-summary">
+        <div class="lesson-head">
+          <div>
+            <p class="lesson-subject"></p>
+            <h2 class="lesson-topic"></h2>
+            <p class="tap-hint">Tap to view lesson note</p>
+          </div>
+          <span class="date-badge"></span>
         </div>
-        <span class="date-badge"></span>
-      </div>
+      </summary>
       <div class="lesson-grid">
         <section class="note-section"><h3>Behavioral Objectives</h3><div data-field="objectives"></div></section>
         <section class="note-section"><h3>Instructional Materials</h3><div data-field="materials"></div></section>
@@ -68,7 +71,7 @@
         <section class="note-section"><h3>Evaluation</h3><div data-field="evaluation"></div></section>
         <section class="note-section"><h3>Assignment</h3><div data-field="assignment"></div></section>
       </div>
-    </article>
+    </details>
   </template>
 
   <script src="lesson-data.js"></script>
